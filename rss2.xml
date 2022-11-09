@@ -9,28 +9,36 @@
     <atom:link href="http://example.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>愿我一生欢喜 不为世俗所及</description>
-    <pubDate>Wed, 09 Nov 2022 06:20:53 GMT</pubDate>
+    <pubDate>Wed, 09 Nov 2022 10:43:05 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
-      <title>Hello World</title>
-      <link>http://example.com/2022/11/09/hello-world/</link>
-      <guid>http://example.com/2022/11/09/hello-world/</guid>
-      <pubDate>Wed, 09 Nov 2022 06:20:53 GMT</pubDate>
+      <title>这是一篇测试博客-First</title>
+      <link>http://example.com/2022/11/09/%E8%BF%99%E6%98%AF%E4%B8%80%E7%AF%87%E6%B5%8B%E8%AF%95%E5%8D%9A%E5%AE%A2-First/</link>
+      <guid>http://example.com/2022/11/09/%E8%BF%99%E6%98%AF%E4%B8%80%E7%AF%87%E6%B5%8B%E8%AF%95%E5%8D%9A%E5%AE%A2-First/</guid>
+      <pubDate>Wed, 09 Nov 2022 10:07:53 GMT</pubDate>
       
         
         
-      <description>&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</description>
+      <description>&lt;h1 id=&quot;我是一级标题&quot;&gt;&lt;a href=&quot;#我是一级标题&quot; class=&quot;headerlink&quot; title=&quot;我是一级标题&quot;&gt;&lt;/a&gt;我是一级标题&lt;/h1&gt;&lt;h2 id=&quot;我是二级标题&quot;&gt;&lt;a href=&quot;#我是二级标题&quot; class=&quot;headerlink&quot; titl</description>
         
       
       
       
-      <content:encoded><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content:encoded>
+      <content:encoded><![CDATA[<h1 id="我是一级标题"><a href="#我是一级标题" class="headerlink" title="我是一级标题"></a>我是一级标题</h1><h2 id="我是二级标题"><a href="#我是二级标题" class="headerlink" title="我是二级标题"></a>我是二级标题</h2><h3 id="我是三级标题"><a href="#我是三级标题" class="headerlink" title="我是三级标题"></a>我是三级标题</h3><p>1.我是第一行<br>2.我是第二行<br>创建新文章：<code>hexo new &quot;名称&quot;</code><br><img src="/img/tu.png" alt="背景图片"></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean  #清除缓存文件 db.json 和已生成的静态文件 public</span><br><span class="line">hexo g      #生成网站静态文件到默认设置的 public 文件夹(hexo generate 的缩写)</span><br><span class="line">hexo d      #自动生成网站静态文件，并部署到设定的仓库(hexo deploy 的缩写)</span><br></pre></td></tr></table></figure><p>傻宁这里结束了！</p>]]></content:encoded>
       
       
+      <category domain="http://example.com/categories/%E5%89%8D%E7%AB%AF/">前端</category>
       
       
-      <comments>http://example.com/2022/11/09/hello-world/#disqus_thread</comments>
+      <category domain="http://example.com/tags/%E5%8D%9A%E5%AE%A2/">博客</category>
+      
+      <category domain="http://example.com/tags/%E6%B5%8B%E8%AF%95/">测试</category>
+      
+      <category domain="http://example.com/tags/%E6%A0%87%E7%AD%BE3/">标签3</category>
+      
+      
+      <comments>http://example.com/2022/11/09/%E8%BF%99%E6%98%AF%E4%B8%80%E7%AF%87%E6%B5%8B%E8%AF%95%E5%8D%9A%E5%AE%A2-First/#disqus_thread</comments>
       
     </item>
     
