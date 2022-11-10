@@ -9,8 +9,30 @@
     <atom:link href="htts://yejing06.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>愿我一生欢喜 不为世俗所及</description>
-    <pubDate>Wed, 09 Nov 2022 10:43:05 GMT</pubDate>
+    <pubDate>Thu, 10 Nov 2022 06:16:55 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>第二篇博客测试</title>
+      <link>htts://yejing06.github.io/2022/11/10/第二篇博客测试/</link>
+      <guid>htts://yejing06.github.io/2022/11/10/第二篇博客测试/</guid>
+      <pubDate>Thu, 10 Nov 2022 06:15:15 GMT</pubDate>
+      
+        
+        
+      <description>&lt;h1 id=&quot;我是一级标题1&quot;&gt;&lt;a href=&quot;#我是一级标题1&quot; class=&quot;headerlink&quot; title=&quot;我是一级标题1&quot;&gt;&lt;/a&gt;我是一级标题1&lt;/h1&gt;&lt;h2 id=&quot;我是二级标题1&quot;&gt;&lt;a href=&quot;#我是二级标题1&quot; class=&quot;headerlink</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<h1 id="我是一级标题1"><a href="#我是一级标题1" class="headerlink" title="我是一级标题1"></a>我是一级标题1</h1><h2 id="我是二级标题1"><a href="#我是二级标题1" class="headerlink" title="我是二级标题1"></a>我是二级标题1</h2><h2 id="我是二级标题2"><a href="#我是二级标题2" class="headerlink" title="我是二级标题2"></a>我是二级标题2</h2><p>这里是正文</p><h3 id="我是三级标题"><a href="#我是三级标题" class="headerlink" title="我是三级标题"></a>我是三级标题</h3><h1 id="我是一级标题"><a href="#我是一级标题" class="headerlink" title="我是一级标题"></a>我是一级标题</h1><h2 id="我是二级标题"><a href="#我是二级标题" class="headerlink" title="我是二级标题"></a>我是二级标题</h2><h3 id="我是三级标题-1"><a href="#我是三级标题-1" class="headerlink" title="我是三级标题"></a>我是三级标题</h3>]]></content:encoded>
+      
+      
+      
+      
+      <comments>htts://yejing06.github.io/2022/11/10/第二篇博客测试/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>这是一篇测试博客-First</title>
