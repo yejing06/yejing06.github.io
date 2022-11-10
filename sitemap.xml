@@ -101,27 +101,6 @@
 
   
   <url>
-    <loc>htts://yejing06.github.io/tags/博客/</loc>
-    <lastmod>2022-11-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>htts://yejing06.github.io/tags/测试/</loc>
-    <lastmod>2022-11-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>htts://yejing06.github.io/tags/标签3/</loc>
-    <lastmod>2022-11-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>htts://yejing06.github.io/tags/测评/</loc>
     <lastmod>2022-11-10</lastmod>
     <changefreq>weekly</changefreq>
@@ -142,6 +121,27 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>htts://yejing06.github.io/tags/博客/</loc>
+    <lastmod>2022-11-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>htts://yejing06.github.io/tags/测试/</loc>
+    <lastmod>2022-11-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>htts://yejing06.github.io/tags/标签3/</loc>
+    <lastmod>2022-11-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
@@ -152,14 +152,14 @@
   </url>
   
   <url>
-    <loc>htts://yejing06.github.io/categories/前端/教程/</loc>
+    <loc>htts://yejing06.github.io/categories/前端/学习/</loc>
     <lastmod>2022-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>htts://yejing06.github.io/categories/前端/学习/</loc>
+    <loc>htts://yejing06.github.io/categories/前端/教程/</loc>
     <lastmod>2022-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
