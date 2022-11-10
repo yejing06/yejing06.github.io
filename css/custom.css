@@ -48,3 +48,9 @@
   /* 定义显示样式 */
   font-display: block;
 }
+
+/* 翻页按钮居中 */
+#pagination {
+  width: 100%;
+  margin: auto;
+}
