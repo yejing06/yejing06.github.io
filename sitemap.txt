@@ -1,5 +1,5 @@
-htts://yejing06.github.io/2022/11/09/这是一篇测试博客-First/
 htts://yejing06.github.io/2022/11/10/第二篇博客测试/
+htts://yejing06.github.io/2022/11/09/这是一篇测试博客-First/
 htts://yejing06.github.io/about/index.html
 htts://yejing06.github.io/movies/index.html
 htts://yejing06.github.io/music/index.html
@@ -16,4 +16,6 @@ htts://yejing06.github.io/tags/博客/
 htts://yejing06.github.io/tags/测试/
 htts://yejing06.github.io/tags/标签3/
 htts://yejing06.github.io/categories/前端/
+htts://yejing06.github.io/categories/前端/学习/
 htts://yejing06.github.io/categories/前端/教程/
+htts://yejing06.github.io/categories/前端/学习/随想/

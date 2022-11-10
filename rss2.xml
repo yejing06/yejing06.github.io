@@ -9,7 +9,7 @@
     <atom:link href="htts://yejing06.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>愿我一生欢喜 不为世俗所及</description>
-    <pubDate>Thu, 10 Nov 2022 10:48:40 GMT</pubDate>
+    <pubDate>Thu, 10 Nov 2022 13:43:01 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -26,6 +26,10 @@
       
       
       <category domain="htts://yejing06.github.io/categories/%E5%89%8D%E7%AB%AF/">前端</category>
+      
+      <category domain="htts://yejing06.github.io/categories/%E5%89%8D%E7%AB%AF/%E5%AD%A6%E4%B9%A0/">学习</category>
+      
+      <category domain="htts://yejing06.github.io/categories/%E5%89%8D%E7%AB%AF/%E5%AD%A6%E4%B9%A0/%E9%9A%8F%E6%83%B3/">随想</category>
       
       
       <category domain="htts://yejing06.github.io/tags/%E6%B5%8B%E8%AF%84/">测评</category>
