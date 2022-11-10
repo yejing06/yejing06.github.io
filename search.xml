@@ -11,6 +11,22 @@
         <content type="html"><![CDATA[<h1 id="我是一级标题1"><a href="#我是一级标题1" class="headerlink" title="我是一级标题1"></a>我是一级标题1</h1><h2 id="我是二级标题1"><a href="#我是二级标题1" class="headerlink" title="我是二级标题1"></a>我是二级标题1</h2><h2 id="我是二级标题2"><a href="#我是二级标题2" class="headerlink" title="我是二级标题2"></a>我是二级标题2</h2><p>这里是正文</p><h3 id="我是三级标题"><a href="#我是三级标题" class="headerlink" title="我是三级标题"></a>我是三级标题</h3><h1 id="我是一级标题"><a href="#我是一级标题" class="headerlink" title="我是一级标题"></a>我是一级标题</h1><h2 id="我是二级标题"><a href="#我是二级标题" class="headerlink" title="我是二级标题"></a>我是二级标题</h2><h3 id="我是三级标题-1"><a href="#我是三级标题-1" class="headerlink" title="我是三级标题"></a>我是三级标题</h3>]]></content>
       
       
+      <categories>
+          
+          <category> 前端 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 测评 </tag>
+            
+            <tag> 学习 </tag>
+            
+            <tag> 随笔 </tag>
+            
+        </tags>
       
     </entry>
     
@@ -27,6 +43,8 @@
       <categories>
           
           <category> 前端 </category>
+          
+          <category> 教程 </category>
           
       </categories>
       
