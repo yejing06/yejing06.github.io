@@ -1,4 +1,6 @@
+htts://yejing06.github.io/movices/index.html
 htts://yejing06.github.io/link/index.html
+htts://yejing06.github.io/music/index.html
 htts://yejing06.github.io/2022/11/09/这是一篇测试博客-First/
 htts://yejing06.github.io/lib/canvas-nest/README.html
 htts://yejing06.github.io/tags/index.html
