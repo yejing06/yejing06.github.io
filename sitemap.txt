@@ -9,13 +9,13 @@ htts://yejing06.github.io/tags/index.html
 htts://yejing06.github.io/resources/index.html
 htts://yejing06.github.io/categories/index.html
 htts://yejing06.github.io
-htts://yejing06.github.io/tags/博客/
-htts://yejing06.github.io/tags/测试/
-htts://yejing06.github.io/tags/标签3/
 htts://yejing06.github.io/tags/测评/
 htts://yejing06.github.io/tags/学习/
 htts://yejing06.github.io/tags/随笔/
+htts://yejing06.github.io/tags/博客/
+htts://yejing06.github.io/tags/测试/
+htts://yejing06.github.io/tags/标签3/
 htts://yejing06.github.io/categories/前端/
-htts://yejing06.github.io/categories/前端/教程/
 htts://yejing06.github.io/categories/前端/学习/
+htts://yejing06.github.io/categories/前端/教程/
 htts://yejing06.github.io/categories/前端/学习/随想/
