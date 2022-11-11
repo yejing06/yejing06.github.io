@@ -119,20 +119,6 @@
 
   
   <url>
-    <loc>htts://yejing06.github.io/tags/随笔/</loc>
-    <lastmod>2022-11-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>htts://yejing06.github.io/tags/文章/</loc>
-    <lastmod>2022-11-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>htts://yejing06.github.io/tags/测评/</loc>
     <lastmod>2022-11-11</lastmod>
     <changefreq>weekly</changefreq>
@@ -141,6 +127,20 @@
   
   <url>
     <loc>htts://yejing06.github.io/tags/学习/</loc>
+    <lastmod>2022-11-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>htts://yejing06.github.io/tags/随笔/</loc>
+    <lastmod>2022-11-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>htts://yejing06.github.io/tags/文章/</loc>
     <lastmod>2022-11-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -170,7 +170,7 @@
 
   
   <url>
-    <loc>htts://yejing06.github.io/categories/日记随笔/</loc>
+    <loc>htts://yejing06.github.io/categories/生活趣闻/</loc>
     <lastmod>2022-11-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -184,14 +184,7 @@
   </url>
   
   <url>
-    <loc>htts://yejing06.github.io/categories/生活趣闻/</loc>
-    <lastmod>2022-11-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>htts://yejing06.github.io/categories/玩转Windows/</loc>
+    <loc>htts://yejing06.github.io/categories/生活趣闻/杂谈教程/</loc>
     <lastmod>2022-11-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -205,7 +198,14 @@
   </url>
   
   <url>
-    <loc>htts://yejing06.github.io/categories/生活趣闻/杂谈教程/</loc>
+    <loc>htts://yejing06.github.io/categories/日记随笔/</loc>
+    <lastmod>2022-11-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>htts://yejing06.github.io/categories/玩转Windows/</loc>
     <lastmod>2022-11-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
