@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>htts://yejing06.github.io/2022/11/11/平凡造就伟大/</loc>
+    
+    <lastmod>2022-11-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>htts://yejing06.github.io/2022/11/10/第二篇博客测试/</loc>
     
     <lastmod>2022-11-10</lastmod>
@@ -122,6 +131,13 @@
   </url>
   
   <url>
+    <loc>htts://yejing06.github.io/tags/文章/</loc>
+    <lastmod>2022-11-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>htts://yejing06.github.io/tags/博客/</loc>
     <lastmod>2022-11-11</lastmod>
     <changefreq>weekly</changefreq>
@@ -152,7 +168,21 @@
   </url>
   
   <url>
+    <loc>htts://yejing06.github.io/categories/学习/</loc>
+    <lastmod>2022-11-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>htts://yejing06.github.io/categories/前端/学习/</loc>
+    <lastmod>2022-11-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>htts://yejing06.github.io/categories/学习/随想/</loc>
     <lastmod>2022-11-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
