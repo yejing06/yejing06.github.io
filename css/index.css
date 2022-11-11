@@ -1338,7 +1338,7 @@ canvas:not(#ribbon-canvas),
   }
 }
 :root {
-  --global-font-size: 15px;
+  --global-font-size: 20px;
   --global-bg: #fff;
   --font-color: #4c4948;
   --hr-border: #d2ebfd;
@@ -1683,7 +1683,7 @@ figure.highlight pre .javascript .function {
 }
 #article-container pre,
 #article-container code {
-  font-size: 14px;
+  font-size: 17px;
   font-family: Consolas, Donut !important;
 }
 #article-container code {
@@ -1711,7 +1711,7 @@ figure.highlight pre .javascript .function {
 #article-container figure.highlight figcaption,
 #article-container figure.highlight .caption {
   padding: 6px 0 2px 14px;
-  font-size: 14px;
+  font-size: 17px;
   line-height: 1em;
 }
 #article-container figure.highlight figcaption a,
@@ -1743,7 +1743,7 @@ figure.highlight pre .javascript .function {
   height: 2.15em;
   background: var(--hltools-bg);
   color: var(--hltools-color);
-  font-size: 14px;
+  font-size: 17px;
 }
 #article-container .highlight-tools.closed ~ * {
   display: none;
@@ -1870,7 +1870,7 @@ figure.highlight pre .javascript .function {
   width: 100%;
   background: var(--hlexpand-bg);
   text-align: center;
-  font-size: 14px;
+  font-size: 17px;
   cursor: pointer;
 }
 #article-container .code-expand-btn i {
