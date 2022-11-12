@@ -58,154 +58,96 @@
 
 
 /* 标题样式 */
-#article-container h1:before,
-#article-container h2:before,
-#article-container h3:before,
-#article-container h4:before,
-#article-container h5:before,
-#article-container h6:before,
-#post .post-outdate-notice:before,
-.fontawesomeIcon,
-.note:not(.no-icon)::before,
-hr:before {
-    display: inline-block;
-    font-weight: 600;
-    font-style: normal;
-    font-variant: normal;
-    font-family: 'Font Awesome 5 Free';
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased
+/* 文章页H1-H6图标样式效果 */
+h1::before,
+h2::before,
+h3::before,
+h4::before,
+h5::before,
+h6::before {
+  -webkit-animation: ccc 1.6s linear infinite;
+  animation: ccc 1.6s linear infinite;
 }
-#article-container h1:before,
-#article-container h2:before,
-#article-container h3:before,
-#article-container h4:before,
-#article-container h5:before,
-#article-container h6:before {
-    position: absolute;
-    color: #f47466;
-    /* 回形针 */
-    /* content: '\f0c1';  */
-    content: '\f863';
-    line-height: 1;
-    -webkit-transition: all .2s ease-out;
-    -moz-transition: all .2s ease-out;
-    -o-transition: all .2s ease-out;
-    -ms-transition: all .2s ease-out;
-    transition: all .2s ease-out;
-    /* 若要使用风车效果，请去掉下面的注释 */
-    content: '\f863'; 
-    animation: avatar_turn_around 1s linear infinite;
+@-webkit-keyframes ccc {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(-1turn);
+    transform: rotate(-1turn);
+  }
 }
-#article-container h1 {
-    padding-left: 1.4rem
+@keyframes ccc {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(-1turn);
+    transform: rotate(-1turn);
+  }
 }
-
-#article-container h1 code {
-    font-size: 1rem
+#content-inner.layout h1::before {
+  color: #ef50a8;
+  margin-left: -1.55rem;
+  font-size: 1.3rem;
+  margin-top: -0.23rem;
 }
-
-#article-container h1:before {
-    margin-left: -1.3rem;
-    top: calc(50% - .5rem);
-    font-size: 1rem
+#content-inner.layout h2::before {
+  color: #fb7061;
+  margin-left: -1.35rem;
+  font-size: 1.1rem;
+  margin-top: -0.12rem;
 }
-
-#article-container h1:hover {
-    padding-left: 1.6rem
+#content-inner.layout h3::before {
+  color: #ffbf00;
+  margin-left: -1.22rem;
+  font-size: 0.95rem;
+  margin-top: -0.09rem;
 }
-
-#article-container h2 {
-    padding-left: 1.3rem
+#content-inner.layout h4::before {
+  color: #a9e000;
+  margin-left: -1.05rem;
+  font-size: 0.8rem;
+  margin-top: -0.09rem;
 }
-
-#article-container h2 code {
-    font-size: .9rem
+#content-inner.layout h5::before {
+  color: #57c850;
+  margin-left: -0.9rem;
+  font-size: 0.7rem;
+  margin-top: 0rem;
 }
-
-#article-container h2:before {
-    margin-left: -1.4rem;
-    top: calc(50% - .45rem);
-    font-size: .9rem
+#content-inner.layout h6::before {
+  color: #5ec1e0;
+  margin-left: -0.9rem;
+  font-size: 0.66rem;
+  margin-top: 0rem;
 }
-
-#article-container h2:hover {
-    padding-left: 1.5rem
+#content-inner.layout h1:hover,
+#content-inner.layout h2:hover,
+#content-inner.layout h3:hover,
+#content-inner.layout h4:hover,
+#content-inner.layout h5:hover,
+#content-inner.layout h6:hover {
+  color: #3b70fc;
 }
-
-#article-container h3 {
-    padding-left: 1.2rem
+#content-inner.layout h1:hover::before,
+#content-inner.layout h2:hover::before,
+#content-inner.layout h3:hover::before,
+#content-inner.layout h4:hover::before,
+#content-inner.layout h5:hover::before,
+#content-inner.layout h6:hover::before {
+  color: #3b70fc;
+  -webkit-animation: ccc 3.2s linear infinite;
+  animation: ccc 3.2s linear infinite;
 }
-
-#article-container h3 code {
-    font-size: .8rem;
-    top: calc(50% - .4rem);
-
-}
-
-#article-container h3:before {
-    margin-left: -1.2rem;
-    top: calc(50% - .4rem);
-    font-size: .8rem
+/* 页面设置icon转动速度调整 */
+#rightside_config i.fas.fa-cog.fa-spin {
+  animation: fa-spin 5s linear infinite;
 }
 
-#article-container h3:hover {
-    padding-left: 1.4rem
-}
 
-#article-container h4 {
-    padding-left: 1.1rem
-}
-
-#article-container h4 code {
-    font-size: .7rem
-}
-
-#article-container h4:before {
-    margin-left: -1rem;
-    top: calc(50% - .35rem);
-    font-size: .7rem
-}
-
-#article-container h4:hover {
-    padding-left: 1.3rem
-}
-
-#article-container h5 {
-    padding-left: 1rem
-}
-
-#article-container h5 code {
-    font-size: .6rem
-}
-
-#article-container h5:before {
-    margin-left: -.8rem;
-    top: calc(50% - .3rem);
-    font-size: .6rem
-}
-
-#article-container h5:hover {
-    padding-left: 1.2rem
-}
-
-#article-container h6 {
-    padding-left: 1rem
-}
-
-#article-container h6 code {
-    font-size: .6rem
-}
-
-#article-container h6:before {
-    margin-left: -.8rem;
-    top: calc(50% - .3rem);
-    font-size: .6rem
-}
-
-#article-container h6:hover {
-    padding-left: 1.2rem
-}
 
 /* 鼠标样式 */
 body {
@@ -243,4 +185,19 @@ img {
 
 ::-webkit-scrollbar-corner {
   background-color: transparent
+}
+
+
+/*侧边栏个人卡片渐变色*/
+#aside-content > .card-widget.card-info {
+  background: linear-gradient(-45deg, var(--anzhiyu-main), #031764, #150136, #67044d);
+  background-size: 400%;
+  box-shadow: var(--anzhiyu-shadow-black);
+  animation: gradient 15s ease infinite;
+  position: relative;
+  color: var(--anzhiyu-white);
+}
+.site-data > a .headline,
+.site-data > a .length-num {
+  color: var(--anzhiyu-white);
 }
