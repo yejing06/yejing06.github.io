@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>htts://yejing06.github.io/yejing/a5e58986.html</loc>
+    <loc>htts://yejing06.github.io/yejing/54480883.html</loc>
     
     <lastmod>2022-11-12</lastmod>
     
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>htts://yejing06.github.io/yejing/54480883.html</loc>
+    <loc>htts://yejing06.github.io/yejing/a5e58986.html</loc>
     
     <lastmod>2022-11-12</lastmod>
     
@@ -191,13 +191,6 @@
   </url>
   
   <url>
-    <loc>htts://yejing06.github.io/categories/玩转Windows/</loc>
-    <lastmod>2022-11-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>htts://yejing06.github.io/categories/诗词歌赋/</loc>
     <lastmod>2022-11-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -205,7 +198,7 @@
   </url>
   
   <url>
-    <loc>htts://yejing06.github.io/categories/玩转Windows/杂谈教程/</loc>
+    <loc>htts://yejing06.github.io/categories/玩转Windows/</loc>
     <lastmod>2022-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -213,6 +206,13 @@
   
   <url>
     <loc>htts://yejing06.github.io/categories/诗词歌赋/胡思乱想/</loc>
+    <lastmod>2022-11-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>htts://yejing06.github.io/categories/玩转Windows/杂谈教程/</loc>
     <lastmod>2022-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
