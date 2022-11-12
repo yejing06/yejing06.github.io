@@ -1,4 +1,4 @@
-<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>setInterval(() => {
+setInterval(() => {
   let create_time = Math.round(new Date('2022-11-09 00:00:00').getTime() / 1000); //在此行修改建站时间
   let timestamp = Math.round((new Date().getTime()) / 1000);
   let second = timestamp - create_time;

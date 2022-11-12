@@ -1,4 +1,4 @@
-<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>//动态标题
+//动态标题
 var OriginTitile = document.title;
 var titleTime;
 document.addEventListener('visibilitychange', function () {
