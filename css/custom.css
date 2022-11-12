@@ -150,7 +150,7 @@ h6::before {
 
 
 /* 鼠标样式 */
-body {
+/*body {
   cursor: url(https://bu.dusays.com/2022/05/17/6283c365d20dd.png), auto;
 }
 
@@ -163,7 +163,46 @@ a,
 button,
 img {
   cursor: url(https://bu.dusays.com/2022/05/17/6283c376afcfc.png), auto
+}*/
+/* 全局默认鼠标指针 */
+body,
+html{
+  cursor: url('https://assets.akilar.top/cur/arrow.cur'),auto !important;
 }
+/* 悬停图片时的鼠标指针 */
+img{
+  cursor: url('https://assets.akilar.top/cur/btn.cur'),auto !important;
+}
+/* 选择链接标签时的鼠标指针 */
+a:hover{
+    cursor: url('https://assets.akilar.top/cur/link.cur'),auto;
+}
+/* 选中输入框时的鼠标指针 */
+input:hover{
+    cursor: url('https://assets.akilar.top/cur/input.cur'),auto;
+}
+/* 悬停按钮时的鼠标指针 */
+button:hover{
+    cursor: url('https://assets.akilar.top/cur/btn.cur'),auto;
+}
+/* 悬停列表标签时的鼠标指针 */
+i:hover{
+    cursor: url('https://assets.akilar.top/cur/link.cur'),auto;
+}
+/* 悬停页脚链接标签（例如页脚徽标）时的鼠标指针 */
+#footer-wrap a:hover{
+      cursor: url('https://assets.akilar.top/cur/hf.cur'),auto;
+}
+/* 悬停页码时的鼠标指针 */
+#pagination .page-number:hover{
+      cursor: url('https://assets.akilar.top/cur/i.cur'),auto;
+}
+/* 悬停菜单栏时的鼠标指针 */
+#nav .site-page:hover{
+      cursor: url('https://assets.akilar.top/cur/hf.cur'),auto;
+}
+
+
 
 
 /* 滚动条 */
@@ -200,4 +239,37 @@ img {
 .site-data > a .headline,
 .site-data > a .length-num {
   color: var(--anzhiyu-white);
+}
+
+
+
+
+/* 页面透明度 */
+/* 首页文章卡片 */
+#recent-posts > .recent-post-item{
+  background:rgba(255, 255, 255, 0.9);
+}
+/* 首页侧栏卡片 */
+.card-widget{
+background:rgba(255, 255, 255, 0.9)!important;
+}
+/* 文章页面正文背景 */
+div#post{
+background: rgba(255, 255, 255, 0.9);
+}
+/* 分页页面 */
+div#page{
+background: rgba(255, 255, 255, 0.9);
+}
+/* 归档页面 */
+div#archive{
+background: rgba(255, 255, 255, 0.9);
+}
+/* 标签页面 */
+div#tag{
+background: rgba(255, 255, 255, 0.9);
+}
+/* 分类页面 */
+div#category{
+background: rgba(255, 255, 255, 0.9);
 }
