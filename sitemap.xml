@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>htts://yejing06.github.io/posts/54480883.html</loc>
+    <loc>htts://yejing06.github.io/posts/a5e58986.html</loc>
     
     <lastmod>2022-11-12</lastmod>
     
@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>htts://yejing06.github.io/posts/83a69671.html</loc>
+    <loc>htts://yejing06.github.io/posts/54480883.html</loc>
     
     <lastmod>2022-11-12</lastmod>
     
@@ -47,7 +47,7 @@
   </url>
   
   <url>
-    <loc>htts://yejing06.github.io/posts/a5e58986.html</loc>
+    <loc>htts://yejing06.github.io/posts/83a69671.html</loc>
     
     <lastmod>2022-11-12</lastmod>
     
@@ -195,21 +195,7 @@
   </url>
   
   <url>
-    <loc>htts://yejing06.github.io/categories/生活趣闻/杂谈教程/</loc>
-    <lastmod>2022-11-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>htts://yejing06.github.io/categories/日记随笔/</loc>
-    <lastmod>2022-11-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>htts://yejing06.github.io/categories/玩转Windows/</loc>
     <lastmod>2022-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -223,7 +209,14 @@
   </url>
   
   <url>
-    <loc>htts://yejing06.github.io/categories/玩转Windows/杂谈教程/</loc>
+    <loc>htts://yejing06.github.io/categories/玩转Windows/</loc>
+    <lastmod>2022-11-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>htts://yejing06.github.io/categories/生活趣闻/杂谈教程/</loc>
     <lastmod>2022-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -231,6 +224,13 @@
   
   <url>
     <loc>htts://yejing06.github.io/categories/诗词歌赋/胡思乱想/</loc>
+    <lastmod>2022-11-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>htts://yejing06.github.io/categories/玩转Windows/杂谈教程/</loc>
     <lastmod>2022-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
