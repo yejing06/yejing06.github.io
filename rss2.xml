@@ -82,11 +82,11 @@
       <category domain="htts://yejing06.github.io/categories/%E7%94%9F%E6%B4%BB%E8%B6%A3%E9%97%BB/%E6%9D%82%E8%B0%88%E6%95%99%E7%A8%8B/">杂谈教程</category>
       
       
+      <category domain="htts://yejing06.github.io/tags/%E9%9A%8F%E7%AC%94/">随笔</category>
+      
       <category domain="htts://yejing06.github.io/tags/%E6%B5%8B%E8%AF%84/">测评</category>
       
       <category domain="htts://yejing06.github.io/tags/%E5%AD%A6%E4%B9%A0/">学习</category>
-      
-      <category domain="htts://yejing06.github.io/tags/%E9%9A%8F%E7%AC%94/">随笔</category>
       
       
       <comments>htts://yejing06.github.io/posts/54480883.html#disqus_thread</comments>
@@ -103,7 +103,7 @@
       
       
       
-      <content:encoded><![CDATA[<h1 id="我是一级标题"><a href="#我是一级标题" class="headerlink" title="我是一级标题"></a>我是一级标题</h1><h2 id="我是二级标题"><a href="#我是二级标题" class="headerlink" title="我是二级标题"></a>我是二级标题</h2><h3 id="我是三级标题"><a href="#我是三级标题" class="headerlink" title="我是三级标题"></a>我是三级标题</h3><p>1.我是第一行<br>2.我是第二行<br>创建新文章：<code>hexo new &quot;名称&quot;</code><br><img src="img/tu.png" alt="背景图片"><br><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean  #清除缓存文件 db.json 和已生成的静态文件 public</span><br><span class="line">hexo g      #生成网站静态文件到默认设置的 public 文件夹(hexo generate 的缩写)</span><br><span class="line">hexo d      #自动生成网站静态文件，并部署到设定的仓库(hexo deploy 的缩写)</span><br></pre></td></tr></table></figure><br>傻宁这里结束了！</p>]]></content:encoded>
+      <content:encoded><![CDATA[<h1 id="我是一级标题"><a href="#我是一级标题" class="headerlink" title="我是一级标题"></a>我是一级标题</h1><h2 id="我是二级标题"><a href="#我是二级标题" class="headerlink" title="我是二级标题"></a>我是二级标题</h2><h3 id="我是三级标题"><a href="#我是三级标题" class="headerlink" title="我是三级标题"></a>我是三级标题</h3><p>1.我是第一行<br>2.我是第二行<br>创建新文章：<code>hexo new &quot;名称&quot;</code><br><img src="img/tu.png" alt="背景图片"><br><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean  #清除缓存文件 db.json 和已生成的静态文件 public</span><br><span class="line">hexo g      #生成网站静态文件到默认设置的 public 文件夹(hexo generate 的缩写)</span><br><span class="line">hexo d      #自动生成网站静态文件，并部署到设定的仓库(hexo deploy 的缩写)</span><br></pre></td></tr></table></figure><br>自动提交1</p>]]></content:encoded>
       
       
       <category domain="htts://yejing06.github.io/categories/%E7%8E%A9%E8%BD%ACWindows/">玩转Windows</category>

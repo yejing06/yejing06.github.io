@@ -1,1 +1,231 @@
-#footer{background:0 0!important}#page-header{background:0 0!important}#footer::before{background:0 0!important}#page-header::before{background:0 0!important}[data-theme=dark] #footer::before{background:0 0!important}[data-theme=dark] #page-header::before{background:0 0!important}[data-theme=dark] .magnet_link_context{background:#1e1e1e;color:#faebd7}[data-theme=dark] .magnet_link_context:hover{background:#3ecdf1;color:#f2f2f2}@font-face{font-family:uuu;src:url(/fontsdest/-UMI-W.A.T.E.R.ttf);font-weight:400;font-style:normal;font-display:block}#pagination{width:100%;margin:auto}h1::before,h2::before,h3::before,h4::before,h5::before,h6::before{-webkit-animation:ccc 1.6s linear infinite;animation:ccc 1.6s linear infinite}@-webkit-keyframes ccc{0%{-webkit-transform:rotate(0);transform:rotate(0)}to{-webkit-transform:rotate(-1turn);transform:rotate(-1turn)}}@keyframes ccc{0%{-webkit-transform:rotate(0);transform:rotate(0)}to{-webkit-transform:rotate(-1turn);transform:rotate(-1turn)}}#content-inner.layout h1::before{color:#ef50a8;margin-left:-1.55rem;font-size:1.3rem;margin-top:-.23rem}#content-inner.layout h2::before{color:#fb7061;margin-left:-1.35rem;font-size:1.1rem;margin-top:-.12rem}#content-inner.layout h3::before{color:#ffbf00;margin-left:-1.22rem;font-size:.95rem;margin-top:-.09rem}#content-inner.layout h4::before{color:#a9e000;margin-left:-1.05rem;font-size:.8rem;margin-top:-.09rem}#content-inner.layout h5::before{color:#57c850;margin-left:-.9rem;font-size:.7rem;margin-top:0}#content-inner.layout h6::before{color:#5ec1e0;margin-left:-.9rem;font-size:.66rem;margin-top:0}#content-inner.layout h1:hover,#content-inner.layout h2:hover,#content-inner.layout h3:hover,#content-inner.layout h4:hover,#content-inner.layout h5:hover,#content-inner.layout h6:hover{color:#3b70fc}#content-inner.layout h1:hover::before,#content-inner.layout h2:hover::before,#content-inner.layout h3:hover::before,#content-inner.layout h4:hover::before,#content-inner.layout h5:hover::before,#content-inner.layout h6:hover::before{color:#3b70fc;-webkit-animation:ccc 3.2s linear infinite;animation:ccc 3.2s linear infinite}#rightside_config i.fas.fa-cog.fa-spin{animation:fa-spin 5s linear infinite}body,html{cursor:url(https://assets.akilar.top/cur/arrow.cur),auto!important}img{cursor:url(https://assets.akilar.top/cur/btn.cur),auto!important}a:hover{cursor:url(https://assets.akilar.top/cur/link.cur),auto}input:hover{cursor:url(https://assets.akilar.top/cur/input.cur),auto}button:hover{cursor:url(https://assets.akilar.top/cur/btn.cur),auto}i:hover{cursor:url(https://assets.akilar.top/cur/link.cur),auto}#footer-wrap a:hover{cursor:url(https://assets.akilar.top/cur/hf.cur),auto}#pagination .page-number:hover{cursor:url(https://assets.akilar.top/cur/i.cur),auto}#nav .site-page:hover{cursor:url(https://assets.akilar.top/cur/hf.cur),auto}::-webkit-scrollbar{width:8px;height:8px}::-webkit-scrollbar-track{border-radius:2em}::-webkit-scrollbar-thumb{background-color:rgb(255 255 255 / .3);background-image:-webkit-linear-gradient(45deg,rgba(255,255,255,.1) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.1) 50%,rgba(255,255,255,.1) 75%,transparent 75%,transparent);border-radius:2em}::-webkit-scrollbar-corner{background-color:transparent}
+/* 页脚与头图透明 */
+#footer {
+  background: transparent !important;
+}
+#page-header {
+  background: transparent !important;
+}
+
+/* 白天模式遮罩透明 */
+#footer::before {
+  background: transparent !important;
+}
+#page-header::before {
+  background: transparent !important;
+}
+
+/* 夜间模式遮罩透明 */
+[data-theme="dark"] #footer::before {
+  background: transparent !important;
+}
+[data-theme="dark"] #page-header::before {
+  background: transparent !important;
+}
+
+
+/* 小冰分类分类磁铁黑夜模式适配 */
+/* 一般状态 */
+[data-theme="dark"] .magnet_link_context {
+  background: #1e1e1e;
+  color: antiquewhite;
+}
+/* 鼠标悬浮状态 */
+[data-theme="dark"] .magnet_link_context:hover {
+  background: #3ecdf1;
+  color: #f2f2f2;
+}
+
+
+/* 字体设置 */
+@font-face {  
+  /* 为载入的字体取名字(随意) */
+  font-family: 'uuu';
+  /* 字体文件地址(相对或者绝对路径都可以) */
+  src: url(/fontsdest/-UMI-W.A.T.E.R.ttf);
+  /* 定义加粗样式(加粗多少) */
+  font-weight: normal;
+  /* 定义字体样式(斜体/非斜体) */
+  font-style: normal;
+  /* 定义显示样式 */
+  font-display: block;
+}
+
+/* 翻页按钮居中 */
+#pagination {
+  width: 100%;
+  margin: auto;
+}
+
+
+/* 标题样式 */
+/* 文章页H1-H6图标样式效果 */
+h1::before,
+h2::before,
+h3::before,
+h4::before,
+h5::before,
+h6::before {
+  -webkit-animation: ccc 1.6s linear infinite;
+  animation: ccc 1.6s linear infinite;
+}
+@-webkit-keyframes ccc {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(-1turn);
+    transform: rotate(-1turn);
+  }
+}
+@keyframes ccc {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(-1turn);
+    transform: rotate(-1turn);
+  }
+}
+#content-inner.layout h1::before {
+  color: #ef50a8;
+  margin-left: -1.55rem;
+  font-size: 1.3rem;
+  margin-top: -0.23rem;
+}
+#content-inner.layout h2::before {
+  color: #fb7061;
+  margin-left: -1.35rem;
+  font-size: 1.1rem;
+  margin-top: -0.12rem;
+}
+#content-inner.layout h3::before {
+  color: #ffbf00;
+  margin-left: -1.22rem;
+  font-size: 0.95rem;
+  margin-top: -0.09rem;
+}
+#content-inner.layout h4::before {
+  color: #a9e000;
+  margin-left: -1.05rem;
+  font-size: 0.8rem;
+  margin-top: -0.09rem;
+}
+#content-inner.layout h5::before {
+  color: #57c850;
+  margin-left: -0.9rem;
+  font-size: 0.7rem;
+  margin-top: 0rem;
+}
+#content-inner.layout h6::before {
+  color: #5ec1e0;
+  margin-left: -0.9rem;
+  font-size: 0.66rem;
+  margin-top: 0rem;
+}
+#content-inner.layout h1:hover,
+#content-inner.layout h2:hover,
+#content-inner.layout h3:hover,
+#content-inner.layout h4:hover,
+#content-inner.layout h5:hover,
+#content-inner.layout h6:hover {
+  color: #3b70fc;
+}
+#content-inner.layout h1:hover::before,
+#content-inner.layout h2:hover::before,
+#content-inner.layout h3:hover::before,
+#content-inner.layout h4:hover::before,
+#content-inner.layout h5:hover::before,
+#content-inner.layout h6:hover::before {
+  color: #3b70fc;
+  -webkit-animation: ccc 3.2s linear infinite;
+  animation: ccc 3.2s linear infinite;
+}
+/* 页面设置icon转动速度调整 */
+#rightside_config i.fas.fa-cog.fa-spin {
+  animation: fa-spin 5s linear infinite;
+}
+
+
+
+/* 鼠标样式 */
+/*body {
+  cursor: url(https://bu.dusays.com/2022/05/17/6283c365d20dd.png), auto;
+}
+
+.hide-block>.hide-button.open,
+.hide-inline>.hide-button.open {
+  display: block
+}
+
+a,
+button,
+img {
+  cursor: url(https://bu.dusays.com/2022/05/17/6283c376afcfc.png), auto
+}*/
+/* 全局默认鼠标指针 */
+body,
+html{
+  cursor: url('https://assets.akilar.top/cur/arrow.cur'),auto !important;
+}
+/* 悬停图片时的鼠标指针 */
+img{
+  cursor: url('https://assets.akilar.top/cur/btn.cur'),auto !important;
+}
+/* 选择链接标签时的鼠标指针 */
+a:hover{
+    cursor: url('https://assets.akilar.top/cur/link.cur'),auto;
+}
+/* 选中输入框时的鼠标指针 */
+input:hover{
+    cursor: url('https://assets.akilar.top/cur/input.cur'),auto;
+}
+/* 悬停按钮时的鼠标指针 */
+button:hover{
+    cursor: url('https://assets.akilar.top/cur/btn.cur'),auto;
+}
+/* 悬停列表标签时的鼠标指针 */
+i:hover{
+    cursor: url('https://assets.akilar.top/cur/link.cur'),auto;
+}
+/* 悬停页脚链接标签（例如页脚徽标）时的鼠标指针 */
+#footer-wrap a:hover{
+      cursor: url('https://assets.akilar.top/cur/hf.cur'),auto;
+}
+/* 悬停页码时的鼠标指针 */
+#pagination .page-number:hover{
+      cursor: url('https://assets.akilar.top/cur/i.cur'),auto;
+}
+/* 悬停菜单栏时的鼠标指针 */
+#nav .site-page:hover{
+      cursor: url('https://assets.akilar.top/cur/hf.cur'),auto;
+}
+
+
+
+
+/* 滚动条 */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 2em;
+  /* background-color: rgba(73, 177, 245, .2); */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(255 255 255 / .3);
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.1) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1) 75%, transparent 75%, transparent);
+  border-radius: 2em
+}
+
+::-webkit-scrollbar-corner {
+  background-color: transparent
+}
+
+
+
+
