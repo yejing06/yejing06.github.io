@@ -1,13 +1,1 @@
-@font-face {
-    font-family: "Consolas";
-    src: url("Consolas.eot"); /* IE9 */
-    src: url("Consolas.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("Consolas.woff2") format("woff2"), /* chrome 36+, firefox 39+,iOS 10+, Android 67+ */
-    url("Consolas.woff") format("woff"), /* chrome, firefox */
-    url("Consolas.ttf") format("truetype"), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
-    url("Consolas.svg#Consolas") format("svg"); /* iOS 4.1- */
-    font-style: normal;
-    font-weight: normal;
-}
-
-
+@font-face{font-family:Consolas;src:url(Consolas.eot);src:url(Consolas.eot?#iefix) format("embedded-opentype"),url(Consolas.woff2) format("woff2"),url(Consolas.woff) format("woff"),url(Consolas.ttf) format("truetype"),url(Consolas.svg#Consolas) format("svg");font-style:normal;font-weight:400}
