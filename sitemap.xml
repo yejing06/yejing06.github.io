@@ -110,6 +110,15 @@
   </url>
   
   <url>
+    <loc>htts://yejing06.github.io/Gallery/index.html</loc>
+    
+    <lastmod>2022-11-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>htts://yejing06.github.io/about/index.html</loc>
     
     <lastmod>2022-11-14</lastmod>
@@ -129,15 +138,6 @@
   
   <url>
     <loc>htts://yejing06.github.io/categories/index.html</loc>
-    
-    <lastmod>2022-11-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>htts://yejing06.github.io/Gallery/index.html</loc>
     
     <lastmod>2022-11-14</lastmod>
     
@@ -215,14 +215,14 @@
   </url>
   
   <url>
-    <loc>htts://yejing06.github.io/tags/测试/</loc>
+    <loc>htts://yejing06.github.io/tags/博客/</loc>
     <lastmod>2022-11-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>htts://yejing06.github.io/tags/博客/</loc>
+    <loc>htts://yejing06.github.io/tags/测试/</loc>
     <lastmod>2022-11-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -266,14 +266,14 @@
   </url>
   
   <url>
-    <loc>htts://yejing06.github.io/categories/胡思乱想/</loc>
+    <loc>htts://yejing06.github.io/categories/玩转Windows/</loc>
     <lastmod>2022-11-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>htts://yejing06.github.io/categories/玩转Windows/</loc>
+    <loc>htts://yejing06.github.io/categories/胡思乱想/</loc>
     <lastmod>2022-11-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
