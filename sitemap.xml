@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>htts://yejing06.github.io/manifest.json</loc>
+    <loc>https://naokuoteng.cn/manifest.json</loc>
     
     <lastmod>2022-11-17</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>htts://yejing06.github.io/movies/index.html</loc>
+    <loc>https://naokuoteng.cn/link/index.html</loc>
     
     <lastmod>2022-11-17</lastmod>
     
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>htts://yejing06.github.io/music/index.html</loc>
+    <loc>https://naokuoteng.cn/movies/index.html</loc>
     
     <lastmod>2022-11-17</lastmod>
     
@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>htts://yejing06.github.io/resources/index.html</loc>
+    <loc>https://naokuoteng.cn/music/index.html</loc>
     
     <lastmod>2022-11-17</lastmod>
     
@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>htts://yejing06.github.io/tags/index.html</loc>
+    <loc>https://naokuoteng.cn/resources/index.html</loc>
     
     <lastmod>2022-11-17</lastmod>
     
@@ -47,7 +47,7 @@
   </url>
   
   <url>
-    <loc>htts://yejing06.github.io/link/index.html</loc>
+    <loc>https://naokuoteng.cn/tags/index.html</loc>
     
     <lastmod>2022-11-17</lastmod>
     
@@ -56,7 +56,7 @@
   </url>
   
   <url>
-    <loc>htts://yejing06.github.io/games/index.html</loc>
+    <loc>https://naokuoteng.cn/games/index.html</loc>
     
     <lastmod>2022-11-17</lastmod>
     
@@ -65,7 +65,7 @@
   </url>
   
   <url>
-    <loc>htts://yejing06.github.io/posts/86aef29f.html</loc>
+    <loc>https://naokuoteng.cn/posts/86aef29f.html</loc>
     
     <lastmod>2022-11-17</lastmod>
     
@@ -74,7 +74,7 @@
   </url>
   
   <url>
-    <loc>htts://yejing06.github.io/posts/7662dd95.html</loc>
+    <loc>https://naokuoteng.cn/posts/7662dd95.html</loc>
     
     <lastmod>2022-11-17</lastmod>
     
@@ -83,7 +83,7 @@
   </url>
   
   <url>
-    <loc>htts://yejing06.github.io/posts/a2192fb6.html</loc>
+    <loc>https://naokuoteng.cn/posts/a2192fb6.html</loc>
     
     <lastmod>2022-11-17</lastmod>
     
@@ -92,7 +92,7 @@
   </url>
   
   <url>
-    <loc>htts://yejing06.github.io/posts/a5e58986.html</loc>
+    <loc>https://naokuoteng.cn/posts/a5e58986.html</loc>
     
     <lastmod>2022-11-17</lastmod>
     
@@ -101,7 +101,7 @@
   </url>
   
   <url>
-    <loc>htts://yejing06.github.io/posts/47c104.html</loc>
+    <loc>https://naokuoteng.cn/posts/47c104.html</loc>
     
     <lastmod>2022-11-17</lastmod>
     
@@ -110,7 +110,7 @@
   </url>
   
   <url>
-    <loc>htts://yejing06.github.io/posts/54480883.html</loc>
+    <loc>https://naokuoteng.cn/posts/54480883.html</loc>
     
     <lastmod>2022-11-17</lastmod>
     
@@ -119,7 +119,7 @@
   </url>
   
   <url>
-    <loc>htts://yejing06.github.io/posts/83a69671.html</loc>
+    <loc>https://naokuoteng.cn/posts/83a69671.html</loc>
     
     <lastmod>2022-11-17</lastmod>
     
@@ -128,7 +128,7 @@
   </url>
   
   <url>
-    <loc>htts://yejing06.github.io/Gallery/index.html</loc>
+    <loc>https://naokuoteng.cn/about/index.html</loc>
     
     <lastmod>2022-11-17</lastmod>
     
@@ -137,7 +137,7 @@
   </url>
   
   <url>
-    <loc>htts://yejing06.github.io/about/index.html</loc>
+    <loc>https://naokuoteng.cn/bangumis/index.html</loc>
     
     <lastmod>2022-11-17</lastmod>
     
@@ -146,7 +146,7 @@
   </url>
   
   <url>
-    <loc>htts://yejing06.github.io/bangumis/index.html</loc>
+    <loc>https://naokuoteng.cn/books/index.html</loc>
     
     <lastmod>2022-11-17</lastmod>
     
@@ -155,7 +155,7 @@
   </url>
   
   <url>
-    <loc>htts://yejing06.github.io/books/index.html</loc>
+    <loc>https://naokuoteng.cn/categories/index.html</loc>
     
     <lastmod>2022-11-17</lastmod>
     
@@ -164,7 +164,7 @@
   </url>
   
   <url>
-    <loc>htts://yejing06.github.io/categories/index.html</loc>
+    <loc>https://naokuoteng.cn/Gallery/index.html</loc>
     
     <lastmod>2022-11-17</lastmod>
     
@@ -173,7 +173,7 @@
   </url>
   
   <url>
-    <loc>htts://yejing06.github.io/Gallery/figure/index.html</loc>
+    <loc>https://naokuoteng.cn/Gallery/figure/index.html</loc>
     
     <lastmod>2022-11-17</lastmod>
     
@@ -182,7 +182,7 @@
   </url>
   
   <url>
-    <loc>htts://yejing06.github.io/Gallery/wallpaper/index.html</loc>
+    <loc>https://naokuoteng.cn/Gallery/wallpaper/index.html</loc>
     
     <lastmod>2022-11-17</lastmod>
     
@@ -192,7 +192,7 @@
   
 
   <url>
-    <loc>htts://yejing06.github.io</loc>
+    <loc>https://naokuoteng.cn/</loc>
     <lastmod>2022-11-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -200,77 +200,77 @@
 
   
   <url>
-    <loc>htts://yejing06.github.io/tags/测评/</loc>
+    <loc>https://naokuoteng.cn/tags/%E6%B5%8B%E8%AF%84/</loc>
     <lastmod>2022-11-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>htts://yejing06.github.io/tags/学习/</loc>
+    <loc>https://naokuoteng.cn/tags/%E5%AD%A6%E4%B9%A0/</loc>
     <lastmod>2022-11-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>htts://yejing06.github.io/tags/随笔/</loc>
+    <loc>https://naokuoteng.cn/tags/%E9%9A%8F%E7%AC%94/</loc>
     <lastmod>2022-11-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>htts://yejing06.github.io/tags/文章/</loc>
+    <loc>https://naokuoteng.cn/tags/%E6%96%87%E7%AB%A0/</loc>
     <lastmod>2022-11-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>htts://yejing06.github.io/tags/鸿蒙/</loc>
+    <loc>https://naokuoteng.cn/tags/%E9%B8%BF%E8%92%99/</loc>
     <lastmod>2022-11-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>htts://yejing06.github.io/tags/教程/</loc>
+    <loc>https://naokuoteng.cn/tags/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2022-11-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>htts://yejing06.github.io/tags/测试/</loc>
+    <loc>https://naokuoteng.cn/tags/%E6%B5%8B%E8%AF%95/</loc>
     <lastmod>2022-11-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>htts://yejing06.github.io/tags/问题/</loc>
+    <loc>https://naokuoteng.cn/tags/%E9%97%AE%E9%A2%98/</loc>
     <lastmod>2022-11-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>htts://yejing06.github.io/tags/求助/</loc>
+    <loc>https://naokuoteng.cn/tags/%E6%B1%82%E5%8A%A9/</loc>
     <lastmod>2022-11-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>htts://yejing06.github.io/tags/博客/</loc>
+    <loc>https://naokuoteng.cn/tags/%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2022-11-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>htts://yejing06.github.io/tags/标签3/</loc>
+    <loc>https://naokuoteng.cn/tags/%E6%A0%87%E7%AD%BE3/</loc>
     <lastmod>2022-11-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -279,42 +279,42 @@
 
   
   <url>
-    <loc>htts://yejing06.github.io/categories/生活趣闻/</loc>
+    <loc>https://naokuoteng.cn/categories/%E7%94%9F%E6%B4%BB%E8%B6%A3%E9%97%BB/</loc>
     <lastmod>2022-11-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>htts://yejing06.github.io/categories/日记随笔/</loc>
+    <loc>https://naokuoteng.cn/categories/%E6%97%A5%E8%AE%B0%E9%9A%8F%E7%AC%94/</loc>
     <lastmod>2022-11-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>htts://yejing06.github.io/categories/诗词歌赋/</loc>
+    <loc>https://naokuoteng.cn/categories/%E8%AF%97%E8%AF%8D%E6%AD%8C%E8%B5%8B/</loc>
     <lastmod>2022-11-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>htts://yejing06.github.io/categories/杂谈教程/</loc>
+    <loc>https://naokuoteng.cn/categories/%E6%9D%82%E8%B0%88%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2022-11-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>htts://yejing06.github.io/categories/胡思乱想/</loc>
+    <loc>https://naokuoteng.cn/categories/%E8%83%A1%E6%80%9D%E4%B9%B1%E6%83%B3/</loc>
     <lastmod>2022-11-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>htts://yejing06.github.io/categories/玩转Windows/</loc>
+    <loc>https://naokuoteng.cn/categories/%E7%8E%A9%E8%BD%ACWindows/</loc>
     <lastmod>2022-11-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
