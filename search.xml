@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>关于Blog目前存在的问题的求助贴</title>
+      <link href="/posts/86aef29f.html"/>
+      <url>/posts/86aef29f.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="1、存在问题-求助"><a href="#1、存在问题-求助" class="headerlink" title="1、存在问题 求助"></a>1、存在问题 <strong>求助</strong></h2><div class="note default no-icon simple"><p>1、电子时钟不能用 在congig.butterflu_yml配置不报错但是不起作用，config配置exlude报错 似乎重复  </p></div><p>&emsp;&emsp;目前已解决</p><div class="note primary no-icon simple"><p>2、豆瓣插件获取用户ID错误</p></div><p>&emsp;&emsp;ID认真查看没有错，且已多次尝试并测试了别人正在用的ID均报这个错误。</p><div class="note success no-icon simple"><p>3、标题栏动态名字显示未更新 一直显示的第一次设置的话语及表情符号</p></div><p>&emsp;&emsp;浏览器动态标题一直为第一次设置的图案及名字，经查看，源码仓库代码也已成功更新，但浏览器动态标题仍为第一次设置的图案及文字。</p><div class="note info no-icon simple"><p>4、搜索图标切换失败</p></div><p>&emsp;&emsp;经多次尝试仍然切换失败，把自己的注释掉，全面引入别人的css文件任然切换失败。<br><strong>注：</strong>失败表现为搜索图标消失。</p><div class="note warning no-icon simple"><p>5、手机端菜单展开不能折叠 已hide未生效</p></div><h2 id="2、拟要做工作-有教程请替我"><a href="#2、拟要做工作-有教程请替我" class="headerlink" title="2、拟要做工作 有教程请替我"></a>2、拟要做工作 有教程请替我</h2><div class="note danger no-icon simple"><p>a、拟拓宽页面显示</p></div><p>&emsp;&emsp;<strong>目前还不会！！</strong></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 日记随笔 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 问题 </tag>
+            
+            <tag> 求助 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>测3</title>
       <link href="/posts/7662dd95.html"/>
       <url>/posts/7662dd95.html</url>
@@ -143,7 +170,7 @@
       <link href="/posts/83a69671.html"/>
       <url>/posts/83a69671.html</url>
       
-        <content type="html"><![CDATA[<h1 id="我是一级标题"><a href="#我是一级标题" class="headerlink" title="我是一级标题"></a>我是一级标题</h1><h2 id="我是二级标题"><a href="#我是二级标题" class="headerlink" title="我是二级标题"></a>我是二级标题</h2><h3 id="我是三级标题"><a href="#我是三级标题" class="headerlink" title="我是三级标题"></a>我是三级标题</h3><p>1.我是第一行<br>2.我是第二行<br>创建新文章：<code>hexo new &quot;名称&quot;</code><br><img src="/img/article/tu.png" alt="背景图片"><br><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean  #清除缓存文件 db.json 和已生成的静态文件 public</span><br><span class="line">hexo g      #生成网站静态文件到默认设置的 public 文件夹(hexo generate 的缩写)</span><br><span class="line">hexo d      #自动生成网站静态文件，并部署到设定的仓库(hexo deploy 的缩写)</span><br></pre></td></tr></table></figure><br>自动提交1</p>]]></content>
+        <content type="html"><![CDATA[<h1 id="我是一级标题"><a href="#我是一级标题" class="headerlink" title="我是一级标题"></a>我是一级标题</h1><h2 id="我是二级标题"><a href="#我是二级标题" class="headerlink" title="我是二级标题"></a>我是二级标题</h2><h3 id="我是三级标题"><a href="#我是三级标题" class="headerlink" title="我是三级标题"></a>我是三级标题</h3><p>1.我是第一行<br>2.我是第二行<br>创建新文章：<code>hexo new &quot;名称&quot;</code><br><img src="/img/article/tu.png" alt="背景图片"></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean  #清除缓存文件 db.json 和已生成的静态文件 public</span><br><span class="line">hexo g      #生成网站静态文件到默认设置的 public 文件夹(hexo generate 的缩写)</span><br><span class="line">hexo d      #自动生成网站静态文件，并部署到设定的仓库(hexo deploy 的缩写)</span><br></pre></td></tr></table></figure><p>自动提交1</p>]]></content>
       
       
       <categories>
