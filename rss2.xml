@@ -9,7 +9,7 @@
     <atom:link href="https://naokuoteng.cn/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>愿我一生欢喜 不为世俗所及</description>
-    <pubDate>Thu, 17 Nov 2022 08:15:47 GMT</pubDate>
+    <pubDate>Thu, 17 Nov 2022 09:12:38 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -22,7 +22,7 @@
       
       
       
-      <content:encoded><![CDATA[<h2 id="1、存在问题-求助"><a href="#1、存在问题-求助" class="headerlink" title="1、存在问题 求助"></a>1、存在问题 <strong>求助</strong></h2><div class="note default no-icon simple"><p>1、电子时钟不能用 在congig.butterflu_yml配置不报错但是不起作用，config配置exlude报错 似乎重复  </p></div><p>&emsp;&emsp;目前已解决</p><div class="note primary no-icon simple"><p>2、豆瓣插件获取用户ID错误</p></div><p>&emsp;&emsp;ID认真查看没有错，且已多次尝试并测试了别人正在用的ID均报这个错误。</p><div class="note success no-icon simple"><p>3、标题栏动态名字显示未更新 一直显示的第一次设置的话语及表情符号</p></div><p>&emsp;&emsp;浏览器动态标题一直为第一次设置的图案及名字，经查看，源码仓库代码也已成功更新，但浏览器动态标题仍为第一次设置的图案及文字。</p><div class="note info no-icon simple"><p>4、搜索图标切换失败</p></div><p>&emsp;&emsp;经多次尝试仍然切换失败，把自己的注释掉，全面引入别人的css文件任然切换失败。<br><strong>注：</strong>失败表现为搜索图标消失。</p><div class="note warning no-icon simple"><p>5、手机端菜单展开不能折叠 已hide未生效</p></div><h2 id="2、拟要做工作-有教程请踢我"><a href="#2、拟要做工作-有教程请踢我" class="headerlink" title="2、拟要做工作 有教程请踢我"></a>2、拟要做工作 有教程请踢我</h2><div class="note danger no-icon simple"><p>a、拟拓宽页面显示</p></div><p>&emsp;&emsp;<strong>目前还不会！！</strong></p>]]></content:encoded>
+      <content:encoded><![CDATA[<h2 id="1、存在问题-求助"><a href="#1、存在问题-求助" class="headerlink" title="1、存在问题 求助"></a>1、存在问题 <strong>求助</strong></h2><div class="note default no-icon simple"><p>1、电子时钟不能用 在congig.butterflu_yml配置不报错但是不起作用，config配置exlude报错 似乎重复  </p></div><p>&emsp;&emsp;<span id="yellow-block">目 前 已 解 决</span></p><div class="note primary no-icon simple"><p>2、豆瓣插件获取用户ID错误</p></div><p>&emsp;&emsp;ID认真查看没有错，且已多次尝试并测试了别人正在用的ID均报这个错误。</p><div class="note success no-icon simple"><p>3、标题栏动态名字显示未更新 一直显示的第一次设置的话语及表情符号</p></div><p>&emsp;&emsp;浏览器动态标题一直为第一次设置的图案及名字，经查看，源码仓库代码也已成功更新，但浏览器动态标题仍为第一次设置的图案及文字。</p><div class="note info no-icon simple"><p>4、搜索图标切换失败</p></div><p>&emsp;&emsp;经多次尝试仍然切换失败，把自己的注释掉，全面引入别人的css文件任然切换失败。<br><strong>注：</strong>失败表现为搜索图标消失。</p><div class="note warning no-icon simple"><p>5、手机端菜单展开不能折叠 已hide未生效</p></div><h2 id="2、拟要做工作-有教程请踢我"><a href="#2、拟要做工作-有教程请踢我" class="headerlink" title="2、拟要做工作 有教程请踢我"></a>2、拟要做工作 有教程请踢我</h2><div class="note danger no-icon simple"><p>a、拟拓宽页面显示</p></div><p>&emsp;&emsp;<strong>目前还不会！！</strong></p>]]></content:encoded>
       
       
       <category domain="https://naokuoteng.cn/categories/%E6%97%A5%E8%AE%B0%E9%9A%8F%E7%AC%94/">日记随笔</category>
