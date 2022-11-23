@@ -6,7 +6,7 @@
   <link href="https://naokuoteng.cn/atom.xml" rel="self"/>
   
   <link href="https://naokuoteng.cn/"/>
-  <updated>2022-11-23T12:11:37.409Z</updated>
+  <updated>2022-11-23T15:38:08.591Z</updated>
   <id>https://naokuoteng.cn/</id>
   
   <author>
@@ -17,11 +17,34 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>外挂标签的引入及使用方法</title>
+    <link href="https://naokuoteng.cn/posts/dcf9a5f8.html"/>
+    <id>https://naokuoteng.cn/posts/dcf9a5f8.html</id>
+    <published>2022-11-23T14:09:03.000Z</published>
+    <updated>2022-11-23T15:38:08.591Z</updated>
+    
+    
+    <summary type="html">外挂标签使用方法记录。</summary>
+    
+    
+    
+    <category term="杂谈教程" scheme="https://naokuoteng.cn/categories/%E6%9D%82%E8%B0%88%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="外挂标签" scheme="https://naokuoteng.cn/tags/%E5%A4%96%E6%8C%82%E6%A0%87%E7%AD%BE/"/>
+    
+    <category term="hexo" scheme="https://naokuoteng.cn/tags/hexo/"/>
+    
+    <category term="butterfly" scheme="https://naokuoteng.cn/tags/butterfly/"/>
+    
+  </entry>
+  
+  <entry>
     <title>鬼畜周姐</title>
     <link href="https://naokuoteng.cn/posts/4c4be88b.html"/>
     <id>https://naokuoteng.cn/posts/4c4be88b.html</id>
     <published>2022-11-18T14:28:13.000Z</published>
-    <updated>2022-11-23T12:11:37.409Z</updated>
+    <updated>2022-11-23T15:38:08.591Z</updated>
     
     
     <summary type="html">鬼畜周姐yyds</summary>
@@ -44,7 +67,7 @@
     <link href="https://naokuoteng.cn/posts/ede7b928.html"/>
     <id>https://naokuoteng.cn/posts/ede7b928.html</id>
     <published>2022-11-18T14:09:02.000Z</published>
-    <updated>2022-11-23T12:11:37.409Z</updated>
+    <updated>2022-11-23T15:38:08.591Z</updated>
     
     
     <summary type="html">测试bilibili播放是否适配</summary>
@@ -67,7 +90,7 @@
     <link href="https://naokuoteng.cn/posts/86aef29f.html"/>
     <id>https://naokuoteng.cn/posts/86aef29f.html</id>
     <published>2022-11-17T02:02:10.000Z</published>
-    <updated>2022-11-23T12:11:37.409Z</updated>
+    <updated>2022-11-23T15:38:08.587Z</updated>
     
     
     <summary type="html">目前存在的问题记录及求助</summary>
@@ -88,7 +111,7 @@
     <link href="https://naokuoteng.cn/posts/7662dd95.html"/>
     <id>https://naokuoteng.cn/posts/7662dd95.html</id>
     <published>2022-11-13T12:02:36.000Z</published>
-    <updated>2022-11-23T12:11:37.409Z</updated>
+    <updated>2022-11-23T15:38:08.587Z</updated>
     
     
       
@@ -114,7 +137,7 @@
     <link href="https://naokuoteng.cn/posts/a2192fb6.html"/>
     <id>https://naokuoteng.cn/posts/a2192fb6.html</id>
     <published>2022-11-13T09:11:00.000Z</published>
-    <updated>2022-11-23T12:11:37.409Z</updated>
+    <updated>2022-11-23T15:38:08.587Z</updated>
     
     
     <summary type="html">青年干部行动起来，勇于承担。</summary>
@@ -135,7 +158,7 @@
     <link href="https://naokuoteng.cn/posts/a5e58986.html"/>
     <id>https://naokuoteng.cn/posts/a5e58986.html</id>
     <published>2022-11-11T05:07:54.000Z</published>
-    <updated>2022-11-23T12:11:37.409Z</updated>
+    <updated>2022-11-23T15:38:08.587Z</updated>
     
     
     <summary type="html">青年干部行动起来，勇于承担。</summary>
@@ -156,7 +179,7 @@
     <link href="https://naokuoteng.cn/posts/47c104.html"/>
     <id>https://naokuoteng.cn/posts/47c104.html</id>
     <published>2022-11-11T04:11:54.000Z</published>
-    <updated>2022-11-23T12:11:37.409Z</updated>
+    <updated>2022-11-23T15:38:08.587Z</updated>
     
     
     <summary type="html">平凡 伟大</summary>
@@ -177,7 +200,7 @@
     <link href="https://naokuoteng.cn/posts/54480883.html"/>
     <id>https://naokuoteng.cn/posts/54480883.html</id>
     <published>2022-11-10T06:15:15.000Z</published>
-    <updated>2022-11-23T12:11:37.409Z</updated>
+    <updated>2022-11-23T15:38:08.587Z</updated>
     
     
     <summary type="html">这是第二篇文章</summary>
@@ -200,7 +223,7 @@
     <link href="https://naokuoteng.cn/posts/83a69671.html"/>
     <id>https://naokuoteng.cn/posts/83a69671.html</id>
     <published>2022-11-09T10:07:53.000Z</published>
-    <updated>2022-11-23T12:11:37.409Z</updated>
+    <updated>2022-11-23T15:38:08.591Z</updated>
     
     
     <summary type="html">这是第一篇文章</summary>

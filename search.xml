@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>外挂标签的引入及使用方法</title>
+      <link href="/posts/dcf9a5f8.html"/>
+      <url>/posts/dcf9a5f8.html</url>
+      
+        <content type="html"><![CDATA[<div class="note info no-icon simple"><p>info 提示块标签</p></div><p>哪个英文字母最酷？ <span class="hide-inline"><button type="button" class="hide-button" style="background-color: #FF7242;color: #fff">查看答案  </button><span class="hide-content">因為西裝褲(C裝酷)</span></span></p><p>門裏站着一個人? <span class="hide-inline"><button type="button" class="hide-button" style="">Click  </button><span class="hide-content">閃</span></span><br><details class="toggle" ><summary class="toggle-button" style="">Butterfly安裝方法</summary><div class="toggle-content"><p>在你的博客根目錄裏</p><p>git clone -b master <a href="https://github.com/jerryc127/hexo-theme-butterfly.git">https://github.com/jerryc127/hexo-theme-butterfly.git</a> themes/Butterfly</p><p>如果想要安裝比較新的dev分支，可以</p><p>git clone -b dev <a href="https://github.com/jerryc127/hexo-theme-butterfly.git">https://github.com/jerryc127/hexo-theme-butterfly.git</a> themes/Butterfly</p></div></details></p><p>你看我長得漂亮不</p><p><img src="https://i.loli.net/2021/03/19/2P6ivUGsdaEXSFI.png" alt=""></p><p>我覺得很漂亮 <img class="inline-img" src="https://i.loli.net/2021/03/19/5M4jUB3ynq7ePgw.png" style="height:150px"/></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 杂谈教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 外挂标签 </tag>
+            
+            <tag> hexo </tag>
+            
+            <tag> butterfly </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>鬼畜周姐</title>
       <link href="/posts/4c4be88b.html"/>
       <url>/posts/4c4be88b.html</url>
