@@ -6,8 +6,6 @@ Allow: /archives/
 Disallow: /js/
 Disallow: /css/
 Disallow: /fonts/
-Disallow: /vendors/
-Disallow: /fancybox/
 
 Sitemap: https://naokuoteng.cn/sitemap.xml
 Sitemap: https://naokuoteng.cn/baidusitemap.xml
