@@ -6,7 +6,7 @@
   <link href="https://naokuoteng.cn/atom.xml" rel="self"/>
   
   <link href="https://naokuoteng.cn/"/>
-  <updated>2022-11-25T03:54:59.695Z</updated>
+  <updated>2022-11-25T05:19:19.114Z</updated>
   <id>https://naokuoteng.cn/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://naokuoteng.cn/posts/585f521.html"/>
     <id>https://naokuoteng.cn/posts/585f521.html</id>
     <published>2022-11-25T02:16:04.000Z</published>
-    <updated>2022-11-25T03:54:59.695Z</updated>
+    <updated>2022-11-25T05:19:19.114Z</updated>
     
     
     <summary type="html">贪心或动态算法</summary>
@@ -44,14 +44,14 @@
     <link href="https://naokuoteng.cn/posts/930406a6.html"/>
     <id>https://naokuoteng.cn/posts/930406a6.html</id>
     <published>2022-11-25T01:47:11.000Z</published>
-    <updated>2022-11-25T03:54:59.695Z</updated>
+    <updated>2022-11-25T05:19:19.114Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;P1541-NOIP2010-提高组-乌龟棋-四维-动态规划&quot;&gt;&lt;a href=&quot;#P1541-NOIP2010-提高组-乌龟棋-四维-动态规划&quot; class=&quot;headerlink&quot; title=&quot;P1541 [NOIP2010 提高组] 乌龟棋  四维 动态规划&quot;&gt;&lt;/a&gt;P1541 [NOIP2010 提高组] 乌龟棋  四维 动态规划&lt;/h1&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;27&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;28&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;29&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;30&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;31&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;32&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;33&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;34&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;35&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;36&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;37&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;38&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;39&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;40&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;41&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;42&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;43&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;44&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;45&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;//  首先对 1 2 3 4 4种不同的卡片计数&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;// 然后动态规划 卡片的数量，注意初始值为t【1】 &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;#include&amp;lt;bits/stdc++.h&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;using namespace std;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;int dp[125][125][125][125];//abcd 代表1 2 3 4 四种走法&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;int t[405];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;int n,m;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;int num[5];//1 2 3 4 四种卡片的张数&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;int main()&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	cin&amp;gt;&amp;gt;n&amp;gt;&amp;gt;m;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	int i,j;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	for(i=1;i&amp;lt;=n;i++)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		cin&amp;gt;&amp;gt;t[i];// 每种卡片的值&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	for(i=1;i&amp;lt;=m;i++)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		int x;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		cin&amp;gt;&amp;gt;x;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		num[x]++;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	int a,b,c,d;// 1 2 3 4 四种卡片&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	dp[0][0][0][0]=t[1];// 非常重要，起始等于t1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	for(a=0;a&amp;lt;=num[1];a++)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		for(b=0;b&amp;lt;=num[2];b++)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;			for(c=0;c&amp;lt;=num[3];c++)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;			&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;				for(d=0;d&amp;lt;=num[4];d++)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;				&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;					int dis=1+a*1+b*2+3*c+d*4;// 计算新位置，起始等于1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;					if(a!=0) dp[a][b][c][d]=max(dp[a-1][b][c][d]+t[dis],dp[a][b][c][d]); // a用一张&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;					if(b!=0) dp[a][b][c][d]=max(dp[a][b-1][c][d]+t[dis],dp[a][b][c][d]);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;					if(c!=0) dp[a][b][c][d]=max(dp[a][b][c-1][d]+t[dis],dp[a][b][c][d]);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;					if(d!=0) dp[a][b][c][d]=max(dp[a][b][c][d-1]+t[dis],dp[a][b][c][d]);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;				&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;			&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	cout&amp;lt;&amp;lt;dp[num[1]][num[2]][num[3]][num[4]]&amp;lt;&amp;lt;endl;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	return 0;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    <summary type="html">&lt;h1 id=&quot;P1541-NOIP2010-提高组-乌龟棋-四维-动态规划&quot;&gt;&lt;a href=&quot;#P1541-NOIP2010-提高组-乌龟棋-四维-动态规划&quot; class=&quot;headerlink&quot; title=&quot;P1541 [NOIP2010 提高组] 乌龟棋  四维 动态规划&quot;&gt;&lt;/a&gt;P1541 [NOIP2010 提高组] 乌龟棋  四维 动态规划&lt;/h1&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;27&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;28&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;29&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;30&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;31&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;32&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;33&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;34&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;35&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;36&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;37&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;38&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;39&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;40&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;41&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;42&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;43&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;44&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;45&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;//首先对 1 2 3 4 4种不同的卡片计数&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;//然后动态规划 卡片的数量，注意初始值为t【1】 &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;#include&amp;lt;bits/stdc++.h&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;using namespace std;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;int dp[125][125][125][125];//abcd 代表1 2 3 4 四种走法&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;int t[405];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;int n,m;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;int num[5];//1 2 3 4 四种卡片的张数&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;int main()&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	cin&amp;gt;&amp;gt;n&amp;gt;&amp;gt;m;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	int i,j;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	for(i=1;i&amp;lt;=n;i++)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		cin&amp;gt;&amp;gt;t[i];// 每种卡片的值&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	for(i=1;i&amp;lt;=m;i++)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		int x;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		cin&amp;gt;&amp;gt;x;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		num[x]++;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	int a,b,c,d;// 1 2 3 4 四种卡片&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	dp[0][0][0][0]=t[1];// 非常重要，起始等于t1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	for(a=0;a&amp;lt;=num[1];a++)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		for(b=0;b&amp;lt;=num[2];b++)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;			for(c=0;c&amp;lt;=num[3];c++)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;			&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;				for(d=0;d&amp;lt;=num[4];d++)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;				&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;					int dis=1+a*1+b*2+3*c+d*4;// 计算新位置，起始等于1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;					if(a!=0) dp[a][b][c][d]=max(dp[a-1][b][c][d]+t[dis],dp[a][b][c][d]); // a用一张&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;					if(b!=0) dp[a][b][c][d]=max(dp[a][b-1][c][d]+t[dis],dp[a][b][c][d]);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;					if(c!=0) dp[a][b][c][d]=max(dp[a][b][c-1][d]+t[dis],dp[a][b][c][d]);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;					if(d!=0) dp[a][b][c][d]=max(dp[a][b][c][d-1]+t[dis],dp[a][b][c][d]);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;				&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;			&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	cout&amp;lt;&amp;lt;dp[num[1]][num[2]][num[3]][num[4]]&amp;lt;&amp;lt;endl;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	return 0;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;&lt;img src=&quot;https://s2.loli.net/2022/11/24/siMAqL1Zewz3QlJ.webp&quot;</summary>
         
       
@@ -72,7 +72,7 @@
     <link href="https://naokuoteng.cn/posts/dcf9a5f8.html"/>
     <id>https://naokuoteng.cn/posts/dcf9a5f8.html</id>
     <published>2022-11-23T14:09:03.000Z</published>
-    <updated>2022-11-25T03:54:59.695Z</updated>
+    <updated>2022-11-25T05:19:19.114Z</updated>
     
     
     <summary type="html">外挂标签使用方法记录。</summary>
@@ -95,7 +95,7 @@
     <link href="https://naokuoteng.cn/posts/4c4be88b.html"/>
     <id>https://naokuoteng.cn/posts/4c4be88b.html</id>
     <published>2022-11-18T14:28:13.000Z</published>
-    <updated>2022-11-25T03:54:59.695Z</updated>
+    <updated>2022-11-25T05:19:19.114Z</updated>
     
     
     <summary type="html">鬼畜周姐yyds</summary>
@@ -118,7 +118,7 @@
     <link href="https://naokuoteng.cn/posts/ede7b928.html"/>
     <id>https://naokuoteng.cn/posts/ede7b928.html</id>
     <published>2022-11-18T14:09:02.000Z</published>
-    <updated>2022-11-25T03:54:59.695Z</updated>
+    <updated>2022-11-25T05:19:19.114Z</updated>
     
     
     <summary type="html">测试bilibili播放是否适配</summary>
@@ -141,7 +141,7 @@
     <link href="https://naokuoteng.cn/posts/86aef29f.html"/>
     <id>https://naokuoteng.cn/posts/86aef29f.html</id>
     <published>2022-11-17T02:02:10.000Z</published>
-    <updated>2022-11-25T03:54:59.695Z</updated>
+    <updated>2022-11-25T05:19:19.114Z</updated>
     
     
     <summary type="html">目前存在的问题记录及求助</summary>
@@ -162,7 +162,7 @@
     <link href="https://naokuoteng.cn/posts/7662dd95.html"/>
     <id>https://naokuoteng.cn/posts/7662dd95.html</id>
     <published>2022-11-13T12:02:36.000Z</published>
-    <updated>2022-11-25T03:54:59.695Z</updated>
+    <updated>2022-11-25T05:19:19.114Z</updated>
     
     
       
@@ -187,7 +187,7 @@
     <link href="https://naokuoteng.cn/posts/a2192fb6.html"/>
     <id>https://naokuoteng.cn/posts/a2192fb6.html</id>
     <published>2022-11-13T09:11:00.000Z</published>
-    <updated>2022-11-25T03:54:59.695Z</updated>
+    <updated>2022-11-25T05:19:19.114Z</updated>
     
     
     <summary type="html">青年干部行动起来，勇于承担。</summary>
@@ -208,7 +208,7 @@
     <link href="https://naokuoteng.cn/posts/a5e58986.html"/>
     <id>https://naokuoteng.cn/posts/a5e58986.html</id>
     <published>2022-11-11T05:07:54.000Z</published>
-    <updated>2022-11-25T03:54:59.695Z</updated>
+    <updated>2022-11-25T05:19:19.114Z</updated>
     
     
     <summary type="html">青年干部行动起来，勇于承担。</summary>
@@ -229,7 +229,7 @@
     <link href="https://naokuoteng.cn/posts/47c104.html"/>
     <id>https://naokuoteng.cn/posts/47c104.html</id>
     <published>2022-11-11T04:11:54.000Z</published>
-    <updated>2022-11-25T03:54:59.695Z</updated>
+    <updated>2022-11-25T05:19:19.114Z</updated>
     
     
     <summary type="html">平凡 伟大</summary>
@@ -250,7 +250,7 @@
     <link href="https://naokuoteng.cn/posts/54480883.html"/>
     <id>https://naokuoteng.cn/posts/54480883.html</id>
     <published>2022-11-10T06:15:15.000Z</published>
-    <updated>2022-11-25T03:54:59.695Z</updated>
+    <updated>2022-11-25T05:19:19.114Z</updated>
     
     
     <summary type="html">这是第二篇文章</summary>
@@ -273,7 +273,7 @@
     <link href="https://naokuoteng.cn/posts/83a69671.html"/>
     <id>https://naokuoteng.cn/posts/83a69671.html</id>
     <published>2022-11-09T10:07:53.000Z</published>
-    <updated>2022-11-25T03:54:59.695Z</updated>
+    <updated>2022-11-25T05:19:19.114Z</updated>
     
     
     <summary type="html">这是第一篇文章</summary>
