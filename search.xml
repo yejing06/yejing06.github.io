@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>动态规划 乌龟棋 四维 </title>
+      <link href="/posts/930406a6.html"/>
+      <url>/posts/930406a6.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="P1541-NOIP2010-提高组-乌龟棋-四维-动态规划"><a href="#P1541-NOIP2010-提高组-乌龟棋-四维-动态规划" class="headerlink" title="P1541 [NOIP2010 提高组] 乌龟棋  四维 动态规划"></a>P1541 [NOIP2010 提高组] 乌龟棋  四维 动态规划</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br></pre></td><td class="code"><pre><span class="line">//  首先对 1 2 3 4 4种不同的卡片计数</span><br><span class="line">// 然后动态规划 卡片的数量，注意初始值为t【1】 </span><br><span class="line">#include&lt;bits/stdc++.h&gt;</span><br><span class="line">using namespace std;</span><br><span class="line">int dp[125][125][125][125];//abcd 代表1 2 3 4 四种走法</span><br><span class="line">int t[405];</span><br><span class="line">int n,m;</span><br><span class="line">int num[5];//1 2 3 4 四种卡片的张数</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">cin&gt;&gt;n&gt;&gt;m;</span><br><span class="line">int i,j;</span><br><span class="line">for(i=1;i&lt;=n;i++)</span><br><span class="line">&#123;</span><br><span class="line">cin&gt;&gt;t[i];// 每种卡片的值</span><br><span class="line">&#125;</span><br><span class="line">for(i=1;i&lt;=m;i++)</span><br><span class="line">&#123;</span><br><span class="line">int x;</span><br><span class="line">cin&gt;&gt;x;</span><br><span class="line">num[x]++;</span><br><span class="line">&#125;</span><br><span class="line">int a,b,c,d;// 1 2 3 4 四种卡片</span><br><span class="line">dp[0][0][0][0]=t[1];// 非常重要，起始等于t1</span><br><span class="line">for(a=0;a&lt;=num[1];a++)</span><br><span class="line">&#123;</span><br><span class="line">for(b=0;b&lt;=num[2];b++)</span><br><span class="line">&#123;</span><br><span class="line">for(c=0;c&lt;=num[3];c++)</span><br><span class="line">&#123;</span><br><span class="line">for(d=0;d&lt;=num[4];d++)</span><br><span class="line">&#123;</span><br><span class="line"></span><br><span class="line">int dis=1+a*1+b*2+3*c+d*4;// 计算新位置，起始等于1</span><br><span class="line">if(a!=0) dp[a][b][c][d]=max(dp[a-1][b][c][d]+t[dis],dp[a][b][c][d]); // a用一张</span><br><span class="line">if(b!=0) dp[a][b][c][d]=max(dp[a][b-1][c][d]+t[dis],dp[a][b][c][d]);</span><br><span class="line">if(c!=0) dp[a][b][c][d]=max(dp[a][b][c-1][d]+t[dis],dp[a][b][c][d]);</span><br><span class="line">if(d!=0) dp[a][b][c][d]=max(dp[a][b][c][d-1]+t[dis],dp[a][b][c][d]);</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br><span class="line">cout&lt;&lt;dp[num[1]][num[2]][num[3]][num[4]]&lt;&lt;endl;</span><br><span class="line">return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><img src="https://s2.loli.net/2022/11/24/siMAqL1Zewz3QlJ.webp" alt=""></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 算法日志 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 算法 </tag>
+            
+            <tag> 动态规划 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>外挂标签的引入及使用方法</title>
       <link href="/posts/dcf9a5f8.html"/>
       <url>/posts/dcf9a5f8.html</url>
@@ -179,7 +206,7 @@
       
       <categories>
           
-          <category> 诗词歌赋 </category>
+          <category> 日记随笔 </category>
           
       </categories>
       
