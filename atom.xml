@@ -6,7 +6,7 @@
   <link href="https://naokuoteng.cn/atom.xml" rel="self"/>
   
   <link href="https://naokuoteng.cn/"/>
-  <updated>2022-11-27T13:51:10.975Z</updated>
+  <updated>2022-11-27T15:30:00.389Z</updated>
   <id>https://naokuoteng.cn/</id>
   
   <author>
@@ -17,11 +17,36 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>添加访客信息欢迎卡片</title>
+    <link href="https://naokuoteng.cn/posts/fc3458a8.html"/>
+    <id>https://naokuoteng.cn/posts/fc3458a8.html</id>
+    <published>2022-11-27T13:53:57.000Z</published>
+    <updated>2022-11-27T15:30:00.389Z</updated>
+    
+    
+    <summary type="html">Welcome to my blog, enter password to read.</summary>
+    
+    
+    
+    <category term="杂谈教程" scheme="https://naokuoteng.cn/categories/%E6%9D%82%E8%B0%88%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="hexo" scheme="https://naokuoteng.cn/tags/hexo/"/>
+    
+    <category term="butterfly" scheme="https://naokuoteng.cn/tags/butterfly/"/>
+    
+    <category term="访客信息" scheme="https://naokuoteng.cn/tags/%E8%AE%BF%E5%AE%A2%E4%BF%A1%E6%81%AF/"/>
+    
+    <category term="美化" scheme="https://naokuoteng.cn/tags/%E7%BE%8E%E5%8C%96/"/>
+    
+  </entry>
+  
+  <entry>
     <title>贪心动态 守望者的逃离</title>
     <link href="https://naokuoteng.cn/posts/585f521.html"/>
     <id>https://naokuoteng.cn/posts/585f521.html</id>
     <published>2022-11-25T02:16:04.000Z</published>
-    <updated>2022-11-27T13:51:10.975Z</updated>
+    <updated>2022-11-27T15:30:00.389Z</updated>
     
     
     <summary type="html">贪心或动态算法</summary>
@@ -44,7 +69,7 @@
     <link href="https://naokuoteng.cn/posts/930406a6.html"/>
     <id>https://naokuoteng.cn/posts/930406a6.html</id>
     <published>2022-11-25T01:47:11.000Z</published>
-    <updated>2022-11-27T13:51:10.975Z</updated>
+    <updated>2022-11-27T15:30:00.389Z</updated>
     
     
       
@@ -72,7 +97,7 @@
     <link href="https://naokuoteng.cn/posts/dcf9a5f8.html"/>
     <id>https://naokuoteng.cn/posts/dcf9a5f8.html</id>
     <published>2022-11-23T14:09:03.000Z</published>
-    <updated>2022-11-27T13:51:10.975Z</updated>
+    <updated>2022-11-27T15:30:00.389Z</updated>
     
     
     <summary type="html">外挂标签使用方法记录。</summary>
@@ -95,7 +120,7 @@
     <link href="https://naokuoteng.cn/posts/4c4be88b.html"/>
     <id>https://naokuoteng.cn/posts/4c4be88b.html</id>
     <published>2022-11-18T14:28:13.000Z</published>
-    <updated>2022-11-27T13:51:10.975Z</updated>
+    <updated>2022-11-27T15:30:00.389Z</updated>
     
     
     <summary type="html">鬼畜周姐yyds</summary>
@@ -118,7 +143,7 @@
     <link href="https://naokuoteng.cn/posts/ede7b928.html"/>
     <id>https://naokuoteng.cn/posts/ede7b928.html</id>
     <published>2022-11-18T14:09:02.000Z</published>
-    <updated>2022-11-27T13:51:10.975Z</updated>
+    <updated>2022-11-27T15:30:00.389Z</updated>
     
     
     <summary type="html">测试bilibili播放是否适配</summary>
@@ -141,7 +166,7 @@
     <link href="https://naokuoteng.cn/posts/86aef29f.html"/>
     <id>https://naokuoteng.cn/posts/86aef29f.html</id>
     <published>2022-11-17T02:02:10.000Z</published>
-    <updated>2022-11-27T13:51:10.975Z</updated>
+    <updated>2022-11-27T15:30:00.389Z</updated>
     
     
     <summary type="html">目前存在的问题记录及求助</summary>
@@ -162,7 +187,7 @@
     <link href="https://naokuoteng.cn/posts/7662dd95.html"/>
     <id>https://naokuoteng.cn/posts/7662dd95.html</id>
     <published>2022-11-13T12:02:36.000Z</published>
-    <updated>2022-11-27T13:51:10.971Z</updated>
+    <updated>2022-11-27T15:30:00.389Z</updated>
     
     
       
@@ -187,7 +212,7 @@
     <link href="https://naokuoteng.cn/posts/a2192fb6.html"/>
     <id>https://naokuoteng.cn/posts/a2192fb6.html</id>
     <published>2022-11-13T09:11:00.000Z</published>
-    <updated>2022-11-27T13:51:10.971Z</updated>
+    <updated>2022-11-27T15:30:00.389Z</updated>
     
     
     <summary type="html">青年干部行动起来，勇于承担。</summary>
@@ -208,7 +233,7 @@
     <link href="https://naokuoteng.cn/posts/a5e58986.html"/>
     <id>https://naokuoteng.cn/posts/a5e58986.html</id>
     <published>2022-11-11T05:07:54.000Z</published>
-    <updated>2022-11-27T13:51:10.971Z</updated>
+    <updated>2022-11-27T15:30:00.389Z</updated>
     
     
     <summary type="html">青年干部行动起来，勇于承担。</summary>
@@ -229,7 +254,7 @@
     <link href="https://naokuoteng.cn/posts/47c104.html"/>
     <id>https://naokuoteng.cn/posts/47c104.html</id>
     <published>2022-11-11T04:11:54.000Z</published>
-    <updated>2022-11-27T13:51:10.971Z</updated>
+    <updated>2022-11-27T15:30:00.389Z</updated>
     
     
     <summary type="html">平凡 伟大</summary>
@@ -250,7 +275,7 @@
     <link href="https://naokuoteng.cn/posts/54480883.html"/>
     <id>https://naokuoteng.cn/posts/54480883.html</id>
     <published>2022-11-10T06:15:15.000Z</published>
-    <updated>2022-11-27T13:51:10.971Z</updated>
+    <updated>2022-11-27T15:30:00.389Z</updated>
     
     
     <summary type="html">这是第二篇文章</summary>
@@ -273,7 +298,7 @@
     <link href="https://naokuoteng.cn/posts/83a69671.html"/>
     <id>https://naokuoteng.cn/posts/83a69671.html</id>
     <published>2022-11-09T10:07:53.000Z</published>
-    <updated>2022-11-27T13:51:10.975Z</updated>
+    <updated>2022-11-27T15:30:00.389Z</updated>
     
     
     <summary type="html">这是第一篇文章</summary>
