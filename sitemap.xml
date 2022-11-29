@@ -65,6 +65,15 @@
   </url>
   
   <url>
+    <loc>https://naokuoteng.cn/games/index.html</loc>
+    
+    <lastmod>2022-11-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://naokuoteng.cn/posts/fc3458a8.html</loc>
     
     <lastmod>2022-11-29</lastmod>
@@ -164,7 +173,25 @@
   </url>
   
   <url>
+    <loc>https://naokuoteng.cn/posts/54480883.html</loc>
+    
+    <lastmod>2022-11-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://naokuoteng.cn/posts/83a69671.html</loc>
+    
+    <lastmod>2022-11-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://naokuoteng.cn/Gallery/index.html</loc>
     
     <lastmod>2022-11-29</lastmod>
     
@@ -201,33 +228,6 @@
   
   <url>
     <loc>https://naokuoteng.cn/categories/index.html</loc>
-    
-    <lastmod>2022-11-29</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://naokuoteng.cn/games/index.html</loc>
-    
-    <lastmod>2022-11-29</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://naokuoteng.cn/posts/54480883.html</loc>
-    
-    <lastmod>2022-11-29</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://naokuoteng.cn/Gallery/index.html</loc>
     
     <lastmod>2022-11-29</lastmod>
     
@@ -312,20 +312,6 @@
   </url>
   
   <url>
-    <loc>https://naokuoteng.cn/tags/%E9%97%AE%E9%A2%98/</loc>
-    <lastmod>2022-11-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://naokuoteng.cn/tags/%E6%B1%82%E5%8A%A9/</loc>
-    <lastmod>2022-11-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://naokuoteng.cn/tags/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9/</loc>
     <lastmod>2022-11-29</lastmod>
     <changefreq>weekly</changefreq>
@@ -397,6 +383,20 @@
   
   <url>
     <loc>https://naokuoteng.cn/tags/%E7%BE%8E%E5%8C%96/</loc>
+    <lastmod>2022-11-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://naokuoteng.cn/tags/%E9%97%AE%E9%A2%98/</loc>
+    <lastmod>2022-11-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://naokuoteng.cn/tags/%E6%B1%82%E5%8A%A9/</loc>
     <lastmod>2022-11-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
