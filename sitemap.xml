@@ -65,15 +65,6 @@
   </url>
   
   <url>
-    <loc>https://naokuoteng.cn/games/index.html</loc>
-    
-    <lastmod>2022-11-29</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://naokuoteng.cn/posts/2013454d.html</loc>
     
     <lastmod>2022-11-29</lastmod>
@@ -120,6 +111,15 @@
   
   <url>
     <loc>https://naokuoteng.cn/categories/index.html</loc>
+    
+    <lastmod>2022-11-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://naokuoteng.cn/games/index.html</loc>
     
     <lastmod>2022-11-29</lastmod>
     
