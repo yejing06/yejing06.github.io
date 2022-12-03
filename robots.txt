@@ -1,6 +1,18 @@
 # hexo robots.txt
 User-agent: *
-Allow: /
+Allow: /_posts/
+Allow: /about/
+Allow: /bangumis/
+Allow: /books/
+Allow: /categories/
+Allow: /comments/
+Allow: /Gallery/
+Allow: /link/
+Allow: /recommend/
+Allow: /resources/
+Allow: /tags/
+Allow: /website/
+
 
 Disallow: /js/
 Disallow: /css/
