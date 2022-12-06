@@ -6,7 +6,7 @@
   <link href="https://naokuoteng.cn/atom.xml" rel="self"/>
   
   <link href="https://naokuoteng.cn/"/>
-  <updated>2022-12-06T07:51:49.628Z</updated>
+  <updated>2022-12-06T08:45:15.496Z</updated>
   <id>https://naokuoteng.cn/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://naokuoteng.cn/posts/ba24f0d3.html"/>
     <id>https://naokuoteng.cn/posts/ba24f0d3.html</id>
     <published>2022-12-05T06:52:34.000Z</published>
-    <updated>2022-12-06T07:51:49.628Z</updated>
+    <updated>2022-12-06T08:45:15.496Z</updated>
     
     
       
@@ -115,7 +115,7 @@
     <link href="https://naokuoteng.cn/posts/2013454d.html"/>
     <id>https://naokuoteng.cn/posts/2013454d.html</id>
     <published>2022-11-29T07:44:31.000Z</published>
-    <updated>2022-12-06T07:51:49.628Z</updated>
+    <updated>2022-12-06T08:45:15.496Z</updated>
     
     
     <summary type="html">转载自:https://www.fomal.cc/posts/2013454d.html</summary>
@@ -136,7 +136,7 @@
     <link href="https://naokuoteng.cn/posts/fc3458a8.html"/>
     <id>https://naokuoteng.cn/posts/fc3458a8.html</id>
     <published>2022-11-27T13:53:57.000Z</published>
-    <updated>2022-12-06T07:51:49.628Z</updated>
+    <updated>2022-12-06T08:45:15.496Z</updated>
     
     
       
@@ -152,8 +152,11 @@
 &lt;h1 id=&quot;5、引入js、css和jq&quot;&gt;&lt;a href=&quot;#5、引入js、css和jq&quot; class=&quot;headerlink&quot; title=&quot;5、引入js、css和jq&quot;&gt;&lt;/a&gt;5、引入js、css和jq&lt;/h1&gt;&lt;p&gt;&amp;emsp;&amp;emsp;在_config.butterfly.yml里引入刚刚创建的js、css和JQ&lt;/p&gt;
 &lt;h2 id=&quot;5-1-js和jq在inject的bottom下引入&quot;&gt;&lt;a href=&quot;#5-1-js和jq在inject的bottom下引入&quot; class=&quot;headerlink&quot; title=&quot;5.1 js和jq在inject的bottom下引入&quot;&gt;&lt;/a&gt;5.1 &lt;strong&gt;js和jq&lt;/strong&gt;在inject的bottom下引入&lt;/h2&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;#访客信息&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;- &amp;lt;script src=&amp;quot;/js/jquery-3.6.1.min.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;- &amp;lt;script src=&amp;quot;/js/nkt_txmap.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;h2 id=&quot;5-2-css在inject的head下引入&quot;&gt;&lt;a href=&quot;#5-2-css在inject的head下引入&quot; class=&quot;headerlink&quot; title=&quot;5.2 css在inject的head下引入&quot;&gt;&lt;/a&gt;5.2 &lt;strong&gt;css&lt;/strong&gt;在inject的head下引入&lt;/h2&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;- &amp;lt;link href=&amp;quot;/css/nkt_txmap.css&amp;quot;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;h2 id=&quot;5-3-下载jq文件&quot;&gt;&lt;a href=&quot;#5-3-下载jq文件&quot; class=&quot;headerlink&quot; title=&quot;5.3 下载jq文件&quot;&gt;&lt;/a&gt;5.3 下载jq文件&lt;/h2&gt;&lt;p&gt;&amp;emsp;&amp;emsp;随便搜索一下就有啦，注意版本号与刚刚引入的一至，如果不一致可更改刚刚引入的jq名字,将其下载到Blogroot(博客所在根目录)\source\js下。&lt;/p&gt;
-&lt;h1 id=&quot;6、将语句放在要展示的位置&quot;&gt;&lt;a href=&quot;#6、将语句放在要展示的位置&quot; class=&quot;headerlink&quot; title=&quot;6、将语句放在要展示的位置&quot;&gt;&lt;/a&gt;6、将语句放在要展示的位置&lt;/h1&gt;&lt;p&gt;&lt;code&gt;以公告栏为例&lt;/code&gt;删掉加号&lt;br&gt;&lt;code&gt;.../theme/butterfly/latout/includes/widget/card_announcement.pug&lt;/code&gt;&lt;br&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;if theme.aside.card_announcement.enable&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  .card-widget.card-announcement&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    .item-headline&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      i.fas.fa-bullhorn.fa-shake&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      span= _p(&amp;#x27;aside.card_announcement&amp;#x27;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    .announcement_content!= theme.aside.card_announcement.content&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;+    #welcome-info&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;br&gt;&amp;emsp;&amp;emsp;&lt;span class=&#39;p red&#39;&gt;如此，功至大成！！！👻&lt;/span&gt;&lt;br&gt;&lt;img src=&quot;https://s2.loli.net/2022/11/24/siMAqL1Zewz3QlJ.webp&quot;</summary>
+&lt;h2 id=&quot;5-3-下载jq文件&quot;&gt;&lt;a href=&quot;#5-3-下载jq文件&quot; class=&quot;headerlink&quot; title=&quot;5.3 下载jq文件&quot;&gt;&lt;/a&gt;5.3 下载jq文件&lt;/h2&gt;&lt;p&gt;&amp;emsp;&amp;emsp;随便搜索一下就有啦，注意版本号与刚刚引入的一至，如果不一致可更改刚刚引入的jq名字,将其下载到Blogroot(博客所在根目录)\source\js下。&lt;br&gt;&amp;emsp;&amp;emsp;&lt;code&gt;补：&lt;/code&gt;&lt;strong&gt;这里补一下我用的jq文件吧&lt;/strong&gt;&lt;br&gt;&lt;div class=&quot;btns rounded grid5&quot;&gt;
+            &lt;a class=&quot;button&quot; href=&#39;https://wwzq.lanzoue.com/idr2S0hykqle&#39; title=&#39;下载jq&#39;&gt;&lt;i class=&#39;fas fa-download&#39;&gt;&lt;/i&gt;下载jq&lt;/a&gt;
+          &lt;/div&gt;&lt;/p&gt;
+&lt;h1 id=&quot;6、将语句放在要展示的位置&quot;&gt;&lt;a href=&quot;#6、将语句放在要展示的位置&quot; class=&quot;headerlink&quot; title=&quot;6、将语句放在要展示的位置&quot;&gt;&lt;/a&gt;6、将语句放在要展示的位置&lt;/h1&gt;&lt;p&gt;&lt;code&gt;以公告栏为例  pug文件具有严格缩进，直接删除 + 就好&lt;/code&gt;&lt;br&gt;&lt;code&gt;.../theme/butterfly/latout/includes/widget/card_announcement.pug&lt;/code&gt;&lt;br&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;if theme.aside.card_announcement.enable&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  .card-widget.card-announcement&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    .item-headline&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      i.fas.fa-bullhorn.fa-shake&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      span= _p(&amp;#x27;aside.card_announcement&amp;#x27;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    .announcement_content!= theme.aside.card_announcement.content&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;+    #welcome-info&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&amp;emsp;&amp;emsp;&lt;code&gt;补：&lt;/code&gt;如果你也用了&lt;strong&gt;公告栏小人&lt;/strong&gt;，把其放在如下位置：&lt;br&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;if theme.aside.card_announcement.enable&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  .card-widget.card-announcement&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    .item-headline&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      i.fas.fa-bullhorn.card-announcement-animation&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      span= _p(&amp;#x27;aside.card_announcement&amp;#x27;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    .announcement_content!= theme.aside.card_announcement.content&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;+    #welcome-info&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  .xpand(style=&amp;#x27;height:200px;&amp;#x27;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    canvas.illo(width=&amp;#x27;800&amp;#x27; height=&amp;#x27;800&amp;#x27; style=&amp;#x27;max-width: 200px; max-height: 200px; touch-action: none; width: 640px; height: 640px;&amp;#x27;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;script(src=&amp;#x27;https://fastly.jsdelivr.net/gh/xiaopengand/blogCdn@latest/xzxr/twopeople1.js&amp;#x27;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;…&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;br&gt;&amp;emsp;&amp;emsp;&lt;p style=&quot;font-size:30px;&quot;&gt;&lt;span class=&#39;p red&#39;&gt;如此，功至大成！！！👻&lt;/span&gt;&lt;/p&gt;&lt;br&gt;&lt;img src=&quot;https://s2.loli.net/2022/11/24/siMAqL1Zewz3QlJ.webp&quot;</summary>
         
       
     
@@ -177,7 +180,7 @@
     <link href="https://naokuoteng.cn/posts/585f521.html"/>
     <id>https://naokuoteng.cn/posts/585f521.html</id>
     <published>2022-11-25T02:16:04.000Z</published>
-    <updated>2022-12-06T07:51:49.628Z</updated>
+    <updated>2022-12-06T08:45:15.496Z</updated>
     
     
     <summary type="html">贪心或动态算法</summary>
@@ -200,7 +203,7 @@
     <link href="https://naokuoteng.cn/posts/930406a6.html"/>
     <id>https://naokuoteng.cn/posts/930406a6.html</id>
     <published>2022-11-25T01:47:11.000Z</published>
-    <updated>2022-12-06T07:51:49.624Z</updated>
+    <updated>2022-12-06T08:45:15.496Z</updated>
     
     
       
@@ -228,7 +231,7 @@
     <link href="https://naokuoteng.cn/posts/dcf9a5f8.html"/>
     <id>https://naokuoteng.cn/posts/dcf9a5f8.html</id>
     <published>2022-11-23T14:09:03.000Z</published>
-    <updated>2022-12-06T07:51:49.624Z</updated>
+    <updated>2022-12-06T08:45:15.496Z</updated>
     
     
     <summary type="html">外挂标签使用方法记录。</summary>
@@ -251,7 +254,7 @@
     <link href="https://naokuoteng.cn/posts/4c4be88b.html"/>
     <id>https://naokuoteng.cn/posts/4c4be88b.html</id>
     <published>2022-11-18T14:28:13.000Z</published>
-    <updated>2022-12-06T07:51:49.624Z</updated>
+    <updated>2022-12-06T08:45:15.496Z</updated>
     
     
     <summary type="html">鬼畜周姐yyds</summary>
@@ -274,7 +277,7 @@
     <link href="https://naokuoteng.cn/posts/ede7b928.html"/>
     <id>https://naokuoteng.cn/posts/ede7b928.html</id>
     <published>2022-11-18T14:09:02.000Z</published>
-    <updated>2022-12-06T07:51:49.624Z</updated>
+    <updated>2022-12-06T08:45:15.496Z</updated>
     
     
     <summary type="html">测试bilibili播放是否适配</summary>
@@ -297,7 +300,7 @@
     <link href="https://naokuoteng.cn/posts/86aef29f.html"/>
     <id>https://naokuoteng.cn/posts/86aef29f.html</id>
     <published>2022-11-17T02:02:10.000Z</published>
-    <updated>2022-12-06T07:51:49.624Z</updated>
+    <updated>2022-12-06T08:45:15.496Z</updated>
     
     
     <summary type="html">目前存在的问题记录及求助</summary>
@@ -318,7 +321,7 @@
     <link href="https://naokuoteng.cn/posts/7662dd95.html"/>
     <id>https://naokuoteng.cn/posts/7662dd95.html</id>
     <published>2022-11-13T12:02:36.000Z</published>
-    <updated>2022-12-06T07:51:49.624Z</updated>
+    <updated>2022-12-06T08:45:15.496Z</updated>
     
     
       
@@ -343,7 +346,7 @@
     <link href="https://naokuoteng.cn/posts/a2192fb6.html"/>
     <id>https://naokuoteng.cn/posts/a2192fb6.html</id>
     <published>2022-11-13T09:11:00.000Z</published>
-    <updated>2022-12-06T07:51:49.624Z</updated>
+    <updated>2022-12-06T08:45:15.496Z</updated>
     
     
     <summary type="html">青年干部行动起来，勇于承担。</summary>
@@ -364,7 +367,7 @@
     <link href="https://naokuoteng.cn/posts/a5e58986.html"/>
     <id>https://naokuoteng.cn/posts/a5e58986.html</id>
     <published>2022-11-11T05:07:54.000Z</published>
-    <updated>2022-12-06T07:51:49.624Z</updated>
+    <updated>2022-12-06T08:45:15.496Z</updated>
     
     
     <summary type="html">青年干部行动起来，勇于承担。</summary>
@@ -385,7 +388,7 @@
     <link href="https://naokuoteng.cn/posts/47c104.html"/>
     <id>https://naokuoteng.cn/posts/47c104.html</id>
     <published>2022-11-11T04:11:54.000Z</published>
-    <updated>2022-12-06T07:51:49.624Z</updated>
+    <updated>2022-12-06T08:45:15.496Z</updated>
     
     
     <summary type="html">平凡 伟大</summary>
@@ -406,7 +409,7 @@
     <link href="https://naokuoteng.cn/posts/54480883.html"/>
     <id>https://naokuoteng.cn/posts/54480883.html</id>
     <published>2022-11-10T06:15:15.000Z</published>
-    <updated>2022-12-06T07:51:49.624Z</updated>
+    <updated>2022-12-06T08:45:15.496Z</updated>
     
     
     <summary type="html">这是第二篇文章</summary>
@@ -429,7 +432,7 @@
     <link href="https://naokuoteng.cn/posts/83a69671.html"/>
     <id>https://naokuoteng.cn/posts/83a69671.html</id>
     <published>2022-11-09T10:07:53.000Z</published>
-    <updated>2022-12-06T07:51:49.628Z</updated>
+    <updated>2022-12-06T08:45:15.496Z</updated>
     
     
     <summary type="html">这是第一篇文章</summary>
