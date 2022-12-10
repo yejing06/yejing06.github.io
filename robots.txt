@@ -1,22 +1,6 @@
 # hexo robots.txt
 User-agent: *
-Allow: /_posts/
-Allow: /about/
-Allow: /bangumis/
-Allow: /books/
-Allow: /categories/
-Allow: /comments/
-Allow: /Gallery/
-Allow: /link/
-Allow: /recommend/
-Allow: /resources/
-Allow: /tags/
-Allow: /website/
-
-
-Disallow: /js/
-Disallow: /css/
-Disallow: /font/
+Allow: /
 
 Sitemap: https://naokuoteng.cn/sitemap.xml
 Sitemap: https://naokuoteng.cn/baidusitemap.xml
