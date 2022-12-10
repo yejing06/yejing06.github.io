@@ -6,7 +6,7 @@
   <link href="https://naokuoteng.cn/atom.xml" rel="self"/>
   
   <link href="https://naokuoteng.cn/"/>
-  <updated>2022-12-10T09:14:02.518Z</updated>
+  <updated>2022-12-10T12:16:59.189Z</updated>
   <id>https://naokuoteng.cn/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://naokuoteng.cn/posts/7eec66fc.html"/>
     <id>https://naokuoteng.cn/posts/7eec66fc.html</id>
     <published>2022-12-08T07:00:39.000Z</published>
-    <updated>2022-12-10T09:14:02.518Z</updated>
+    <updated>2022-12-10T12:16:59.189Z</updated>
     
     
     <summary type="html">自用防遗忘 留言可分享</summary>
@@ -42,7 +42,7 @@
     <link href="https://naokuoteng.cn/posts/2cb57548.html"/>
     <id>https://naokuoteng.cn/posts/2cb57548.html</id>
     <published>2022-12-08T05:46:06.000Z</published>
-    <updated>2022-12-10T09:14:02.518Z</updated>
+    <updated>2022-12-10T12:16:59.189Z</updated>
     
     
     <summary type="html">防遗忘 留言可分享</summary>
@@ -63,7 +63,7 @@
     <link href="https://naokuoteng.cn/posts/9409122d.html"/>
     <id>https://naokuoteng.cn/posts/9409122d.html</id>
     <published>2022-12-08T05:21:51.000Z</published>
-    <updated>2022-12-10T09:14:02.518Z</updated>
+    <updated>2022-12-10T12:16:59.189Z</updated>
     
     
     <summary type="html">防遗忘 留言可分享</summary>
@@ -84,7 +84,7 @@
     <link href="https://naokuoteng.cn/posts/f903bb43.html"/>
     <id>https://naokuoteng.cn/posts/f903bb43.html</id>
     <published>2022-12-07T01:25:02.000Z</published>
-    <updated>2022-12-10T09:14:02.518Z</updated>
+    <updated>2022-12-10T12:16:59.189Z</updated>
     
     
       
@@ -126,12 +126,12 @@
 &lt;/div&gt;&lt;br&gt;CP系列&lt;a href=&quot;https://www.silabs.com&quot;&gt;驱动下载官网&lt;/a&gt;,因为我是CH9102，所以我就没有弄这个，可自行下载。&lt;br&gt;端口选择&lt;code&gt;COM3&lt;/code&gt;或者&lt;code&gt;COM5&lt;/code&gt;(后边连接后再p选择),具体端口号可在计算机管理界面查看端口。&lt;/p&gt;
 &lt;h3 id=&quot;5-2-2-安装ESP8266库&quot;&gt;&lt;a href=&quot;#5-2-2-安装ESP8266库&quot; class=&quot;headerlink&quot; title=&quot;5.2.2 安装ESP8266库&quot;&gt;&lt;/a&gt;5.2.2 安装ESP8266库&lt;/h3&gt;&lt;p&gt;&amp;emsp;&amp;emsp;ESP8266库的安装方式有两种，第一种是&lt;code&gt;服务器下载&lt;/code&gt;,因其服务i其在国外，常规手段下载超慢；第二种方式时安装包下载。&lt;code&gt;推荐使用安装包方式&lt;/code&gt;&lt;br&gt;&lt;div class=&quot;tabs&quot; id=&quot;1&quot;&gt;&lt;ul class=&quot;nav-tabs&quot;&gt;&lt;li class=&quot;tab active&quot;&gt;&lt;button type=&quot;button&quot; data-href=&quot;#1-1&quot;&gt;服务器下载&lt;/button&gt;&lt;/li&gt;&lt;li class=&quot;tab&quot;&gt;&lt;button type=&quot;button&quot; data-href=&quot;#1-2&quot;&gt;安装包下载&lt;/button&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;tab-contents&quot;&gt;&lt;div class=&quot;tab-item-content active&quot; id=&quot;1-1&quot;&gt;&lt;p&gt;&lt;strong&gt;服务器方式下载&lt;/strong&gt;&lt;br&gt;&amp;emsp;&amp;emsp;打开Arduino软件，进入首选项（Preferences），找到其他开发板管理器地址（Additional Board Manager URLs），添加 &lt;code&gt;http://arduino.esp8266.com/stable/package_esp8266com_index.json&lt;/code&gt;，点击确定（OK）。&lt;br&gt;&lt;img src=&quot;https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/blog/article/202212101612403.webp&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&amp;emsp;&amp;emsp;点击工具-开发板-开发板管理器，进入开发板管理器界面，搜索esp8266下载。&lt;br&gt;&lt;img src=&quot;https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/blog/article/202212101614217.webp&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&amp;emsp;&amp;emsp;点击工具，按图片所示选择&lt;code&gt;ESP-12 Moudle&lt;/code&gt;或&lt;code&gt;ESP-12E Moudle&lt;/code&gt;&lt;br&gt;&lt;img src=&quot;https://cos.mengxiangzhicheng.cn/LightPicture/2022/12/adcc106eef921edf.png&quot; alt=&quot;adcc106eef921edf.png&quot;&gt;&lt;/p&gt;&lt;button type=&quot;button&quot; class=&quot;tab-to-top&quot; aria-label=&quot;scroll to top&quot;&gt;&lt;i class=&quot;fas fa-arrow-up&quot;&gt;&lt;/i&gt;&lt;/button&gt;&lt;/div&gt;&lt;div class=&quot;tab-item-content&quot; id=&quot;1-2&quot;&gt;&lt;p&gt;&lt;strong&gt;离线数据包方式下载&lt;/strong&gt;&lt;br&gt;&amp;emsp;&amp;emsp;离线数据包可以去&lt;a href=&quot;https://www/arduino.cn/thread-1066-1-1.html&quot;&gt;Arduino中文社区&lt;/a&gt;下载,因为本次要用的是点灯科技的app,所以我用的是点灯科技的数据包。&lt;a href=&quot;https://dl.diandeng.tech/s/l5i5&quot;&gt;官方地址&lt;/a&gt;&lt;br&gt;当然，你也可以直接下载我的&lt;code&gt;密码:ccrm&lt;/code&gt;,直接双击安装即可。&lt;/p&gt;
+&lt;p&gt;&amp;emsp;&amp;emsp;点击工具，按图片所示选择&lt;code&gt;ESP-12 Moudle&lt;/code&gt;或&lt;code&gt;ESP-12E Moudle&lt;/code&gt;&lt;br&gt;&lt;img src=&quot;https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/blog/article/202212102006528.webp&quot; alt=&quot;&quot;&gt;&lt;/p&gt;&lt;button type=&quot;button&quot; class=&quot;tab-to-top&quot; aria-label=&quot;scroll to top&quot;&gt;&lt;i class=&quot;fas fa-arrow-up&quot;&gt;&lt;/i&gt;&lt;/button&gt;&lt;/div&gt;&lt;div class=&quot;tab-item-content&quot; id=&quot;1-2&quot;&gt;&lt;p&gt;&lt;strong&gt;离线数据包方式下载&lt;/strong&gt;&lt;br&gt;&amp;emsp;&amp;emsp;离线数据包可以去&lt;a href=&quot;https://www/arduino.cn/thread-1066-1-1.html&quot;&gt;Arduino中文社区&lt;/a&gt;下载,因为本次要用的是点灯科技的app,所以我用的是点灯科技的数据包。&lt;a href=&quot;https://dl.diandeng.tech/s/l5i5&quot;&gt;官方地址&lt;/a&gt;&lt;br&gt;当然，你也可以直接下载我的&lt;code&gt;密码:ccrm&lt;/code&gt;,直接双击安装即可。&lt;/p&gt;
 &lt;div class=&quot;btns rounded grid5&quot;&gt;
             &lt;a class=&quot;button&quot; href=&#39;https://wwzq.lanzoue.com/i8poZ0i2yqne&#39; title=&#39;数据包&#39;&gt;&lt;i class=&#39;fas fa-download&#39;&gt;&lt;/i&gt;数据包&lt;/a&gt;
           &lt;/div&gt;
 
-&lt;p&gt;&amp;emsp;&amp;emsp;点击工具，按图片所示选择&lt;code&gt;ESP-12 Moudle&lt;/code&gt;或&lt;code&gt;ESP-12E Moudle&lt;/code&gt;&lt;br&gt;&lt;img src=&quot;https://cos.mengxiangzhicheng.cn/LightPicture/2022/12/adcc106eef921edf.png&quot; alt=&quot;adcc106eef921edf.png&quot;&gt;&lt;/p&gt;&lt;button type=&quot;button&quot; class=&quot;tab-to-top&quot; aria-label=&quot;scroll to top&quot;&gt;&lt;i class=&quot;fas fa-arrow-up&quot;&gt;&lt;/i&gt;&lt;/button&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;&amp;emsp;&amp;emsp;点击工具，按图片所示选择&lt;code&gt;ESP-12 Moudle&lt;/code&gt;或&lt;code&gt;ESP-12E Moudle&lt;/code&gt;&lt;br&gt;&lt;img src=&quot;https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/blog/article/202212102006528.webp&quot; alt=&quot;&quot;&gt;&lt;/p&gt;&lt;button type=&quot;button&quot; class=&quot;tab-to-top&quot; aria-label=&quot;scroll to top&quot;&gt;&lt;i class=&quot;fas fa-arrow-up&quot;&gt;&lt;/i&gt;&lt;/button&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
 &lt;h3 id=&quot;5-2-3-下载点灯科技SDK&quot;&gt;&lt;a href=&quot;#5-2-3-下载点灯科技SDK&quot; class=&quot;headerlink&quot; title=&quot;5.2.3 下载点灯科技SDK&quot;&gt;&lt;/a&gt;5.2.3 下载点灯科技SDK&lt;/h3&gt;&lt;div class=&quot;tabs&quot; id=&quot;1&quot;&gt;&lt;ul class=&quot;nav-tabs&quot;&gt;&lt;li class=&quot;tab active&quot;&gt;&lt;button type=&quot;button&quot; data-href=&quot;#1-1&quot;&gt;官方地址下载&lt;/button&gt;&lt;/li&gt;&lt;li class=&quot;tab&quot;&gt;&lt;button type=&quot;button&quot; data-href=&quot;#1-2&quot;&gt;直接下载我的&lt;/button&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;tab-contents&quot;&gt;&lt;div class=&quot;tab-item-content active&quot; id=&quot;1-1&quot;&gt;&lt;p&gt;&lt;strong&gt;点击进入官方下载地址&lt;/strong&gt;，点击下载&lt;code&gt;Arduino(C++)&lt;/code&gt;&lt;br&gt;&lt;a href=&quot;https://dl.diandeng.tech/s/l5i5&quot;&gt;官方地址&lt;/a&gt;&lt;br&gt;下载后解压，直接复制粘贴到Arduino安装目录的&lt;code&gt;libraries&lt;/code&gt;文件夹中&lt;/p&gt;&lt;button type=&quot;button&quot; class=&quot;tab-to-top&quot; aria-label=&quot;scroll to top&quot;&gt;&lt;i class=&quot;fas fa-arrow-up&quot;&gt;&lt;/i&gt;&lt;/button&gt;&lt;/div&gt;&lt;div class=&quot;tab-item-content&quot; id=&quot;1-2&quot;&gt;&lt;p&gt;&lt;div class=&quot;btns rounded grid5&quot;&gt;
             &lt;a class=&quot;button&quot; href=&#39;https://wwzq.lanzoue.com/iuiau0i309pg&#39; title=&#39;SDK&#39;&gt;&lt;i class=&#39;fas fa-download&#39;&gt;&lt;/i&gt;SDK&lt;/a&gt;
           &lt;/div&gt;&lt;br&gt;下载后解压，直接复制粘贴到Arduino安装目录的&lt;code&gt;libraries&lt;/code&gt;文件夹中&lt;/p&gt;&lt;button type=&quot;button&quot; class=&quot;tab-to-top&quot; aria-label=&quot;scroll to top&quot;&gt;&lt;i class=&quot;fas fa-arrow-up&quot;&gt;&lt;/i&gt;&lt;/button&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
@@ -165,7 +165,7 @@
     <link href="https://naokuoteng.cn/posts/dc5dc66a.html"/>
     <id>https://naokuoteng.cn/posts/dc5dc66a.html</id>
     <published>2022-12-06T13:34:46.000Z</published>
-    <updated>2022-12-10T09:14:02.518Z</updated>
+    <updated>2022-12-10T12:16:59.189Z</updated>
     
     
     <summary type="html">原生JS写一款乖巧的鼠标指针特效 两个小圆圈</summary>
@@ -188,7 +188,7 @@
     <link href="https://naokuoteng.cn/posts/ba24f0d3.html"/>
     <id>https://naokuoteng.cn/posts/ba24f0d3.html</id>
     <published>2022-12-05T06:52:34.000Z</published>
-    <updated>2022-12-10T09:14:02.518Z</updated>
+    <updated>2022-12-10T12:16:59.189Z</updated>
     
     
       
@@ -282,7 +282,7 @@
     <link href="https://naokuoteng.cn/posts/2013454d.html"/>
     <id>https://naokuoteng.cn/posts/2013454d.html</id>
     <published>2022-11-29T07:44:31.000Z</published>
-    <updated>2022-12-10T09:14:02.518Z</updated>
+    <updated>2022-12-10T12:16:59.189Z</updated>
     
     
     <summary type="html">转载自:https://www.fomal.cc/posts/2013454d.html</summary>
@@ -303,7 +303,7 @@
     <link href="https://naokuoteng.cn/posts/fc3458a8.html"/>
     <id>https://naokuoteng.cn/posts/fc3458a8.html</id>
     <published>2022-11-27T13:53:57.000Z</published>
-    <updated>2022-12-10T09:14:02.518Z</updated>
+    <updated>2022-12-10T12:16:59.189Z</updated>
     
     
       
@@ -348,7 +348,7 @@
     <link href="https://naokuoteng.cn/posts/585f521.html"/>
     <id>https://naokuoteng.cn/posts/585f521.html</id>
     <published>2022-11-25T02:16:04.000Z</published>
-    <updated>2022-12-10T09:14:02.518Z</updated>
+    <updated>2022-12-10T12:16:59.189Z</updated>
     
     
     <summary type="html">贪心或动态算法</summary>
@@ -371,7 +371,7 @@
     <link href="https://naokuoteng.cn/posts/930406a6.html"/>
     <id>https://naokuoteng.cn/posts/930406a6.html</id>
     <published>2022-11-25T01:47:11.000Z</published>
-    <updated>2022-12-10T09:14:02.518Z</updated>
+    <updated>2022-12-10T12:16:59.185Z</updated>
     
     
       
@@ -399,7 +399,7 @@
     <link href="https://naokuoteng.cn/posts/dcf9a5f8.html"/>
     <id>https://naokuoteng.cn/posts/dcf9a5f8.html</id>
     <published>2022-11-23T14:09:03.000Z</published>
-    <updated>2022-12-10T09:14:02.518Z</updated>
+    <updated>2022-12-10T12:16:59.185Z</updated>
     
     
     <summary type="html">外挂标签使用方法记录。</summary>
@@ -422,7 +422,7 @@
     <link href="https://naokuoteng.cn/posts/4c4be88b.html"/>
     <id>https://naokuoteng.cn/posts/4c4be88b.html</id>
     <published>2022-11-18T14:28:13.000Z</published>
-    <updated>2022-12-10T09:14:02.518Z</updated>
+    <updated>2022-12-10T12:16:59.185Z</updated>
     
     
     <summary type="html">鬼畜周姐yyds</summary>
@@ -445,7 +445,7 @@
     <link href="https://naokuoteng.cn/posts/ede7b928.html"/>
     <id>https://naokuoteng.cn/posts/ede7b928.html</id>
     <published>2022-11-18T14:09:02.000Z</published>
-    <updated>2022-12-10T09:14:02.518Z</updated>
+    <updated>2022-12-10T12:16:59.185Z</updated>
     
     
     <summary type="html">测试bilibili播放是否适配</summary>
@@ -468,7 +468,7 @@
     <link href="https://naokuoteng.cn/posts/86aef29f.html"/>
     <id>https://naokuoteng.cn/posts/86aef29f.html</id>
     <published>2022-11-17T02:02:10.000Z</published>
-    <updated>2022-12-10T09:14:02.518Z</updated>
+    <updated>2022-12-10T12:16:59.185Z</updated>
     
     
     <summary type="html">目前存在的问题记录及求助</summary>
@@ -489,7 +489,7 @@
     <link href="https://naokuoteng.cn/posts/7662dd95.html"/>
     <id>https://naokuoteng.cn/posts/7662dd95.html</id>
     <published>2022-11-13T12:02:36.000Z</published>
-    <updated>2022-12-10T09:14:02.518Z</updated>
+    <updated>2022-12-10T12:16:59.185Z</updated>
     
     
       
@@ -514,7 +514,7 @@
     <link href="https://naokuoteng.cn/posts/a2192fb6.html"/>
     <id>https://naokuoteng.cn/posts/a2192fb6.html</id>
     <published>2022-11-13T09:11:00.000Z</published>
-    <updated>2022-12-10T09:14:02.518Z</updated>
+    <updated>2022-12-10T12:16:59.185Z</updated>
     
     
     <summary type="html">青年干部行动起来，勇于承担。</summary>
@@ -535,7 +535,7 @@
     <link href="https://naokuoteng.cn/posts/a5e58986.html"/>
     <id>https://naokuoteng.cn/posts/a5e58986.html</id>
     <published>2022-11-11T05:07:54.000Z</published>
-    <updated>2022-12-10T09:14:02.514Z</updated>
+    <updated>2022-12-10T12:16:59.185Z</updated>
     
     
     <summary type="html">青年干部行动起来，勇于承担。</summary>
@@ -556,7 +556,7 @@
     <link href="https://naokuoteng.cn/posts/47c104.html"/>
     <id>https://naokuoteng.cn/posts/47c104.html</id>
     <published>2022-11-11T04:11:54.000Z</published>
-    <updated>2022-12-10T09:14:02.514Z</updated>
+    <updated>2022-12-10T12:16:59.185Z</updated>
     
     
     <summary type="html">平凡 伟大</summary>
@@ -577,7 +577,7 @@
     <link href="https://naokuoteng.cn/posts/83a69671.html"/>
     <id>https://naokuoteng.cn/posts/83a69671.html</id>
     <published>2022-11-09T10:07:53.000Z</published>
-    <updated>2022-12-10T09:14:02.518Z</updated>
+    <updated>2022-12-10T12:16:59.189Z</updated>
     
     
     <summary type="html">这是第一篇文章</summary>
