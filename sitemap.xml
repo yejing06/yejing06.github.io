@@ -38,6 +38,15 @@
   </url>
   
   <url>
+    <loc>https://naokuoteng.cn/statistics/index.html</loc>
+    
+    <lastmod>2022-12-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://naokuoteng.cn/tags/index.html</loc>
     
     <lastmod>2022-12-12</lastmod>
@@ -146,60 +155,6 @@
   </url>
   
   <url>
-    <loc>https://naokuoteng.cn/posts/83a69671.html</loc>
-    
-    <lastmod>2022-12-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://naokuoteng.cn/about/index.html</loc>
-    
-    <lastmod>2022-12-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://naokuoteng.cn/bangumis/index.html</loc>
-    
-    <lastmod>2022-12-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://naokuoteng.cn/books/index.html</loc>
-    
-    <lastmod>2022-12-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://naokuoteng.cn/categories/index.html</loc>
-    
-    <lastmod>2022-12-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://naokuoteng.cn/comments/index.html</loc>
-    
-    <lastmod>2022-12-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://naokuoteng.cn/posts/930406a6.html</loc>
     
     <lastmod>2022-12-12</lastmod>
@@ -281,7 +236,61 @@
   </url>
   
   <url>
+    <loc>https://naokuoteng.cn/posts/83a69671.html</loc>
+    
+    <lastmod>2022-12-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://naokuoteng.cn/Gallery/index.html</loc>
+    
+    <lastmod>2022-12-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://naokuoteng.cn/about/index.html</loc>
+    
+    <lastmod>2022-12-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://naokuoteng.cn/bangumis/index.html</loc>
+    
+    <lastmod>2022-12-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://naokuoteng.cn/books/index.html</loc>
+    
+    <lastmod>2022-12-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://naokuoteng.cn/categories/index.html</loc>
+    
+    <lastmod>2022-12-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://naokuoteng.cn/comments/index.html</loc>
     
     <lastmod>2022-12-12</lastmod>
     
