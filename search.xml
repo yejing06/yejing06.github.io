@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>微信推送Error: Version 3.9.1 with arch x64 not found</title>
+      <link href="/posts/afe4abf2.html"/>
+      <url>/posts/afe4abf2.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>&emsp;&emsp;前些日子发现<code>微信自动推送</code>不能正常推送了，一直没顾得上看是怎么回事，今日解决这个问题，顺便就在这里记录一下解决方案。</p><h1 id="查看错误"><a href="#查看错误" class="headerlink" title="查看错误"></a>查看错误</h1><p><img src="https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/blog/article/202212211259804.webp" alt=""></p><h1 id="分析原因"><a href="#分析原因" class="headerlink" title="分析原因"></a>分析原因</h1><p>&emsp;&emsp;因为程序一直正常运行挺久了，所以问题应该不大，下面分析原因。<br>&emsp;&emsp;报错显示是<code>3.9.1</code>版本的<code>python</code>没有找到，并且给出了所有可用版本的列表链接：<code>https://raw.githubusercontent.com/actions/python-versions/main/versions-manifest.json</code><br><img src="https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/blog/article/202212211311444.webp" alt=""><br>从图中可以看出，其中Ubuntu上有3个二进制压缩包，并且给出的对应的Ubuntu版本号，返回action执行文件，可以看到我用的Runner(runs-on)是<code>ubuntu-latest</code>,而目前最新的版本则为<code>Ubuntu 22.04</code>,所以上边的三个压缩包并没有可供<code>Ubuntu 22.04</code>使用的,因此会报错误 Error: Version 3.9.1 with arch x64 not found。此外，可以看到在此句错上一行显示 Version 3.9.1 was not found in the local cache ,查阅得知，actions/setup-python（当前最新是 v4）支持在两个地方寻找可用的Python版本，一个是在用户指定的<code>Runner Images缓存中</code>寻找（优先），另一个是在<code>actions/python-versions</code>中寻找（次要）。所以在GitHub的Runner Images中查看<code>python缓存支持版本</code><br><img src="https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/blog/article/202212211334898.webp" alt=""><br>&emsp;&emsp;可以发现我所使用的<code>3.9.1</code>版本的python并不在其中，因而会出现此句错误。</p><h1 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h1><p>&emsp;&emsp;经过分析，解决办法自然也有了头绪，在<code>action执行文件</code>中进行以下修改：</p><h2 id="方法一"><a href="#方法一" class="headerlink" title="方法一"></a>方法一</h2><p>&emsp;&emsp;将<code>Runner Image(runs-on)</code>修改为<code>ubuntu-20.04</code><br><img src="https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/blog/article/202212211347430.webp" alt=""></p><h2 id="方法二"><a href="#方法二" class="headerlink" title="方法二"></a>方法二</h2><p>&emsp;&emsp;将<code>python-version</code>修改为<code>v3.9.12</code></p><h1 id="成功解决"><a href="#成功解决" class="headerlink" title="成功解决"></a>成功解决</h1><p><img src="https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/blog/article/202212211351762.webp" alt=""></p><p><img src="https://s2.loli.net/2022/11/24/siMAqL1Zewz3QlJ.webp" alt=""></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 杂谈教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 微信推送 </tag>
+            
+            <tag> 公众号 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>关于office365的一些事（白嫖）番外篇</title>
       <link href="/posts/7eec66fc.html"/>
       <url>/posts/7eec66fc.html</url>

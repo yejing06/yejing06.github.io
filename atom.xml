@@ -6,7 +6,7 @@
   <link href="https://naokuoteng.cn/atom.xml" rel="self"/>
   
   <link href="https://naokuoteng.cn/"/>
-  <updated>2022-12-20T07:04:57.630Z</updated>
+  <updated>2022-12-21T06:28:58.241Z</updated>
   <id>https://naokuoteng.cn/</id>
   
   <author>
@@ -17,11 +17,45 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>微信推送Error: Version 3.9.1 with arch x64 not found</title>
+    <link href="https://naokuoteng.cn/posts/afe4abf2.html"/>
+    <id>https://naokuoteng.cn/posts/afe4abf2.html</id>
+    <published>2022-12-21T04:41:06.000Z</published>
+    <updated>2022-12-21T06:28:58.241Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;&amp;emsp;&amp;emsp;前些日子发现&lt;code&gt;微信自动推送&lt;/code&gt;不能正常推送了，一直没顾得上看是怎么回事，今日解决这个问题，顺便就在这里记录一下解决方案。&lt;/p&gt;
+&lt;h1 id=&quot;查看错误&quot;&gt;&lt;a href=&quot;#查看错误&quot; class=&quot;headerlink&quot; title=&quot;查看错误&quot;&gt;&lt;/a&gt;查看错误&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/blog/article/202212211259804.webp&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h1 id=&quot;分析原因&quot;&gt;&lt;a href=&quot;#分析原因&quot; class=&quot;headerlink&quot; title=&quot;分析原因&quot;&gt;&lt;/a&gt;分析原因&lt;/h1&gt;&lt;p&gt;&amp;emsp;&amp;emsp;因为程序一直正常运行挺久了，所以问题应该不大，下面分析原因。&lt;br&gt;&amp;emsp;&amp;emsp;报错显示是&lt;code&gt;3.9.1&lt;/code&gt;版本的&lt;code&gt;python&lt;/code&gt;没有找到，并且给出了所有可用版本的列表链接：&lt;code&gt;https://raw.githubusercontent.com/actions/python-versions/main/versions-manifest.json&lt;/code&gt;&lt;br&gt;&lt;img src=&quot;https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/blog/article/202212211311444.webp&quot; alt=&quot;&quot;&gt;&lt;br&gt;从图中可以看出，其中Ubuntu上有3个二进制压缩包，并且给出的对应的Ubuntu版本号，返回action执行文件，可以看到我用的Runner(runs-on)是&lt;code&gt;ubuntu-latest&lt;/code&gt;,而目前最新的版本则为&lt;code&gt;Ubuntu 22.04&lt;/code&gt;,所以上边的三个压缩包并没有可供&lt;code&gt;Ubuntu 22.04&lt;/code&gt;使用的,因此会报错误 Error: Version 3.9.1 with arch x64 not found。此外，可以看到在此句错上一行显示 Version 3.9.1 was not found in the local cache ,查阅得知，actions/setup-python（当前最新是 v4）支持在两个地方寻找可用的Python版本，一个是在用户指定的&lt;code&gt;Runner Images缓存中&lt;/code&gt;寻找（优先），另一个是在&lt;code&gt;actions/python-versions&lt;/code&gt;中寻找（次要）。所以在GitHub的Runner Images中查看&lt;code&gt;python缓存支持版本&lt;/code&gt;&lt;br&gt;&lt;img src=&quot;https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/blog/article/202212211334898.webp&quot; alt=&quot;&quot;&gt;&lt;br&gt;&amp;emsp;&amp;emsp;可以发现我所使用的&lt;code&gt;3.9.1&lt;/code&gt;版本的python并不在其中，因而会出现此句错误。&lt;/p&gt;
+&lt;h1 id=&quot;解决办法&quot;&gt;&lt;a href=&quot;#解决办法&quot; class=&quot;headerlink&quot; title=&quot;解决办法&quot;&gt;&lt;/a&gt;解决办法&lt;/h1&gt;&lt;p&gt;&amp;emsp;&amp;emsp;经过分析，解决办法自然也有了头绪，在&lt;code&gt;action执行文件&lt;/code&gt;中进行以下修改：&lt;/p&gt;
+&lt;h2 id=&quot;方法一&quot;&gt;&lt;a href=&quot;#方法一&quot; class=&quot;headerlink&quot; title=&quot;方法一&quot;&gt;&lt;/a&gt;方法一&lt;/h2&gt;&lt;p&gt;&amp;emsp;&amp;emsp;将&lt;code&gt;Runner Image(runs-on)&lt;/code&gt;修改为&lt;code&gt;ubuntu-20.04&lt;/code&gt;&lt;br&gt;&lt;img src=&quot;https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/blog/article/202212211347430.webp&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;方法二&quot;&gt;&lt;a href=&quot;#方法二&quot; class=&quot;headerlink&quot; title=&quot;方法二&quot;&gt;&lt;/a&gt;方法二&lt;/h2&gt;&lt;p&gt;&amp;emsp;&amp;emsp;将&lt;code&gt;python-version&lt;/code&gt;修改为&lt;code&gt;v3.9.12&lt;/code&gt;&lt;/p&gt;
+&lt;h1 id=&quot;成功解决&quot;&gt;&lt;a href=&quot;#成功解决&quot; class=&quot;headerlink&quot; title=&quot;成功解决&quot;&gt;&lt;/a&gt;成功解决&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/blog/article/202212211351762.webp&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://s2.loli.net/2022/11/24/siMAqL1Zewz3QlJ.webp&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="杂谈教程" scheme="https://naokuoteng.cn/categories/%E6%9D%82%E8%B0%88%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="微信推送" scheme="https://naokuoteng.cn/tags/%E5%BE%AE%E4%BF%A1%E6%8E%A8%E9%80%81/"/>
+    
+    <category term="公众号" scheme="https://naokuoteng.cn/tags/%E5%85%AC%E4%BC%97%E5%8F%B7/"/>
+    
+  </entry>
+  
+  <entry>
     <title>关于office365的一些事（白嫖）番外篇</title>
     <link href="https://naokuoteng.cn/posts/7eec66fc.html"/>
     <id>https://naokuoteng.cn/posts/7eec66fc.html</id>
     <published>2022-12-08T07:00:39.000Z</published>
-    <updated>2022-12-20T07:04:57.630Z</updated>
+    <updated>2022-12-21T06:28:58.241Z</updated>
     
     
     <summary type="html">自用防遗忘 留言可分享</summary>
@@ -42,7 +76,7 @@
     <link href="https://naokuoteng.cn/posts/2cb57548.html"/>
     <id>https://naokuoteng.cn/posts/2cb57548.html</id>
     <published>2022-12-08T05:46:06.000Z</published>
-    <updated>2022-12-20T07:04:57.630Z</updated>
+    <updated>2022-12-21T06:28:58.241Z</updated>
     
     
     <summary type="html">防遗忘 留言可分享</summary>
@@ -63,7 +97,7 @@
     <link href="https://naokuoteng.cn/posts/9409122d.html"/>
     <id>https://naokuoteng.cn/posts/9409122d.html</id>
     <published>2022-12-08T05:21:51.000Z</published>
-    <updated>2022-12-20T07:04:57.630Z</updated>
+    <updated>2022-12-21T06:28:58.241Z</updated>
     
     
     <summary type="html">防遗忘 留言可分享</summary>
@@ -84,7 +118,7 @@
     <link href="https://naokuoteng.cn/posts/f903bb43.html"/>
     <id>https://naokuoteng.cn/posts/f903bb43.html</id>
     <published>2022-12-07T01:25:02.000Z</published>
-    <updated>2022-12-20T07:04:57.630Z</updated>
+    <updated>2022-12-21T06:28:58.241Z</updated>
     
     
       
@@ -165,7 +199,7 @@
     <link href="https://naokuoteng.cn/posts/dc5dc66a.html"/>
     <id>https://naokuoteng.cn/posts/dc5dc66a.html</id>
     <published>2022-12-06T13:34:46.000Z</published>
-    <updated>2022-12-20T07:04:57.630Z</updated>
+    <updated>2022-12-21T06:28:58.241Z</updated>
     
     
     <summary type="html">原生JS写一款乖巧的鼠标指针特效 两个小圆圈</summary>
@@ -188,7 +222,7 @@
     <link href="https://naokuoteng.cn/posts/ba24f0d3.html"/>
     <id>https://naokuoteng.cn/posts/ba24f0d3.html</id>
     <published>2022-12-05T06:52:34.000Z</published>
-    <updated>2022-12-20T07:04:57.630Z</updated>
+    <updated>2022-12-21T06:28:58.241Z</updated>
     
     
       
@@ -282,7 +316,7 @@
     <link href="https://naokuoteng.cn/posts/2013454d.html"/>
     <id>https://naokuoteng.cn/posts/2013454d.html</id>
     <published>2022-11-29T07:44:31.000Z</published>
-    <updated>2022-12-20T07:04:57.630Z</updated>
+    <updated>2022-12-21T06:28:58.241Z</updated>
     
     
     <summary type="html">转载自:https://www.fomal.cc/posts/2013454d.html</summary>
@@ -303,7 +337,7 @@
     <link href="https://naokuoteng.cn/posts/fc3458a8.html"/>
     <id>https://naokuoteng.cn/posts/fc3458a8.html</id>
     <published>2022-11-27T13:53:57.000Z</published>
-    <updated>2022-12-20T07:04:57.626Z</updated>
+    <updated>2022-12-21T06:28:58.241Z</updated>
     
     
       
@@ -348,7 +382,7 @@
     <link href="https://naokuoteng.cn/posts/585f521.html"/>
     <id>https://naokuoteng.cn/posts/585f521.html</id>
     <published>2022-11-25T02:16:04.000Z</published>
-    <updated>2022-12-20T07:04:57.626Z</updated>
+    <updated>2022-12-21T06:28:58.241Z</updated>
     
     
     <summary type="html">贪心或动态算法</summary>
@@ -371,7 +405,7 @@
     <link href="https://naokuoteng.cn/posts/930406a6.html"/>
     <id>https://naokuoteng.cn/posts/930406a6.html</id>
     <published>2022-11-25T01:47:11.000Z</published>
-    <updated>2022-12-20T07:04:57.626Z</updated>
+    <updated>2022-12-21T06:28:58.241Z</updated>
     
     
       
@@ -399,7 +433,7 @@
     <link href="https://naokuoteng.cn/posts/dcf9a5f8.html"/>
     <id>https://naokuoteng.cn/posts/dcf9a5f8.html</id>
     <published>2022-11-23T14:09:03.000Z</published>
-    <updated>2022-12-20T07:04:57.626Z</updated>
+    <updated>2022-12-21T06:28:58.241Z</updated>
     
     
     <summary type="html">外挂标签使用方法记录。</summary>
@@ -422,7 +456,7 @@
     <link href="https://naokuoteng.cn/posts/4c4be88b.html"/>
     <id>https://naokuoteng.cn/posts/4c4be88b.html</id>
     <published>2022-11-18T14:28:13.000Z</published>
-    <updated>2022-12-20T07:04:57.626Z</updated>
+    <updated>2022-12-21T06:28:58.241Z</updated>
     
     
     <summary type="html">鬼畜周姐yyds</summary>
@@ -445,7 +479,7 @@
     <link href="https://naokuoteng.cn/posts/ede7b928.html"/>
     <id>https://naokuoteng.cn/posts/ede7b928.html</id>
     <published>2022-11-18T14:09:02.000Z</published>
-    <updated>2022-12-20T07:04:57.626Z</updated>
+    <updated>2022-12-21T06:28:58.241Z</updated>
     
     
     <summary type="html">测试bilibili播放是否适配</summary>
@@ -468,7 +502,7 @@
     <link href="https://naokuoteng.cn/posts/86aef29f.html"/>
     <id>https://naokuoteng.cn/posts/86aef29f.html</id>
     <published>2022-11-17T02:02:10.000Z</published>
-    <updated>2022-12-20T07:04:57.626Z</updated>
+    <updated>2022-12-21T06:28:58.241Z</updated>
     
     
     <summary type="html">目前存在的问题记录及求助</summary>
@@ -489,7 +523,7 @@
     <link href="https://naokuoteng.cn/posts/7662dd95.html"/>
     <id>https://naokuoteng.cn/posts/7662dd95.html</id>
     <published>2022-11-13T12:02:36.000Z</published>
-    <updated>2022-12-20T07:04:57.626Z</updated>
+    <updated>2022-12-21T06:28:58.241Z</updated>
     
     
       
@@ -514,7 +548,7 @@
     <link href="https://naokuoteng.cn/posts/a2192fb6.html"/>
     <id>https://naokuoteng.cn/posts/a2192fb6.html</id>
     <published>2022-11-13T09:11:00.000Z</published>
-    <updated>2022-12-20T07:04:57.626Z</updated>
+    <updated>2022-12-21T06:28:58.241Z</updated>
     
     
     <summary type="html">青年干部行动起来，勇于承担。</summary>
@@ -535,7 +569,7 @@
     <link href="https://naokuoteng.cn/posts/a5e58986.html"/>
     <id>https://naokuoteng.cn/posts/a5e58986.html</id>
     <published>2022-11-11T05:07:54.000Z</published>
-    <updated>2022-12-20T07:04:57.626Z</updated>
+    <updated>2022-12-21T06:28:58.241Z</updated>
     
     
     <summary type="html">青年干部行动起来，勇于承担。</summary>
@@ -556,7 +590,7 @@
     <link href="https://naokuoteng.cn/posts/47c104.html"/>
     <id>https://naokuoteng.cn/posts/47c104.html</id>
     <published>2022-11-11T04:11:54.000Z</published>
-    <updated>2022-12-20T07:04:57.626Z</updated>
+    <updated>2022-12-21T06:28:58.241Z</updated>
     
     
     <summary type="html">平凡 伟大</summary>
@@ -577,7 +611,7 @@
     <link href="https://naokuoteng.cn/posts/83a69671.html"/>
     <id>https://naokuoteng.cn/posts/83a69671.html</id>
     <published>2022-11-09T10:07:53.000Z</published>
-    <updated>2022-12-20T07:04:57.630Z</updated>
+    <updated>2022-12-21T06:28:58.241Z</updated>
     
     
     <summary type="html">这是第一篇文章</summary>
