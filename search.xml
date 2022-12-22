@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>将网站/博客打包成桌面APP</title>
+      <link href="/posts/2afd210.html"/>
+      <url>/posts/2afd210.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="1、预览"><a href="#1、预览" class="headerlink" title="1、预览"></a>1、预览</h1><div class="hide-block"><button type="button" class="hide-button" style="background-color:  blue;">点我预览    </button><div class="hide-content"><p>桌面图标：<br><img src="https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/blog/article/202212221315220.webp"/></p></div></div><h1 id="2、应用创建"><a href="#2、应用创建" class="headerlink" title="2、应用创建"></a>2、应用创建</h1><p><a href="https://www.apicloud.com/">点击注册/登录</a>，点击右上角进入控制台，点击左上角创建应用<br><img src="https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/blog/article/202212221321020.webp" alt=""><br>选择Web App,然后点击创建应用<br><img src="https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/blog/article/202212221322176.webp" alt=""><br>然后对左侧五个模块进行个性化设置<br><img src="https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/blog/article/202212221324789.webp" alt=""></p><h1 id="3、详细说明"><a href="#3、详细说明" class="headerlink" title="3、详细说明"></a>3、详细说明</h1><p>&emsp;&emsp;这里对五个模块进行一下简单的说明吧!</p><h2 id="3-1-端设置"><a href="#3-1-端设置" class="headerlink" title="3.1 端设置"></a>3.1 端设置</h2><p>&emsp;&emsp;<code>图标</code>上传大小不超过1M，长宽等比且范围在50px至200px之间的png格式图片；<code>横竖屏设置</code>选择竖屏应用；<code>状态栏</code>个人建议选择显示；<code>启动页</code>上传尺寸为1080*1920的图片。</p><h2 id="3-2-证书"><a href="#3-2-证书" class="headerlink" title="3.2 证书"></a>3.2 证书</h2><p>&emsp;&emsp;<code>Android证书</code>选择一键创建证书，iOS不用管。</p><h2 id="3-3-代码"><a href="#3-3-代码" class="headerlink" title="3.3 代码"></a>3.3 代码</h2><p>&emsp;&emsp;填入你的网站地址 即：你的博客地址。</p><h2 id="3-4-模块"><a href="#3-4-模块" class="headerlink" title="3.4 模块"></a>3.4 模块</h2><p>&emsp;&emsp;在模块库中选择<code>webBrowser</code>,其他的随意个性化。</p><h2 id="3-5-云编译"><a href="#3-5-云编译" class="headerlink" title="3.5 云编译"></a>3.5 云编译</h2><p>&emsp;&emsp;<code>应用名称</code>:己想；<code>应用类别</code>:其他；<code>平台</code>:我是Android所以选Android(不要选择GooglePlay格式);<code>类型</code>：正式版；<code>调试模式</code>：禁用；<code>全局加密</code>：禁用；<code>渠道打包</code>：禁用；<code>SVN设置</code>:禁用；版本更具自己的情况来就行了！</p><p style="font-size:25px;color:    #AB82FF;">然后点击 <strong>云编译</strong>,过一会就会生成你的专属APP，扫码下载即可！👻</p><p><img src="https://s2.loli.net/2022/11/24/siMAqL1Zewz3QlJ.webp" alt=""></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 杂谈教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> APP </tag>
+            
+            <tag> 桌面应用程序 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>微信推送Error: Version 3.9.1 with arch x64 not found</title>
       <link href="/posts/afe4abf2.html"/>
       <url>/posts/afe4abf2.html</url>
