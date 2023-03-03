@@ -1,0 +1,48 @@
+#cursor {
+    position: fixed;
+    width: 16px;
+    height: 16px;
+    background: rgb(255, 240, 245);
+    border-radius: 8px;
+    opacity: .7;
+    z-index: 10086;
+    pointer-events: none;
+    transition: 0.2s ease-in-out;
+    transition-property: background, opacity, transform;
+}
+
+#cursor.hidden {
+    opacity: 0.3;
+}
+
+#cursor.hover {
+    opacity: 0.5;
+    transform: scale(2.5);
+}
+
+#cursor.active {
+    opacity: 0.7;
+    transform: scale(0.5);
+}
+
+#cursor.hidden {
+    opacity: 0;
+  }
+  
+  #cursor.hover {
+    opacity: 0.1;
+    transform: scale(2.5);
+    -webkit-transform: scale(2.5);
+    -moz-transform: scale(2.5);
+    -ms-transform: scale(2.5);
+    -o-transform: scale(2.5);
+  }
+  
+  #cursor.active {
+    opacity: 0.5;
+    transform: scale(0.5);
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+  }
