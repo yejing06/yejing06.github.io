@@ -1,0 +1,779 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>脑阔疼ه٥</title>
+  
+  
+  <link href="https://naokuoteng.cn/atom.xml" rel="self"/>
+  
+  <link href="https://naokuoteng.cn/"/>
+  <updated>2023-03-08T13:48:22.489Z</updated>
+  <id>https://naokuoteng.cn/</id>
+  
+  <author>
+    <name>脑阔疼</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>给友链页面添加一个Sakana~</title>
+    <link href="https://naokuoteng.cn/posts/e5482ed2.html"/>
+    <id>https://naokuoteng.cn/posts/e5482ed2.html</id>
+    <published>2023-02-27T03:23:04.000Z</published>
+    <updated>2023-03-08T13:48:22.489Z</updated>
+    
+    
+    <summary type="html">给友链页面添加一个Sakana~</summary>
+    
+    
+    
+    <category term="杂谈教程" scheme="https://naokuoteng.cn/categories/%E6%9D%82%E8%B0%88%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="美化" scheme="https://naokuoteng.cn/tags/%E7%BE%8E%E5%8C%96/"/>
+    
+    <category term="Hexo" scheme="https://naokuoteng.cn/tags/Hexo/"/>
+    
+    <category term="Butterfly" scheme="https://naokuoteng.cn/tags/Butterfly/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用FTP和SMB传输和下载文件</title>
+    <link href="https://naokuoteng.cn/posts/a99664c8.html"/>
+    <id>https://naokuoteng.cn/posts/a99664c8.html</id>
+    <published>2023-02-24T05:43:07.000Z</published>
+    <updated>2023-02-24T06:22:06.726Z</updated>
+    
+    
+    <summary type="html">使用**File Transfer Protocol (FTP)**和**Server Message Block (SMB)**协议向服务器传输和下载文件。</summary>
+    
+    
+    
+    <category term="杂谈教程" scheme="https://naokuoteng.cn/categories/%E6%9D%82%E8%B0%88%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="FTP" scheme="https://naokuoteng.cn/tags/FTP/"/>
+    
+    <category term="SMB" scheme="https://naokuoteng.cn/tags/SMB/"/>
+    
+    <category term="文件传输" scheme="https://naokuoteng.cn/tags/%E6%96%87%E4%BB%B6%E4%BC%A0%E8%BE%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux命令使用详解</title>
+    <link href="https://naokuoteng.cn/posts/d0edc1ed.html"/>
+    <id>https://naokuoteng.cn/posts/d0edc1ed.html</id>
+    <published>2023-02-24T04:56:54.000Z</published>
+    <updated>2023-03-05T09:04:08.879Z</updated>
+    
+    
+    <summary type="html">由ChatGPT生成的Linux常用命令</summary>
+    
+    
+    
+    <category term="杂谈教程" scheme="https://naokuoteng.cn/categories/%E6%9D%82%E8%B0%88%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="Linux" scheme="https://naokuoteng.cn/tags/Linux/"/>
+    
+    <category term="ChatGPT" scheme="https://naokuoteng.cn/tags/ChatGPT/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Via浏览器美化代码记录</title>
+    <link href="https://naokuoteng.cn/posts/636a882.html"/>
+    <id>https://naokuoteng.cn/posts/636a882.html</id>
+    <published>2023-02-18T02:54:28.000Z</published>
+    <updated>2023-02-18T05:09:14.770Z</updated>
+    
+    
+    <summary type="html">Via浏览器美化</summary>
+    
+    
+    
+    <category term="随笔记录" scheme="https://naokuoteng.cn/categories/%E9%9A%8F%E7%AC%94%E8%AE%B0%E5%BD%95/"/>
+    
+    
+    <category term="美化" scheme="https://naokuoteng.cn/tags/%E7%BE%8E%E5%8C%96/"/>
+    
+    <category term="Via" scheme="https://naokuoteng.cn/tags/Via/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Windows新机验机及基础优化</title>
+    <link href="https://naokuoteng.cn/posts/e1a11ffc.html"/>
+    <id>https://naokuoteng.cn/posts/e1a11ffc.html</id>
+    <published>2023-02-13T11:33:12.000Z</published>
+    <updated>2023-02-24T06:21:25.603Z</updated>
+    
+    
+    <summary type="html">Windows新机验机、注意事项和基础优化设置</summary>
+    
+    
+    
+    <category term="玩转Windows" scheme="https://naokuoteng.cn/categories/%E7%8E%A9%E8%BD%ACWindows/"/>
+    
+    
+    <category term="Windows" scheme="https://naokuoteng.cn/tags/Windows/"/>
+    
+    <category term="验机" scheme="https://naokuoteng.cn/tags/%E9%AA%8C%E6%9C%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>笔记本电脑电池损耗情况和健康度查询</title>
+    <link href="https://naokuoteng.cn/posts/4b1cb0e4.html"/>
+    <id>https://naokuoteng.cn/posts/4b1cb0e4.html</id>
+    <published>2023-02-13T09:37:59.000Z</published>
+    <updated>2023-02-13T11:26:28.878Z</updated>
+    
+    
+    <summary type="html">笔记本电脑电池损耗情况和健康度查询</summary>
+    
+    
+    
+    <category term="玩转Windows" scheme="https://naokuoteng.cn/categories/%E7%8E%A9%E8%BD%ACWindows/"/>
+    
+    
+    <category term="Windows" scheme="https://naokuoteng.cn/tags/Windows/"/>
+    
+    <category term="笔记本" scheme="https://naokuoteng.cn/tags/%E7%AC%94%E8%AE%B0%E6%9C%AC/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>去除Win11桌面快捷方式图标箭头</title>
+    <link href="https://naokuoteng.cn/posts/1d722745.html"/>
+    <id>https://naokuoteng.cn/posts/1d722745.html</id>
+    <published>2023-01-27T01:27:55.000Z</published>
+    <updated>2023-01-28T03:27:36.118Z</updated>
+    
+    
+    <summary type="html">去除Win11桌面快捷方式图标箭头</summary>
+    
+    
+    
+    <category term="玩转Windows" scheme="https://naokuoteng.cn/categories/%E7%8E%A9%E8%BD%ACWindows/"/>
+    
+    
+    <category term="Windows" scheme="https://naokuoteng.cn/tags/Windows/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>《还是会想你》翻唱cover林达浪h3R3</title>
+    <link href="https://naokuoteng.cn/posts/462680a8.html"/>
+    <id>https://naokuoteng.cn/posts/462680a8.html</id>
+    <published>2023-01-24T15:33:41.000Z</published>
+    <updated>2023-02-24T06:29:26.278Z</updated>
+    
+    
+    <summary type="html">《还是会想你》</summary>
+    
+    
+    
+    <category term="视频专区" scheme="https://naokuoteng.cn/categories/%E8%A7%86%E9%A2%91%E4%B8%93%E5%8C%BA/"/>
+    
+    
+    <category term="BiliBili" scheme="https://naokuoteng.cn/tags/BiliBili/"/>
+    
+    <category term="视频" scheme="https://naokuoteng.cn/tags/%E8%A7%86%E9%A2%91/"/>
+    
+    <category term="翻唱" scheme="https://naokuoteng.cn/tags/%E7%BF%BB%E5%94%B1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>BiliBili及YouTube视频适配</title>
+    <link href="https://naokuoteng.cn/posts/d014c592.html"/>
+    <id>https://naokuoteng.cn/posts/d014c592.html</id>
+    <published>2023-01-24T07:45:29.000Z</published>
+    <updated>2023-02-24T06:28:26.729Z</updated>
+    
+    
+    <summary type="html">BiliBili及YouTube视频适配</summary>
+    
+    
+    
+    <category term="杂谈教程" scheme="https://naokuoteng.cn/categories/%E6%9D%82%E8%B0%88%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="BiliBili" scheme="https://naokuoteng.cn/tags/BiliBili/"/>
+    
+    <category term="YouTube" scheme="https://naokuoteng.cn/tags/YouTube/"/>
+    
+    <category term="视频适配" scheme="https://naokuoteng.cn/tags/%E8%A7%86%E9%A2%91%E9%80%82%E9%85%8D/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>YouTube视频适配测试-助眠ASMR</title>
+    <link href="https://naokuoteng.cn/posts/1ef5ba2d.html"/>
+    <id>https://naokuoteng.cn/posts/1ef5ba2d.html</id>
+    <published>2023-01-24T01:20:21.000Z</published>
+    <updated>2023-01-27T02:06:38.336Z</updated>
+    
+    
+    <summary type="html">YouTube视频适配测试-助眠ASMR</summary>
+    
+    
+    
+    <category term="视频专区" scheme="https://naokuoteng.cn/categories/%E8%A7%86%E9%A2%91%E4%B8%93%E5%8C%BA/"/>
+    
+    
+    <category term="视频" scheme="https://naokuoteng.cn/tags/%E8%A7%86%E9%A2%91/"/>
+    
+    <category term="YouTube" scheme="https://naokuoteng.cn/tags/YouTube/"/>
+    
+    <category term="助眠ASMR" scheme="https://naokuoteng.cn/tags/%E5%8A%A9%E7%9C%A0ASMR/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo部分问题修复记录</title>
+    <link href="https://naokuoteng.cn/posts/6f02284e.html"/>
+    <id>https://naokuoteng.cn/posts/6f02284e.html</id>
+    <published>2023-01-19T02:53:40.000Z</published>
+    <updated>2023-03-03T08:25:09.021Z</updated>
+    
+    
+    <summary type="html">Hexo部分问题修复记录</summary>
+    
+    
+    
+    <category term="日记小文" scheme="https://naokuoteng.cn/categories/%E6%97%A5%E8%AE%B0%E5%B0%8F%E6%96%87/"/>
+    
+    
+    <category term="Hexo" scheme="https://naokuoteng.cn/tags/Hexo/"/>
+    
+    <category term="Butterfly" scheme="https://naokuoteng.cn/tags/Butterfly/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>找回电脑桌面壁纸</title>
+    <link href="https://naokuoteng.cn/posts/3097fc40.html"/>
+    <id>https://naokuoteng.cn/posts/3097fc40.html</id>
+    <published>2023-01-16T08:47:39.000Z</published>
+    <updated>2023-01-27T01:41:57.908Z</updated>
+    
+    
+    <summary type="html">电脑桌面</summary>
+    
+    
+    
+    <category term="玩转Windows" scheme="https://naokuoteng.cn/categories/%E7%8E%A9%E8%BD%ACWindows/"/>
+    
+    
+    <category term="Windows" scheme="https://naokuoteng.cn/tags/Windows/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>将网站/博客打包成桌面APP</title>
+    <link href="https://naokuoteng.cn/posts/2afd210.html"/>
+    <id>https://naokuoteng.cn/posts/2afd210.html</id>
+    <published>2022-12-22T04:56:22.000Z</published>
+    <updated>2023-01-27T01:40:34.820Z</updated>
+    
+    
+    <summary type="html">如何拥有一个属于自己的app</summary>
+    
+    
+    
+    <category term="杂谈教程" scheme="https://naokuoteng.cn/categories/%E6%9D%82%E8%B0%88%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="APP" scheme="https://naokuoteng.cn/tags/APP/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>微信推送Error: Version 3.9.1 with arch x64 not found</title>
+    <link href="https://naokuoteng.cn/posts/afe4abf2.html"/>
+    <id>https://naokuoteng.cn/posts/afe4abf2.html</id>
+    <published>2022-12-21T04:41:06.000Z</published>
+    <updated>2023-01-28T02:55:00.443Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;&amp;emsp;&amp;emsp;前些日子发现&lt;code&gt;微信自动推送&lt;/code&gt;不能正常推送了，一直没顾得上看是怎么回事，今日解决这个问题，顺便就在这里记录一下解决方案。&lt;/p&gt;
+&lt;h1 id=&quot;查看错误&quot;&gt;&lt;a href=&quot;#查看错误&quot; class=&quot;headerlink&quot; title=&quot;查看错误&quot;&gt;&lt;/a&gt;查看错误&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/blog/article/202212211259804.webp&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h1 id=&quot;分析原因&quot;&gt;&lt;a href=&quot;#分析原因&quot; class=&quot;headerlink&quot; title=&quot;分析原因&quot;&gt;&lt;/a&gt;分析原因&lt;/h1&gt;&lt;p&gt;&amp;emsp;&amp;emsp;因为程序一直正常运行挺久了，所以问题应该不大，下面分析原因。&lt;br&gt;&amp;emsp;&amp;emsp;报错显示是&lt;code&gt;3.9.1&lt;/code&gt;版本的&lt;code&gt;python&lt;/code&gt;没有找到，并且给出了所有可用版本的列表链接：&lt;code&gt;https://raw.githubusercontent.com/actions/python-versions/main/versions-manifest.json&lt;/code&gt;&lt;br&gt;&lt;img src=&quot;https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/blog/article/202212211311444.webp&quot; alt=&quot;&quot;&gt;&lt;br&gt;&amp;emsp;&amp;emsp;从图中可以看出，其中Ubuntu上有3个二进制压缩包，并且给出的对应的Ubuntu版本号，返回action执行文件，可以看到我用的Runner(runs-on)是&lt;code&gt;ubuntu-latest&lt;/code&gt;,而目前最新的版本则为&lt;code&gt;Ubuntu 22.04&lt;/code&gt;,所以上边的三个压缩包并没有可供&lt;code&gt;Ubuntu 22.04&lt;/code&gt;使用的,因此会报错误 Error: Version 3.9.1 with arch x64 not found。此外，可以看到在此句错上一行显示 Version 3.9.1 was not found in the local cache ,查阅得知，actions/setup-python（当前最新是 v4）支持在两个地方寻找可用的Python版本，一个是在用户指定的&lt;code&gt;Runner Images缓存中&lt;/code&gt;寻找（优先），另一个是在&lt;code&gt;actions/python-versions&lt;/code&gt;中寻找（次要）。所以在GitHub的Runner Images中查看&lt;code&gt;python缓存支持版本&lt;/code&gt;&lt;br&gt;&lt;img src=&quot;https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/blog/article/202212211334898.webp&quot; alt=&quot;&quot;&gt;&lt;br&gt;&amp;emsp;&amp;emsp;可以发现我所使用的&lt;code&gt;3.9.1&lt;/code&gt;版本的python并不在其中，因而会出现此句错误。&lt;/p&gt;
+&lt;h1 id=&quot;解决办法&quot;&gt;&lt;a href=&quot;#解决办法&quot; class=&quot;headerlink&quot; title=&quot;解决办法&quot;&gt;&lt;/a&gt;解决办法&lt;/h1&gt;&lt;p&gt;&amp;emsp;&amp;emsp;经过分析，解决办法自然也有了头绪，在&lt;code&gt;action执行文件&lt;/code&gt;中进行以下修改：&lt;/p&gt;
+&lt;h2 id=&quot;方法一&quot;&gt;&lt;a href=&quot;#方法一&quot; class=&quot;headerlink&quot; title=&quot;方法一&quot;&gt;&lt;/a&gt;方法一&lt;/h2&gt;&lt;p&gt;&amp;emsp;&amp;emsp;将&lt;code&gt;Runner Image(runs-on)&lt;/code&gt;修改为&lt;code&gt;ubuntu-20.04&lt;/code&gt;&lt;br&gt;&lt;img src=&quot;https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/blog/article/202212211347430.webp&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;方法二&quot;&gt;&lt;a href=&quot;#方法二&quot; class=&quot;headerlink&quot; title=&quot;方法二&quot;&gt;&lt;/a&gt;方法二&lt;/h2&gt;&lt;p&gt;&amp;emsp;&amp;emsp;将&lt;code&gt;python-version&lt;/code&gt;修改为&lt;code&gt;v3.9.12&lt;/code&gt;&lt;/p&gt;
+&lt;h1 id=&quot;成功解决&quot;&gt;&lt;a href=&quot;#成功解决&quot; class=&quot;headerlink&quot; title=&quot;成功解决&quot;&gt;&lt;/a&gt;成功解决&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/blog/article/202212211351762.webp&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://s2.loli.net/2022/11/24/siMAqL1Zewz3QlJ.webp&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="杂谈教程" scheme="https://naokuoteng.cn/categories/%E6%9D%82%E8%B0%88%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="微信推送" scheme="https://naokuoteng.cn/tags/%E5%BE%AE%E4%BF%A1%E6%8E%A8%E9%80%81/"/>
+    
+    <category term="公众号" scheme="https://naokuoteng.cn/tags/%E5%85%AC%E4%BC%97%E5%8F%B7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于office365的一些事（白嫖）番外篇</title>
+    <link href="https://naokuoteng.cn/posts/7eec66fc.html"/>
+    <id>https://naokuoteng.cn/posts/7eec66fc.html</id>
+    <published>2022-12-08T07:00:39.000Z</published>
+    <updated>2023-01-27T02:04:21.689Z</updated>
+    
+    
+    <summary type="html">自用防遗忘 留言可分享</summary>
+    
+    
+    
+    <category term="杂谈教程" scheme="https://naokuoteng.cn/categories/%E6%9D%82%E8%B0%88%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="Office365" scheme="https://naokuoteng.cn/tags/Office365/"/>
+    
+    <category term="白嫖" scheme="https://naokuoteng.cn/tags/%E7%99%BD%E5%AB%96/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于office365的一些事（白嫖）下篇</title>
+    <link href="https://naokuoteng.cn/posts/2cb57548.html"/>
+    <id>https://naokuoteng.cn/posts/2cb57548.html</id>
+    <published>2022-12-08T05:46:06.000Z</published>
+    <updated>2023-01-27T02:04:31.751Z</updated>
+    
+    
+    <summary type="html">防遗忘 留言可分享</summary>
+    
+    
+    
+    <category term="杂谈教程" scheme="https://naokuoteng.cn/categories/%E6%9D%82%E8%B0%88%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="Office365" scheme="https://naokuoteng.cn/tags/Office365/"/>
+    
+    <category term="白嫖" scheme="https://naokuoteng.cn/tags/%E7%99%BD%E5%AB%96/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于office365的一些事（白嫖）上篇</title>
+    <link href="https://naokuoteng.cn/posts/9409122d.html"/>
+    <id>https://naokuoteng.cn/posts/9409122d.html</id>
+    <published>2022-12-08T05:21:51.000Z</published>
+    <updated>2023-01-27T02:04:26.233Z</updated>
+    
+    
+    <summary type="html">防遗忘 留言可分享</summary>
+    
+    
+    
+    <category term="杂谈教程" scheme="https://naokuoteng.cn/categories/%E6%9D%82%E8%B0%88%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="Office365" scheme="https://naokuoteng.cn/tags/Office365/"/>
+    
+    <category term="白嫖" scheme="https://naokuoteng.cn/tags/%E7%99%BD%E5%AB%96/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>基于ESP8266远程物理关灯</title>
+    <link href="https://naokuoteng.cn/posts/f903bb43.html"/>
+    <id>https://naokuoteng.cn/posts/f903bb43.html</id>
+    <published>2022-12-07T01:25:02.000Z</published>
+    <updated>2023-02-13T11:35:20.900Z</updated>
+    
+    
+    <summary type="html">基于ESP8266远程物理关灯</summary>
+    
+    
+    
+    <category term="杂谈教程" scheme="https://naokuoteng.cn/categories/%E6%9D%82%E8%B0%88%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="ESP8266" scheme="https://naokuoteng.cn/tags/ESP8266/"/>
+    
+    <category term="远程物理关灯" scheme="https://naokuoteng.cn/tags/%E8%BF%9C%E7%A8%8B%E7%89%A9%E7%90%86%E5%85%B3%E7%81%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>用原生JS写一款乖巧的鼠标指针特效</title>
+    <link href="https://naokuoteng.cn/posts/dc5dc66a.html"/>
+    <id>https://naokuoteng.cn/posts/dc5dc66a.html</id>
+    <published>2022-12-06T13:34:46.000Z</published>
+    <updated>2023-01-27T02:02:45.613Z</updated>
+    
+    
+    <summary type="html">原生JS写一款乖巧的鼠标指针特效 两个小圆圈</summary>
+    
+    
+    
+    <category term="杂谈教程" scheme="https://naokuoteng.cn/categories/%E6%9D%82%E8%B0%88%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="美化" scheme="https://naokuoteng.cn/tags/%E7%BE%8E%E5%8C%96/"/>
+    
+    <category term="Hexo" scheme="https://naokuoteng.cn/tags/Hexo/"/>
+    
+    <category term="Butterfly" scheme="https://naokuoteng.cn/tags/Butterfly/"/>
+    
+    <category term="鼠标指针特效" scheme="https://naokuoteng.cn/tags/%E9%BC%A0%E6%A0%87%E6%8C%87%E9%92%88%E7%89%B9%E6%95%88/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Twikoo评论回复邮件模板</title>
+    <link href="https://naokuoteng.cn/posts/ba24f0d3.html"/>
+    <id>https://naokuoteng.cn/posts/ba24f0d3.html</id>
+    <published>2022-12-05T06:52:34.000Z</published>
+    <updated>2023-01-27T01:58:33.412Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;1、邮件样式&quot;&gt;&lt;a href=&quot;#1、邮件样式&quot; class=&quot;headerlink&quot; title=&quot;1、邮件样式&quot;&gt;&lt;/a&gt;1、邮件样式&lt;/h1&gt;&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt; 手机端样式 &lt;/strong&gt;&lt;br&gt;&lt;img src=&quot;https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/blog/article/202212101413921.webp&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt; 电脑端样式 &lt;/strong&gt;&lt;br&gt;&amp;emsp;&amp;emsp;&lt;code&gt;整体&lt;/code&gt;&lt;br&gt;&lt;img src=&quot;https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/blog/article/202212101413151.webp&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&amp;emsp;&amp;emsp;&lt;code&gt;局部&lt;/code&gt;&lt;br&gt;&lt;img src=&quot;https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/blog/article/202212101414333.webp&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h1 id=&quot;2、代码&quot;&gt;&lt;a href=&quot;#2、代码&quot; class=&quot;headerlink&quot; title=&quot;2、代码&quot;&gt;&lt;/a&gt;2、代码&lt;/h1&gt;&lt;div class=&quot;note info simple&quot;&gt;&lt;p&gt;这部分参考:&lt;a href=&quot;https://blog.guole.fun/posts/62740/&quot;&gt;自定义Twikoo邮件通知模板&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;!-- &lt;div class=&quot;note info flat&quot;&gt;&lt;p&gt;这部分参考:&lt;a href=&quot;https://blog.guole.fun/posts/62740/&quot;&gt;自定义Twikoo邮件通知模板&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt; --&gt;
+&lt;p&gt;&amp;emsp;&amp;emsp;&lt;strong&gt; 压缩 &lt;/strong&gt;&lt;br&gt;&lt;figure class=&quot;highlight html&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;div&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;id&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;isForwardContent&amp;quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;div&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;id&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;content&amp;quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;style&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;         background: cornsilk;         width: 95%;         max-width: 800px;         margin: auto auto;         border-radius: 5px;         border: #49b1f5 1px solid;         overflow: hidden;         -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.12);         box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.18);       &amp;quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;header&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;style&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;overflow: hidden&amp;quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;img&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;src&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;https://npm.elemecdn.com/hexo-butterfly-envelope/lib/violet.jpg&amp;quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;style&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;width: 100%; z-index: 666&amp;quot;&lt;/span&gt; /&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;header&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;style&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;padding: 5px 20px&amp;quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;class&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;dear&amp;quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;style&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;             position: relative;             color: white;             float: left;             z-index: 999;             background: #49b1f5;             padding: 5px 30px;             margin: -25px auto 0;             box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);           &amp;quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;亲爱的 $&amp;#123;PARENT_NICK&amp;#125;：&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;div&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;br&lt;/span&gt; /&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;center&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;h3&lt;/span&gt;&amp;gt;&lt;/span&gt;来自&lt;span class=&quot;symbol&quot;&gt;&amp;amp;nbsp;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;style&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;color: #FFAEB9&amp;quot;&lt;/span&gt;;&lt;span class=&quot;attr&quot;&gt;text-decoration:none&lt;/span&gt;;&amp;gt;&lt;/span&gt;$&amp;#123;NICK&amp;#125;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;a&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;symbol&quot;&gt;&amp;amp;nbsp;&lt;/span&gt;的回复&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;h3&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;center&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;hr&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;style&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;width:200px;border:0;border-bottom:1px solid #e5e5e5;margin:12px auto;&amp;quot;&lt;/span&gt; /&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;br&lt;/span&gt; /&amp;gt;&lt;/span&gt;&lt;span class=&quot;symbol&quot;&gt;&amp;amp;nbsp;&lt;/span&gt;&lt;span class=&quot;symbol&quot;&gt;&amp;amp;nbsp;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;p&lt;/span&gt;&amp;gt;&lt;/span&gt;您在 &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;href&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;$&amp;#123;POST_URL&amp;#125;&amp;quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;style&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;text-decoration: none; color: #49b1f5&amp;quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;target&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;_blank&amp;quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;symbol&quot;&gt;&amp;amp;nbsp;&lt;/span&gt;$&amp;#123;SITE_NAME&amp;#125;&lt;span class=&quot;symbol&quot;&gt;&amp;amp;nbsp;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;a&lt;/span&gt;&amp;gt;&lt;/span&gt;上发表的评论：&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;p&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;class&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;tk-content&amp;quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;style&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot; border-bottom: #ddd 1px solid; border-left: #ddd 1px solid; padding-bottom: 20px; background-color: #FFFACD; margin: 15px 0px; padding-left: 20px; padding-right: 20px; border-top: #ddd 1px solid; border-right: #ddd 1px solid;  padding-top: 20px;&amp;quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;$&amp;#123;PARENT_COMMENT&amp;#125;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;div&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;p&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;style&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;color: #FFAEB9&amp;quot;&lt;/span&gt;;&lt;span class=&quot;attr&quot;&gt;text-decoration:none&lt;/span&gt;;&amp;gt;&lt;/span&gt;$&amp;#123;NICK&amp;#125;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;a&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;symbol&quot;&gt;&amp;amp;nbsp;&lt;/span&gt;给您回复啦：&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;p&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;class&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;tk-content&amp;quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;style&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot; border-bottom: #ddd 1px solid; border-left: #ddd 1px solid; padding-bottom: 20px; background-color: #FFFACD;  margin: 15px 0px;  padding-left: 20px; padding-right: 20px; border-top: #ddd 1px solid; border-right: #ddd 1px solid; padding-top: 20px; &amp;quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;$&amp;#123;COMMENT&amp;#125;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;div&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;p&lt;/span&gt;&amp;gt;&lt;/span&gt;欢迎再次光临 &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;style&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;text-decoration:none; color:#12addb&amp;quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;href&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;$&amp;#123;SITE_URL&amp;#125;&amp;quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;target&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;_blank&amp;quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;$&amp;#123;SITE_NAME&amp;#125;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;a&lt;/span&gt;&amp;gt;&lt;/span&gt;！&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;p&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;p&lt;/span&gt;&amp;gt;&lt;/span&gt;此邮件由系统发出，支持直接回复！&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;p&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;br&lt;/span&gt; /&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;class&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;chakan&amp;quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;style&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;text-align: center;&amp;quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;href&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;$&amp;#123;POST_URL&amp;#125;&amp;quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;style&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;color:#ffffff;text-decoration:none;display:inline-block;min-height:28px;line-height:28px;padding:0 13px;outline:0;background:#3eae5f;font-size:13px;text-align: center;font-weight:400;border:0;border-radius:999em&amp;quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;target&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;_blank&amp;quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;点击去原文查看&lt;span class=&quot;symbol&quot;&gt;&amp;amp;gt;&lt;/span&gt;&lt;span class=&quot;symbol&quot;&gt;&amp;amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;a&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;p&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;p&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;div&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;class&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;footer-p&amp;quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;style&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;text-align: center; margin-top: 5rem; display:block;color:#b3b3b1;text-decoration:none;&amp;quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;img&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;src&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/blog/article/202212101416082.webp&amp;quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;style&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;width:1.8rem; margin:0 auto&amp;quot;&lt;/span&gt; /&amp;gt;&lt;/span&gt;&lt;span class=&quot;symbol&quot;&gt;&amp;amp;nbsp;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;hr&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;style&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;width:165px;border:0;border-bottom:1px solid #e5e5e5;margin:5px auto;&amp;quot;&lt;/span&gt; /&amp;gt;&lt;/span&gt;©&lt;span class=&quot;symbol&quot;&gt;&amp;amp;nbsp;&lt;/span&gt;2022&lt;span class=&quot;symbol&quot;&gt;&amp;amp;nbsp;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;href&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;https://naokuoteng.cn/&amp;quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;style&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;text-align:center; color: #0da1e6a6&amp;quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;target&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;_blank&amp;quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;naokuoteng.cn&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;a&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;p&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;p&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;div&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;div&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;div&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;div&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;div&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;br&lt;/span&gt; /&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;div&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;style&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;type&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;text/css&amp;quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;language-css&quot;&gt;&lt;span class=&quot;selector-class&quot;&gt;.qmbox&lt;/span&gt; ::-webkit-scrollbar&amp;#123;&lt;span class=&quot;attribute&quot;&gt;display&lt;/span&gt;:none&amp;#125;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;style&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;style&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;id&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;cloudAttachStyle&amp;quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;type&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;text/css&amp;quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;language-css&quot;&gt;&lt;span class=&quot;selector-class&quot;&gt;.qmbox&lt;/span&gt; &lt;span class=&quot;selector-id&quot;&gt;#divNeteaseBigAttach&lt;/span&gt;,&lt;span class=&quot;selector-class&quot;&gt;.qmbox&lt;/span&gt; &lt;span class=&quot;selector-id&quot;&gt;#divNeteaseBigAttach_bak&lt;/span&gt;&amp;#123;&lt;span class=&quot;attribute&quot;&gt;display&lt;/span&gt;:none&amp;#125;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;style&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;style&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;id&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;blockquoteStyle&amp;quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;type&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;text/css&amp;quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;language-css&quot;&gt;&lt;span class=&quot;selector-class&quot;&gt;.qmbox&lt;/span&gt; &lt;span class=&quot;selector-tag&quot;&gt;blockquote&lt;/span&gt;&amp;#123;&lt;span class=&quot;attribute&quot;&gt;display&lt;/span&gt;:none&amp;#125;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;style&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;style&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;type&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;text/css&amp;quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;language-css&quot;&gt;&lt;span class=&quot;selector-class&quot;&gt;.qmbox&lt;/span&gt; &lt;span class=&quot;selector-tag&quot;&gt;body&lt;/span&gt;&amp;#123;&lt;span class=&quot;attribute&quot;&gt;font-size&lt;/span&gt;:&lt;span class=&quot;number&quot;&gt;14px&lt;/span&gt;;&lt;span class=&quot;attribute&quot;&gt;font-family&lt;/span&gt;:arial,verdana,sans-serif;&lt;span class=&quot;attribute&quot;&gt;line-height&lt;/span&gt;:&lt;span class=&quot;number&quot;&gt;1.666&lt;/span&gt;;&lt;span class=&quot;attribute&quot;&gt;padding&lt;/span&gt;:&lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;;&lt;span class=&quot;attribute&quot;&gt;margin&lt;/span&gt;:&lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;;&lt;span class=&quot;attribute&quot;&gt;overflow&lt;/span&gt;:auto;&lt;span class=&quot;attribute&quot;&gt;white-space&lt;/span&gt;:normal;&lt;span class=&quot;attribute&quot;&gt;word-wrap&lt;/span&gt;:break-word;&lt;span class=&quot;attribute&quot;&gt;min-height&lt;/span&gt;:&lt;span class=&quot;number&quot;&gt;100px&lt;/span&gt;&amp;#125;&lt;span class=&quot;selector-class&quot;&gt;.qmbox&lt;/span&gt; &lt;span class=&quot;selector-tag&quot;&gt;td&lt;/span&gt;,&lt;span class=&quot;selector-class&quot;&gt;.qmbox&lt;/span&gt; &lt;span class=&quot;selector-tag&quot;&gt;input&lt;/span&gt;,&lt;span class=&quot;selector-class&quot;&gt;.qmbox&lt;/span&gt; &lt;span class=&quot;selector-tag&quot;&gt;button&lt;/span&gt;,&lt;span class=&quot;selector-class&quot;&gt;.qmbox&lt;/span&gt; select,&lt;span class=&quot;selector-class&quot;&gt;.qmbox&lt;/span&gt; &lt;span class=&quot;selector-tag&quot;&gt;body&lt;/span&gt;&amp;#123;&lt;span class=&quot;attribute&quot;&gt;font-family&lt;/span&gt;:Helvetica,&lt;span class=&quot;string&quot;&gt;&amp;#x27;Microsoft Yahei&amp;#x27;&lt;/span&gt;,verdana&amp;#125;&lt;span class=&quot;selector-class&quot;&gt;.qmbox&lt;/span&gt; pre&amp;#123;&lt;span class=&quot;attribute&quot;&gt;white-space&lt;/span&gt;:pre-wrap;&lt;span class=&quot;attribute&quot;&gt;white-space&lt;/span&gt;:-moz-pre-wrap;&lt;span class=&quot;attribute&quot;&gt;white-space&lt;/span&gt;:-pre-wrap;&lt;span class=&quot;attribute&quot;&gt;white-space&lt;/span&gt;:-o-pre-wrap;&lt;span class=&quot;attribute&quot;&gt;word-wrap&lt;/span&gt;:break-word;&lt;span class=&quot;attribute&quot;&gt;width&lt;/span&gt;:&lt;span class=&quot;number&quot;&gt;95%&lt;/span&gt;&amp;#125;&lt;span class=&quot;selector-class&quot;&gt;.qmbox&lt;/span&gt; &lt;span class=&quot;selector-tag&quot;&gt;th&lt;/span&gt;,&lt;span class=&quot;selector-class&quot;&gt;.qmbox&lt;/span&gt; &lt;span class=&quot;selector-tag&quot;&gt;td&lt;/span&gt;&amp;#123;&lt;span class=&quot;attribute&quot;&gt;font-family&lt;/span&gt;:arial,verdana,sans-serif;&lt;span class=&quot;attribute&quot;&gt;line-height&lt;/span&gt;:&lt;span class=&quot;number&quot;&gt;1.666&lt;/span&gt;&amp;#125;&lt;span class=&quot;selector-class&quot;&gt;.qmbox&lt;/span&gt; &lt;span class=&quot;selector-tag&quot;&gt;img&lt;/span&gt;&amp;#123;&lt;span class=&quot;attribute&quot;&gt;border&lt;/span&gt;:&lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;&amp;#125;&lt;span class=&quot;selector-class&quot;&gt;.qmbox&lt;/span&gt; &lt;span class=&quot;selector-tag&quot;&gt;header&lt;/span&gt;,&lt;span class=&quot;selector-class&quot;&gt;.qmbox&lt;/span&gt; &lt;span class=&quot;selector-tag&quot;&gt;footer&lt;/span&gt;,&lt;span class=&quot;selector-class&quot;&gt;.qmbox&lt;/span&gt; &lt;span class=&quot;selector-tag&quot;&gt;section&lt;/span&gt;,&lt;span class=&quot;selector-class&quot;&gt;.qmbox&lt;/span&gt; &lt;span class=&quot;selector-tag&quot;&gt;aside&lt;/span&gt;,&lt;span class=&quot;selector-class&quot;&gt;.qmbox&lt;/span&gt; &lt;span class=&quot;selector-tag&quot;&gt;article&lt;/span&gt;,&lt;span class=&quot;selector-class&quot;&gt;.qmbox&lt;/span&gt; &lt;span class=&quot;selector-tag&quot;&gt;nav&lt;/span&gt;,&lt;span class=&quot;selector-class&quot;&gt;.qmbox&lt;/span&gt; &lt;span class=&quot;selector-tag&quot;&gt;hgroup&lt;/span&gt;,&lt;span class=&quot;selector-class&quot;&gt;.qmbox&lt;/span&gt; &lt;span class=&quot;selector-tag&quot;&gt;figure&lt;/span&gt;,&lt;span class=&quot;selector-class&quot;&gt;.qmbox&lt;/span&gt; &lt;span class=&quot;selector-tag&quot;&gt;figcaption&lt;/span&gt;&amp;#123;&lt;span class=&quot;attribute&quot;&gt;display&lt;/span&gt;:block&amp;#125;&lt;span class=&quot;selector-class&quot;&gt;.qmbox&lt;/span&gt; &lt;span class=&quot;selector-tag&quot;&gt;blockquote&lt;/span&gt;&amp;#123;&lt;span class=&quot;attribute&quot;&gt;margin-right&lt;/span&gt;:&lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;&amp;#125;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;style&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;style&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;type&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;text/css&amp;quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;language-css&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;@media&lt;/span&gt; screen &lt;span class=&quot;keyword&quot;&gt;and&lt;/span&gt; (&lt;span class=&quot;attribute&quot;&gt;max-width&lt;/span&gt;:&lt;span class=&quot;number&quot;&gt;1100px&lt;/span&gt;)&amp;#123;&lt;span class=&quot;selector-id&quot;&gt;#content&lt;/span&gt; &lt;span class=&quot;selector-tag&quot;&gt;p&lt;/span&gt;&amp;#123;&lt;span class=&quot;attribute&quot;&gt;font-size&lt;/span&gt;:&lt;span class=&quot;number&quot;&gt;10px&lt;/span&gt;&amp;#125;&lt;span class=&quot;selector-id&quot;&gt;#content&lt;/span&gt; &lt;span class=&quot;selector-tag&quot;&gt;h3&lt;/span&gt;&amp;#123;&lt;span class=&quot;attribute&quot;&gt;font-size&lt;/span&gt;:&lt;span class=&quot;number&quot;&gt;14px&lt;/span&gt;&amp;#125;&lt;span class=&quot;selector-class&quot;&gt;.footer-p&lt;/span&gt;&amp;#123;&lt;span class=&quot;attribute&quot;&gt;font-size&lt;/span&gt;:&lt;span class=&quot;number&quot;&gt;9px&lt;/span&gt;&amp;#125;&lt;span class=&quot;selector-class&quot;&gt;.dear&lt;/span&gt;&amp;#123;&lt;span class=&quot;attribute&quot;&gt;font-size&lt;/span&gt;:&lt;span class=&quot;number&quot;&gt;12px&lt;/span&gt;&amp;#125;&amp;#125;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;style&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;style&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;id&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;ntes_link_color&amp;quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;type&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;text/css&amp;quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;language-css&quot;&gt;&lt;span class=&quot;selector-class&quot;&gt;.qmbox&lt;/span&gt; &lt;span class=&quot;selector-tag&quot;&gt;a&lt;/span&gt;,&lt;span class=&quot;selector-class&quot;&gt;.qmbox&lt;/span&gt; &lt;span class=&quot;selector-tag&quot;&gt;td&lt;/span&gt; &lt;span class=&quot;selector-tag&quot;&gt;a&lt;/span&gt;&amp;#123;&lt;span class=&quot;attribute&quot;&gt;color&lt;/span&gt;:&lt;span class=&quot;number&quot;&gt;#236da1&lt;/span&gt;&amp;#125;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;style&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;div&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;div&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;h1 id=&quot;3、使用方法&quot;&gt;&lt;a href=&quot;#3、使用方法&quot; class=&quot;headerlink&quot; title=&quot;3、使用方法&quot;&gt;&lt;/a&gt;3、使用方法&lt;/h1&gt;&lt;p&gt;&amp;emsp;&amp;emsp;在邮件通知处的&lt;code&gt;MAIL_TEMPLATE&lt;/code&gt;粘贴此代码，注意&lt;code&gt;网站链接地址&lt;/code&gt;改为自己的！&lt;br&gt;&lt;img src=&quot;https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/blog/article/202212101414107.webp&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h1 id=&quot;4、原代码&quot;&gt;&lt;a href=&quot;#4、原代码&quot; class=&quot;headerlink&quot; title=&quot;4、原代码&quot;&gt;&lt;/a&gt;4、原代码&lt;/h1&gt;&lt;figure class=&quot;highlight html&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;27&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;28&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;29&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;30&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;31&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;32&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;33&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;34&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;35&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;36&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;37&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;38&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;39&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;40&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;41&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;42&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;43&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;44&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;45&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;46&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;47&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;48&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;49&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;div&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;id&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;isForwardContent&amp;quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;div&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;id&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;content&amp;quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;style&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;         background: cornsilk;         width: 95%;         max-width: 800px;         margin: auto auto;         border-radius: 5px;         border: #49b1f5 1px solid;         overflow: hidden;         -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.12);         box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.18);       &amp;quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;          &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;header&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;style&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;overflow: hidden&amp;quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;            &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;img&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;src&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;https://npm.elemecdn.com/hexo-butterfly-envelope/lib/violet.jpg&amp;quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;style&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;width: 100%; z-index: 666&amp;quot;&lt;/span&gt; /&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;header&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;          &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;style&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;padding: 5px 20px&amp;quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;            &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;class&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;dear&amp;quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;style&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;             position: relative;             color: white;             float: left;             z-index: 999;             background: #49b1f5;             padding: 5px 30px;             margin: -25px auto 0;             box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);           &amp;quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;亲爱的 $&amp;#123;PARENT_NICK&amp;#125;：&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;div&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;            &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;br&lt;/span&gt; /&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;            &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;center&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;              &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;h3&lt;/span&gt;&amp;gt;&lt;/span&gt;来自&lt;span class=&quot;symbol&quot;&gt;&amp;amp;nbsp;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;style&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;text-decoration: none; color: #FFAEB9&amp;quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;$&amp;#123;NICK&amp;#125;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;a&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;symbol&quot;&gt;&amp;amp;nbsp;&lt;/span&gt;的回复&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;h3&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;            &lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;center&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;            &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;hr&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;style&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;width:200px;border:0;border-bottom:1px solid #e5e5e5;margin:12px auto;&amp;quot;&lt;/span&gt; /&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;            &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;br&lt;/span&gt; /&amp;gt;&lt;/span&gt;&lt;span class=&quot;symbol&quot;&gt;&amp;amp;nbsp;&lt;/span&gt; &lt;span class=&quot;symbol&quot;&gt;&amp;amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;            &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;p&lt;/span&gt;&amp;gt;&lt;/span&gt;您在&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;              &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;href&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;$&amp;#123;POST_URL&amp;#125;&amp;quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;style&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;text-decoration: none; color: #49b1f5&amp;quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;target&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;_blank&amp;quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;symbol&quot;&gt;&amp;amp;nbsp;&lt;/span&gt;$&amp;#123;SITE_NAME&amp;#125;&lt;span class=&quot;symbol&quot;&gt;&amp;amp;nbsp;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;a&lt;/span&gt;&amp;gt;&lt;/span&gt;上发表的评论：&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;p&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;            &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;class&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;tk-content&amp;quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;style&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot; border-bottom: #ddd 1px solid; border-left: #ddd 1px solid; padding-bottom: 20px; background-color: #FFFACD; margin: 15px 0px; padding-left: 20px; padding-right: 20px; border-top: #ddd 1px solid; border-right: #ddd 1px solid;  padding-top: 20px;&amp;quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;$&amp;#123;PARENT_COMMENT&amp;#125;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;div&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;            &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;p&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;            &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;style&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;text-decoration: none; color: #FFAEB9&amp;quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;$&amp;#123;NICK&amp;#125;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;a&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;symbol&quot;&gt;&amp;amp;nbsp;&lt;/span&gt;给您回复啦：&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;p&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;            &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;class&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;tk-content&amp;quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;style&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot; border-bottom: #ddd 1px solid; border-left: #ddd 1px solid; padding-bottom: 20px; background-color: #FFFACD;  margin: 15px 0px;  padding-left: 20px; padding-right: 20px; border-top: #ddd 1px solid; border-right: #ddd 1px solid; padding-top: 20px; &amp;quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;$&amp;#123;COMMENT&amp;#125;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;div&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;            &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;p&lt;/span&gt;&amp;gt;&lt;/span&gt;欢迎再次光临&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;              &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;style&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;text-decoration:none; color:#12addb&amp;quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;href&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;$&amp;#123;SITE_URL&amp;#125;&amp;quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;target&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;_blank&amp;quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;$&amp;#123;SITE_NAME&amp;#125;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;a&lt;/span&gt;&amp;gt;&lt;/span&gt;！&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;p&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;              &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;p&lt;/span&gt;&amp;gt;&lt;/span&gt;此邮件由系统发出，支持直接回复！&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;p&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;            &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;br&lt;/span&gt; /&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;            &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;class&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;chakan&amp;quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;style&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;text-align: center;&amp;quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;              &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;href&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;$&amp;#123;POST_URL&amp;#125;&amp;quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;style&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;color:#ffffff;text-decoration:none;display:inline-block;min-height:28px;line-height:28px;padding:0 13px;outline:0;background:#3eae5f;font-size:13px;text-align: center;font-weight:400;border:0;border-radius:999em&amp;quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;target&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;_blank&amp;quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;点击去原文查看&lt;span class=&quot;symbol&quot;&gt;&amp;amp;gt;&lt;/span&gt;&lt;span class=&quot;symbol&quot;&gt;&amp;amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;a&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;              &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;p&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;              &lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;p&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;            &lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;div&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;            &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;class&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;footer-p&amp;quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;style&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;text-align: center; margin-top: 5rem; display:block;color:#b3b3b1;text-decoration:none;&amp;quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;              &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;img&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;src&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/blog/article/202212101416082.webp&amp;quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;style&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;width:1.8rem; margin:0 auto&amp;quot;&lt;/span&gt; /&amp;gt;&lt;/span&gt;&lt;span class=&quot;symbol&quot;&gt;&amp;amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;              &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;hr&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;style&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;width:165px;border:0;border-bottom:1px solid #e5e5e5;margin:5px auto;&amp;quot;&lt;/span&gt; /&amp;gt;&lt;/span&gt;©&lt;span class=&quot;symbol&quot;&gt;&amp;amp;nbsp;&lt;/span&gt;2022&lt;span class=&quot;symbol&quot;&gt;&amp;amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;              &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;href&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;https://naokuoteng.cn/&amp;quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;style&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;text-align:center; color: #0da1e6a6&amp;quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;target&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;_blank&amp;quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;naokuoteng.cn&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;a&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;              &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;p&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;              &lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;p&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;            &lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;div&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;          &lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;div&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;div&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      &lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;div&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;div&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;br&lt;/span&gt; /&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;div&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;style&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;type&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;text/css&amp;quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;language-css&quot;&gt;&lt;span class=&quot;selector-class&quot;&gt;.qmbox&lt;/span&gt; ::-webkit-scrollbar &amp;#123; &lt;span class=&quot;attribute&quot;&gt;display&lt;/span&gt;: none; &amp;#125;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;style&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;style&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;id&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;cloudAttachStyle&amp;quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;type&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;text/css&amp;quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;language-css&quot;&gt;&lt;span class=&quot;selector-class&quot;&gt;.qmbox&lt;/span&gt; &lt;span class=&quot;selector-id&quot;&gt;#divNeteaseBigAttach&lt;/span&gt;, &lt;span class=&quot;selector-class&quot;&gt;.qmbox&lt;/span&gt; &lt;span class=&quot;selector-id&quot;&gt;#divNeteaseBigAttach_bak&lt;/span&gt; &amp;#123; &lt;span class=&quot;attribute&quot;&gt;display&lt;/span&gt;: none; &amp;#125;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;style&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;style&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;id&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;blockquoteStyle&amp;quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;type&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;text/css&amp;quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;language-css&quot;&gt;&lt;span class=&quot;selector-class&quot;&gt;.qmbox&lt;/span&gt; &lt;span class=&quot;selector-tag&quot;&gt;blockquote&lt;/span&gt; &amp;#123; &lt;span class=&quot;attribute&quot;&gt;display&lt;/span&gt;: none; &amp;#125;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;style&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;style&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;type&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;text/css&amp;quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;language-css&quot;&gt;&lt;span class=&quot;selector-class&quot;&gt;.qmbox&lt;/span&gt; &lt;span class=&quot;selector-tag&quot;&gt;body&lt;/span&gt; &amp;#123; &lt;span class=&quot;attribute&quot;&gt;font-size&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;14px&lt;/span&gt;; &lt;span class=&quot;attribute&quot;&gt;font-family&lt;/span&gt;: arial, verdana, sans-serif; &lt;span class=&quot;attribute&quot;&gt;line-height&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;1.666&lt;/span&gt;; &lt;span class=&quot;attribute&quot;&gt;padding&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;; &lt;span class=&quot;attribute&quot;&gt;margin&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;; &lt;span class=&quot;attribute&quot;&gt;overflow&lt;/span&gt;: auto; &lt;span class=&quot;attribute&quot;&gt;white-space&lt;/span&gt;: normal; &lt;span class=&quot;attribute&quot;&gt;word-wrap&lt;/span&gt;: break-word; &lt;span class=&quot;attribute&quot;&gt;min-height&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;100px&lt;/span&gt;; &amp;#125; &lt;span class=&quot;selector-class&quot;&gt;.qmbox&lt;/span&gt; &lt;span class=&quot;selector-tag&quot;&gt;td&lt;/span&gt;, &lt;span class=&quot;selector-class&quot;&gt;.qmbox&lt;/span&gt; &lt;span class=&quot;selector-tag&quot;&gt;input&lt;/span&gt;, &lt;span class=&quot;selector-class&quot;&gt;.qmbox&lt;/span&gt; &lt;span class=&quot;selector-tag&quot;&gt;button&lt;/span&gt;, &lt;span class=&quot;selector-class&quot;&gt;.qmbox&lt;/span&gt; select, &lt;span class=&quot;selector-class&quot;&gt;.qmbox&lt;/span&gt; &lt;span class=&quot;selector-tag&quot;&gt;body&lt;/span&gt; &amp;#123; &lt;span class=&quot;attribute&quot;&gt;font-family&lt;/span&gt;: Helvetica, &lt;span class=&quot;string&quot;&gt;&amp;#x27;Microsoft Yahei&amp;#x27;&lt;/span&gt;, verdana; &amp;#125; &lt;span class=&quot;selector-class&quot;&gt;.qmbox&lt;/span&gt; pre &amp;#123; &lt;span class=&quot;attribute&quot;&gt;white-space&lt;/span&gt;: pre-wrap; &lt;span class=&quot;attribute&quot;&gt;white-space&lt;/span&gt;: -moz-pre-wrap; &lt;span class=&quot;attribute&quot;&gt;white-space&lt;/span&gt;: -pre-wrap; &lt;span class=&quot;attribute&quot;&gt;white-space&lt;/span&gt;: -o-pre-wrap; &lt;span class=&quot;attribute&quot;&gt;word-wrap&lt;/span&gt;: break-word; &lt;span class=&quot;attribute&quot;&gt;width&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;95%&lt;/span&gt;; &amp;#125; &lt;span class=&quot;selector-class&quot;&gt;.qmbox&lt;/span&gt; &lt;span class=&quot;selector-tag&quot;&gt;th&lt;/span&gt;, &lt;span class=&quot;selector-class&quot;&gt;.qmbox&lt;/span&gt; &lt;span class=&quot;selector-tag&quot;&gt;td&lt;/span&gt; &amp;#123; &lt;span class=&quot;attribute&quot;&gt;font-family&lt;/span&gt;: arial, verdana, sans-serif; &lt;span class=&quot;attribute&quot;&gt;line-height&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;1.666&lt;/span&gt;; &amp;#125; &lt;span class=&quot;selector-class&quot;&gt;.qmbox&lt;/span&gt; &lt;span class=&quot;selector-tag&quot;&gt;img&lt;/span&gt; &amp;#123; &lt;span class=&quot;attribute&quot;&gt;border&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;; &amp;#125; &lt;span class=&quot;selector-class&quot;&gt;.qmbox&lt;/span&gt; &lt;span class=&quot;selector-tag&quot;&gt;header&lt;/span&gt;, &lt;span class=&quot;selector-class&quot;&gt;.qmbox&lt;/span&gt; &lt;span class=&quot;selector-tag&quot;&gt;footer&lt;/span&gt;, &lt;span class=&quot;selector-class&quot;&gt;.qmbox&lt;/span&gt; &lt;span class=&quot;selector-tag&quot;&gt;section&lt;/span&gt;, &lt;span class=&quot;selector-class&quot;&gt;.qmbox&lt;/span&gt; &lt;span class=&quot;selector-tag&quot;&gt;aside&lt;/span&gt;, &lt;span class=&quot;selector-class&quot;&gt;.qmbox&lt;/span&gt; &lt;span class=&quot;selector-tag&quot;&gt;article&lt;/span&gt;, &lt;span class=&quot;selector-class&quot;&gt;.qmbox&lt;/span&gt; &lt;span class=&quot;selector-tag&quot;&gt;nav&lt;/span&gt;, &lt;span class=&quot;selector-class&quot;&gt;.qmbox&lt;/span&gt; &lt;span class=&quot;selector-tag&quot;&gt;hgroup&lt;/span&gt;, &lt;span class=&quot;selector-class&quot;&gt;.qmbox&lt;/span&gt; &lt;span class=&quot;selector-tag&quot;&gt;figure&lt;/span&gt;, &lt;span class=&quot;selector-class&quot;&gt;.qmbox&lt;/span&gt; &lt;span class=&quot;selector-tag&quot;&gt;figcaption&lt;/span&gt; &amp;#123; &lt;span class=&quot;attribute&quot;&gt;display&lt;/span&gt;: block; &amp;#125; &lt;span class=&quot;selector-class&quot;&gt;.qmbox&lt;/span&gt; &lt;span class=&quot;selector-tag&quot;&gt;blockquote&lt;/span&gt; &amp;#123; &lt;span class=&quot;attribute&quot;&gt;margin-right&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;0px&lt;/span&gt;; &amp;#125;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;style&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;style&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;type&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;text/css&amp;quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;language-css&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;@media&lt;/span&gt; screen &lt;span class=&quot;keyword&quot;&gt;and&lt;/span&gt; (&lt;span class=&quot;attribute&quot;&gt;max-width&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;1100px&lt;/span&gt;) &amp;#123;&lt;span class=&quot;selector-id&quot;&gt;#content&lt;/span&gt; &lt;span class=&quot;selector-tag&quot;&gt;p&lt;/span&gt; &amp;#123;&lt;span class=&quot;attribute&quot;&gt;font-size&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;10px&lt;/span&gt;;&amp;#125; &lt;span class=&quot;selector-id&quot;&gt;#content&lt;/span&gt; &lt;span class=&quot;selector-tag&quot;&gt;h3&lt;/span&gt; &amp;#123;&lt;span class=&quot;attribute&quot;&gt;font-size&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;14px&lt;/span&gt;;&amp;#125; &lt;span class=&quot;selector-class&quot;&gt;.footer-p&lt;/span&gt; &amp;#123;&lt;span class=&quot;attribute&quot;&gt;font-size&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;9px&lt;/span&gt;;&amp;#125; &lt;span class=&quot;selector-class&quot;&gt;.dear&lt;/span&gt; &amp;#123;&lt;span class=&quot;attribute&quot;&gt;font-size&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;12px&lt;/span&gt;;&amp;#125;&amp;#125;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;style&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;style&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;id&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;ntes_link_color&amp;quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;type&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;text/css&amp;quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;language-css&quot;&gt;&lt;span class=&quot;selector-class&quot;&gt;.qmbox&lt;/span&gt; &lt;span class=&quot;selector-tag&quot;&gt;a&lt;/span&gt;, &lt;span class=&quot;selector-class&quot;&gt;.qmbox&lt;/span&gt; &lt;span class=&quot;selector-tag&quot;&gt;td&lt;/span&gt; &lt;span class=&quot;selector-tag&quot;&gt;a&lt;/span&gt; &amp;#123; &lt;span class=&quot;attribute&quot;&gt;color&lt;/span&gt;: &lt;span class=&quot;number&quot;&gt;#236da1&lt;/span&gt;; &amp;#125;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;style&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;div&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;div&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h1 id=&quot;5、Twikoo邮件自定义字段&quot;&gt;&lt;a href=&quot;#5、Twikoo邮件自定义字段&quot; class=&quot;headerlink&quot; title=&quot;5、Twikoo邮件自定义字段&quot;&gt;&lt;/a&gt;5、Twikoo邮件自定义字段&lt;/h1&gt;&lt;p&gt;&amp;emsp;&amp;emsp;引用自&lt;code&gt;HEO&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;table-container&quot;&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;参数&lt;/th&gt;
+&lt;th&gt;含义&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;${SITE_URL}&lt;/td&gt;
+&lt;td&gt;网站链接&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;${SITE_NAME}&lt;/td&gt;
+&lt;td&gt;网站名字&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;${PARENT_NICK}&lt;/td&gt;
+&lt;td&gt;被回复人昵称&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;${PARENT_COMMENT}&lt;/td&gt;
+&lt;td&gt;被回复人的评论内容&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;${NICK}&lt;/td&gt;
+&lt;td&gt;回复人昵称&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;${COMMENT}&lt;/td&gt;
+&lt;td&gt;回复人评论内容&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;${POST_URL}&lt;/td&gt;
+&lt;td&gt;文章链接&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;${IMG}&lt;/td&gt;
+&lt;td&gt;回复人头像&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;${PARENT_IMG}&lt;/td&gt;
+&lt;td&gt;被回复人头像&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;${MAIL}&lt;/td&gt;
+&lt;td&gt;回复人邮件&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;${IP}&lt;/td&gt;
+&lt;td&gt;回复人 IP 地址&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;https://s2.loli.net/2022/11/24/siMAqL1Zewz3QlJ.webp&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="杂谈教程" scheme="https://naokuoteng.cn/categories/%E6%9D%82%E8%B0%88%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="Twikoo" scheme="https://naokuoteng.cn/tags/Twikoo/"/>
+    
+    <category term="邮件模板" scheme="https://naokuoteng.cn/tags/%E9%82%AE%E4%BB%B6%E6%A8%A1%E6%9D%BF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Markdown语法与外挂标签写法汇总</title>
+    <link href="https://naokuoteng.cn/posts/2013454d.html"/>
+    <id>https://naokuoteng.cn/posts/2013454d.html</id>
+    <published>2022-11-29T07:44:31.000Z</published>
+    <updated>2023-01-27T01:58:24.155Z</updated>
+    
+    
+    <summary type="html">转载自:https://www.fomal.cc/posts/2013454d.html</summary>
+    
+    
+    
+    <category term="杂谈教程" scheme="https://naokuoteng.cn/categories/%E6%9D%82%E8%B0%88%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="外挂标签" scheme="https://naokuoteng.cn/tags/%E5%A4%96%E6%8C%82%E6%A0%87%E7%AD%BE/"/>
+    
+    <category term="Markdown" scheme="https://naokuoteng.cn/tags/Markdown/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>添加访客信息欢迎卡片</title>
+    <link href="https://naokuoteng.cn/posts/fc3458a8.html"/>
+    <id>https://naokuoteng.cn/posts/fc3458a8.html</id>
+    <published>2022-11-27T13:53:57.000Z</published>
+    <updated>2023-02-13T11:35:39.624Z</updated>
+    
+    
+    <summary type="html">访客信息欢迎卡片</summary>
+    
+    
+    
+    <category term="杂谈教程" scheme="https://naokuoteng.cn/categories/%E6%9D%82%E8%B0%88%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="Hexo" scheme="https://naokuoteng.cn/tags/Hexo/"/>
+    
+    <category term="Butterfly" scheme="https://naokuoteng.cn/tags/Butterfly/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>贪心动态 守望者的逃离</title>
+    <link href="https://naokuoteng.cn/posts/585f521.html"/>
+    <id>https://naokuoteng.cn/posts/585f521.html</id>
+    <published>2022-11-25T02:16:04.000Z</published>
+    <updated>2023-01-27T01:58:01.473Z</updated>
+    
+    
+    <summary type="html">贪心或动态算法</summary>
+    
+    
+    
+    <category term="算法日志" scheme="https://naokuoteng.cn/categories/%E7%AE%97%E6%B3%95%E6%97%A5%E5%BF%97/"/>
+    
+    
+    <category term="算法" scheme="https://naokuoteng.cn/tags/%E7%AE%97%E6%B3%95/"/>
+    
+    <category term="贪心" scheme="https://naokuoteng.cn/tags/%E8%B4%AA%E5%BF%83/"/>
+    
+    <category term="动态规划" scheme="https://naokuoteng.cn/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>动态规划 乌龟棋 四维 </title>
+    <link href="https://naokuoteng.cn/posts/930406a6.html"/>
+    <id>https://naokuoteng.cn/posts/930406a6.html</id>
+    <published>2022-11-25T01:47:11.000Z</published>
+    <updated>2023-03-03T13:48:06.228Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;P1541-NOIP2010-提高组-乌龟棋-四维-动态规划&quot;&gt;&lt;a href=&quot;#P1541-NOIP2010-提高组-乌龟棋-四维-动态规划&quot; class=&quot;headerlink&quot; title=&quot;P1541 [NOIP2010 提高组] 乌龟棋  四维 动态规划&quot;&gt;&lt;/a&gt;P1541 [NOIP2010 提高组] 乌龟棋  四维 动态规划&lt;/h1&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;27&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;28&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;29&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;30&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;31&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;32&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;33&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;34&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;35&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;36&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;37&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;38&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;39&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;40&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;41&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;42&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;43&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;44&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;45&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;//首先对 1 2 3 4 4种不同的卡片计数&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;//然后动态规划 卡片的数量，注意初始值为t【1】 &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;#include&amp;lt;bits/stdc++.h&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;using namespace std;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;int dp[125][125][125][125];  //abcd 代表1 2 3 4 四种走法&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;int t[405];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;int n,m;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;int num[5];//1 2 3 4 四种卡片的张数&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;int main()&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	cin&amp;gt;&amp;gt;n&amp;gt;&amp;gt;m;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	int i,j;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	for(i=1;i&amp;lt;=n;i++)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		cin&amp;gt;&amp;gt;t[i];// 每种卡片的值&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	for(i=1;i&amp;lt;=m;i++)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		int x;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		cin&amp;gt;&amp;gt;x;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		num[x]++;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	int a,b,c,d;// 1 2 3 4 四种卡片&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	dp[0][0][0][0]=t[1];// 非常重要，起始等于t1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	for(a=0;a&amp;lt;=num[1];a++)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		for(b=0;b&amp;lt;=num[2];b++)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;			for(c=0;c&amp;lt;=num[3];c++)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;			&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;				for(d=0;d&amp;lt;=num[4];d++)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;				&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;					int dis=1+a*1+b*2+3*c+d*4;// 计算新位置，起始等于1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;					if(a!=0) dp[a][b][c][d]=max(dp[a-1][b][c][d]+t[dis],dp[a][b][c][d]); // a用一张&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;					if(b!=0) dp[a][b][c][d]=max(dp[a][b-1][c][d]+t[dis],dp[a][b][c][d]);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;					if(c!=0) dp[a][b][c][d]=max(dp[a][b][c-1][d]+t[dis],dp[a][b][c][d]);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;					if(d!=0) dp[a][b][c][d]=max(dp[a][b][c][d-1]+t[dis],dp[a][b][c][d]);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;				&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;			&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	cout&amp;lt;&amp;lt;dp[num[1]][num[2]][num[3]][num[4]]&amp;lt;&amp;lt;endl;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	return 0;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;img src=&quot;https://s2.loli.net/2022/11/24/siMAqL1Zewz3QlJ.webp&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="算法日志" scheme="https://naokuoteng.cn/categories/%E7%AE%97%E6%B3%95%E6%97%A5%E5%BF%97/"/>
+    
+    
+    <category term="算法" scheme="https://naokuoteng.cn/tags/%E7%AE%97%E6%B3%95/"/>
+    
+    <category term="动态规划" scheme="https://naokuoteng.cn/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>外挂标签的引入及使用方法</title>
+    <link href="https://naokuoteng.cn/posts/dcf9a5f8.html"/>
+    <id>https://naokuoteng.cn/posts/dcf9a5f8.html</id>
+    <published>2022-11-23T14:09:03.000Z</published>
+    <updated>2023-01-27T02:04:07.765Z</updated>
+    
+    
+    <summary type="html">外挂标签使用方法记录。</summary>
+    
+    
+    
+    <category term="杂谈教程" scheme="https://naokuoteng.cn/categories/%E6%9D%82%E8%B0%88%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="外挂标签" scheme="https://naokuoteng.cn/tags/%E5%A4%96%E6%8C%82%E6%A0%87%E7%AD%BE/"/>
+    
+    <category term="Hexo" scheme="https://naokuoteng.cn/tags/Hexo/"/>
+    
+    <category term="Butterfly" scheme="https://naokuoteng.cn/tags/Butterfly/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>鬼畜周姐</title>
+    <link href="https://naokuoteng.cn/posts/4c4be88b.html"/>
+    <id>https://naokuoteng.cn/posts/4c4be88b.html</id>
+    <published>2022-11-18T14:28:13.000Z</published>
+    <updated>2023-02-24T06:29:05.698Z</updated>
+    
+    
+    <summary type="html">鬼畜周姐yyds</summary>
+    
+    
+    
+    <category term="视频专区" scheme="https://naokuoteng.cn/categories/%E8%A7%86%E9%A2%91%E4%B8%93%E5%8C%BA/"/>
+    
+    
+    <category term="BiliBili" scheme="https://naokuoteng.cn/tags/BiliBili/"/>
+    
+    <category term="搞笑" scheme="https://naokuoteng.cn/tags/%E6%90%9E%E7%AC%91/"/>
+    
+    <category term="视频" scheme="https://naokuoteng.cn/tags/%E8%A7%86%E9%A2%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>哭哭女孩</title>
+    <link href="https://naokuoteng.cn/posts/ede7b928.html"/>
+    <id>https://naokuoteng.cn/posts/ede7b928.html</id>
+    <published>2022-11-18T14:09:02.000Z</published>
+    <updated>2023-02-24T06:29:10.646Z</updated>
+    
+    
+    <summary type="html">测试bilibili播放是否适配</summary>
+    
+    
+    
+    <category term="视频专区" scheme="https://naokuoteng.cn/categories/%E8%A7%86%E9%A2%91%E4%B8%93%E5%8C%BA/"/>
+    
+    
+    <category term="BiliBili" scheme="https://naokuoteng.cn/tags/BiliBili/"/>
+    
+    <category term="搞笑" scheme="https://naokuoteng.cn/tags/%E6%90%9E%E7%AC%91/"/>
+    
+    <category term="视频" scheme="https://naokuoteng.cn/tags/%E8%A7%86%E9%A2%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于鸿蒙控制中心播放器自定义背景图片的教程</title>
+    <link href="https://naokuoteng.cn/posts/a2192fb6.html"/>
+    <id>https://naokuoteng.cn/posts/a2192fb6.html</id>
+    <published>2022-11-13T09:11:00.000Z</published>
+    <updated>2023-02-13T11:34:06.791Z</updated>
+    
+    
+    <summary type="html">鸿蒙控制中心播放器自定义背景图片</summary>
+    
+    
+    
+    <category term="杂谈教程" scheme="https://naokuoteng.cn/categories/%E6%9D%82%E8%B0%88%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="鸿蒙" scheme="https://naokuoteng.cn/tags/%E9%B8%BF%E8%92%99/"/>
+    
+    <category term="美化" scheme="https://naokuoteng.cn/tags/%E7%BE%8E%E5%8C%96/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>青年干部应干事创业担当责任</title>
+    <link href="https://naokuoteng.cn/posts/a5e58986.html"/>
+    <id>https://naokuoteng.cn/posts/a5e58986.html</id>
+    <published>2022-11-11T05:07:54.000Z</published>
+    <updated>2023-02-18T03:01:34.680Z</updated>
+    
+    
+    <summary type="html">青年干部行动起来，勇于承担。</summary>
+    
+    
+    
+    <category term="日记小文" scheme="https://naokuoteng.cn/categories/%E6%97%A5%E8%AE%B0%E5%B0%8F%E6%96%87/"/>
+    
+    
+    <category term="随笔" scheme="https://naokuoteng.cn/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+    <category term="文章" scheme="https://naokuoteng.cn/tags/%E6%96%87%E7%AB%A0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>平凡造就伟大</title>
+    <link href="https://naokuoteng.cn/posts/47c104.html"/>
+    <id>https://naokuoteng.cn/posts/47c104.html</id>
+    <published>2022-11-11T04:11:54.000Z</published>
+    <updated>2023-02-18T03:01:28.326Z</updated>
+    
+    
+    <summary type="html">平凡 伟大</summary>
+    
+    
+    
+    <category term="日记小文" scheme="https://naokuoteng.cn/categories/%E6%97%A5%E8%AE%B0%E5%B0%8F%E6%96%87/"/>
+    
+    
+    <category term="随笔" scheme="https://naokuoteng.cn/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+    <category term="文章" scheme="https://naokuoteng.cn/tags/%E6%96%87%E7%AB%A0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>这是一篇测试博客-First</title>
+    <link href="https://naokuoteng.cn/posts/83a69671.html"/>
+    <id>https://naokuoteng.cn/posts/83a69671.html</id>
+    <published>2022-11-09T10:07:53.000Z</published>
+    <updated>2023-01-27T01:44:52.311Z</updated>
+    
+    
+    <summary type="html">这是第一篇文章</summary>
+    
+    
+    
+    <category term="玩转Windows" scheme="https://naokuoteng.cn/categories/%E7%8E%A9%E8%BD%ACWindows/"/>
+    
+    
+    <category term="博客" scheme="https://naokuoteng.cn/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="测试" scheme="https://naokuoteng.cn/tags/%E6%B5%8B%E8%AF%95/"/>
+    
+  </entry>
+  
+</feed>

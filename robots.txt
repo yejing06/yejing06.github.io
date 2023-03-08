@@ -1,0 +1,6 @@
+# hexo robots.txt
+User-agent: *
+Allow: /
+
+Sitemap: https://naokuoteng.cn/sitemap.xml
+Sitemap: https://naokuoteng.cn/baidusitemap.xml
