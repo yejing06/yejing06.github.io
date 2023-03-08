@@ -1,0 +1,423 @@
+#about-page
+  .author-box
+    .author-img
+      img.no-lightbox(src='https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/blog/article/202212101426483.webp')
+    .image-dot
+  p.p.center.logo.large 关于我
+  p.p.center.small 天气转晴，太阳崭新，我在前进✨
+  .author-content
+    .author-content-item.myInfoAndSayHello
+      .title1 你好，很高兴认识你👋
+      .title2
+        | 欢迎来到
+        span.inline-word 脑阔疼小站
+      .title1
+        | 这里 仅为个人记录、学习、存档、
+        span.inline-word 皆为兴趣所好
+    .aboutsiteTips.author-content-item
+      .author-content-item-tips 追求
+      h2
+        | 源于
+        br
+        | 兴趣所好 而去
+        span.inline-word 感受
+        .mask
+          span.first-tips 学习
+          |
+          span 生活
+          |
+          span(data-up) 记录
+          |
+          span(data-show) 努力
+
+  .hello-about
+    .cursor(style='translate:none;rotate:none;scale:none;transform:translate(721px,180px)')
+    .shapes
+      .shape.shape-1(style='translate:none;rotate:none;scale:none;transform:translate(721px,180px)')
+      .shape.shape-2(style='translate:none;rotate:none;scale:none;transform:translate(721px,180px)')
+      .shape.shape-3(style='translate:none;rotate:none;scale:none;transform:translate(721px,180px)')
+    .content
+      h1 Come on!
+
+  .author-content
+    .author-content-item.skills
+      .card-content
+        .author-content-item-tips 技能
+        span.author-content-item-title 创造源于技术
+        .skills-style-group
+          .tags-group-all
+            .tags-group-wrapper
+              each i in site.data.creativity
+                - const evenNum = i.creativity_list.filter((x, index) => index % 2 === 0);
+                - const oddNum = i.creativity_list.filter((x, index) => index % 2 === 1);
+                each item, index in i.creativity_list
+                  if ((index+1 <= evenNum.length) && (index+1 <= oddNum.length))
+                    .tags-group-icon-pair
+                      .tags-group-icon(style=`background: ${evenNum[index].color}`)
+                        img.no-lightbox(title=evenNum[index].name, src=evenNum[index].icon)
+                      .tags-group-icon(style=`background: ${oddNum[index].color}`)
+                        img.no-lightbox(title=oddNum[index].name, src=oddNum[index].icon)
+          .skills-list
+            each i in site.data.creativity
+              each item, index in i.creativity_list
+                .skill-info
+                  .skill-icon(style=`background: ${item.color}`)
+                    img.no-lightbox(title=item.name, src=item.icon)
+                  .skill-name
+                    span=item.name
+            .etc ...
+    .author-content-item.careers
+      .card-content
+        .author-content-item-tips 生涯
+        span.author-content-item-title 无限进步
+        .careers-group
+          .careers-item
+            .circle(style='background:#357ef5')
+            psw EDU,计算机科学与技术
+        //- img.author-content-img.no-lightbox(alt='生涯', src='https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/blog/article/202212132006279.webp')
+        img.author-content-img.no-lightbox(alt='生涯', src='https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/blog/article/202212122034780.webp')
+
+  .author-content
+    .about-statistic.author-content-item
+      .card-content
+        .author-content-item-tips 数据
+        span.author-content-item-title 访问统计
+        #statistic
+        .post-tips
+          | 统计信息来自
+          a(href='https://invite.51.la/1NzKqTeb?target=V6', target='_blank', rel='noopener nofollow') 51la网站统计
+        .banner-button-group
+          a.banner-button(onclick='pjax.loadUrl("/archives/")', data-pjax-state)
+            i.fas.fa-circle-arrow-up-right
+            |
+            span.banner-button-text 文章隧道
+    .author-content-item-group.column.mapAndInfo
+      .author-content-item.map.single
+        span.map-title
+          | 想要游玩地
+          b 中国，重庆市
+      .author-content-item.selfInfo.single
+        div
+          span.selfInfo-title 生于
+          |
+          span.selfInfo-content(style='color:#43a6c6') 中国
+        //-   span.selfInfo-content#selfInfo-content-year(style='color:#43a6c6') 1900
+          
+        div
+          span.selfInfo-title 长于
+          |
+          span.selfInfo-content(style='color:#c69043') 中国
+        div
+          span.selfInfo-title 爱于
+          |
+          span.selfInfo-content(style='color:#b04fe6') 中国
+
+  .author-content
+    .author-content-item.personalities
+      .author-content-item-tips 性格
+      span.author-content-item-title 鉴赏家
+      .title2(style='color:#ac899c') ISTP-A
+      .post-tips
+        | 在
+        a(href='https://www.16personalities.com/', target='_blank', rel='noopener nofollow') 16personalities
+        |  了解更多关于
+        a(target='_blank', rel='noopener external nofollow', href='https://www.16personalities.com/ch/istp-%E4%BA%BA%E6%A0%BC') 鉴赏家
+      .image 
+        //- img.no-lightbox(src='https://npm.elemecdn.com/anzhiyu-blog@2.0.8/img/svg/ESFJ-A.svg')
+        img.no-lightbox(src='https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/blog/article/202303011055749.webp')
+    .author-content-item.myphoto
+      img.author-content-img.no-lightbox(alt='照片', src='https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/blog/article/202212122039465.webp')
+
+  .author-content
+    .author-content-item.maxim
+      .author-content-item-tips 座右铭
+      span.maxim-title
+        span(style='opacity:.6;margin-bottom:8px') 愿我一生欢喜，
+        |
+        span 不为世俗所及。
+    .author-content-item.buff
+      .card-content
+        .author-content-item-tips 特长
+        span.buff-title
+          span(style='opacity:.6;margin-bottom:8px')
+            | 脑阔疼小站当然
+            span.inline-word 脑回路新奇
+          |
+          span
+            | 二次元指数
+            span.inline-word MAX
+      .card-background-icon
+        i.fas.fa-dice-d20
+
+  .author-content
+    .author-content-item.game-yuanshen
+      .card-content
+        .author-content-item-tips 爱好游戏
+        span.author-content-item-title 王者
+        .content-bottom
+          .icon-group
+            .loading-bar(role='presentation', aria-hidden='true')
+              img.no-lightbox(src='https://yuanshen.site/imgs/loading-bar.png', alt='Loading...', longdesc='https://ys.mihoyo.com/main/')
+          .tips.game-yuanshen-uid ID: 恶龙咆哮
+    .author-content-item.historical-drama
+      .card-content
+        .author-content-item-tips 爱好动漫
+        span.author-content-item-title 斗破苍穹
+        .content-bottom
+          .banner-button-group
+            a.banner-button(onclick='window.open("https://v.qq.com/x/cover/mzc0020027yzd9e/q0043cz9x20.html")', data-pjax-state)
+              i.fas.fa-circle-arrow-up-right
+              |
+              span.banner-button-text 立即追番
+
+  .author-content
+    .author-content-item.like-technology
+      .card-content
+        .author-content-item-tips 关注偏好
+        span.author-content-item-title 数码科技
+        .content-bottom
+          .tips 手机、电脑软硬件
+    .author-content-item.like-music
+      .card-content
+        .author-content-item-tips 音乐偏好
+        span.author-content-item-title 古风、甜美音
+        |
+        span.author-content-item-title 国风 流行
+        .content-bottom
+          .tips 一起欣赏更多音乐
+        .banner-button-group
+          //- a.banner-button(onclick='pjax.loadUrl("https://www.bilibili.com/video/BV17P4y1J7U7/")', data-pjax-state)
+          a.banner-button(onclick='window.open("https://www.bilibili.com/video/BV17P4y1J7U7")', data-pjax-state)
+            i.fas.fa-circle-arrow-up-right
+            |
+            span.banner-button-text 更多推荐
+
+  .author-content
+    .create-site-post.author-content-item.single
+      .author-content-item-tips 心路历程
+      | &emsp;&emsp;欢迎来到我的博客 😝，这里是我记笔记的地方 🙌，做这些东西都是
+      strong 兴趣使然，
+      | 所记录内容皆为
+      strong 学习、记录、收档
+      | 所用。内容或为原创 ✋， 或来源于网络 💪，觉得有趣的东西 ⚡我便会记录于此 ☁️，当然了，记录于此也是为了
+      psw 防遗忘 👻，嘿嘿! 
+      del 我这么好的记忆力才不会忘
+      |  给大家推荐一部番：
+      .site-card-group
+        a.site-card(target='_blank', href='https://v.qq.com/x/cover/mzc0020027yzd9e/q0043cz9x20.html', data-title='斗破苍穹')
+          .wrapper.cover
+            img.cover.fadeIn(src='https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/blog/article/202212121740289.webp')
+          .info
+            img.flink-avatar(src='https://s2.loli.net/2023/03/01/eWhbXnaPqUkNFY8.webp', style='top: 19px')
+            span.site-title 斗破苍穹
+      | 小说、漫画我也看过部分，在朋友家中初次接触，
+      psw 他是书迷啦
+      | 我便被书中内容、曲折蜿蜒的故事情节和引人入胜的美容所吸引，于是乎，便一直追番至今，从中我看到了什么是坚持不懈，什么是一诺千金，什么是风雨过后有彩虹~
+      .checkbox.blue.checked
+        input(type='checkbox', checked)
+        p
+          | 致力于成为一个合格的自己
+          psw 她的依靠
+          img.inline-img(src='https://cdn1.tianli0.top/gh/volantis-x/cdn-emoji/aru-l/0000.gif/' data-fancybox='gallery', style='display: inline;margin: 0 3px;height: 1.1em;vertical-align: text-bottom;')
+      .checkbox.blue.checked
+        input(type='checkbox', checked)
+        p
+          | 又菜又爱玩🎮
+          kbd ctrl
+          |  +
+          kbd C
+          | 、
+          kbd ctrl
+          |  +
+          kbd V
+          | 高级CV工程师🏆
+      .checkbox.times.red.checked
+        input(type='checkbox', checked)
+        p 擅长PS、Pr、Ae、Au、Ai、Dw、An、Id等软件的安装与卸载🎃
+      .checkbox.times.red.checked
+        input(type='checkbox', checked)
+        p 精通Html、CSS、JavaScript、Vue、React、PHP、Java、Python、C、C++、C#、Go、TypeScript等单词的拼写🎲
+      .checkbox.times.red.checked
+        input(type='checkbox', checked)
+        p 熟悉Windows、Linux、Mac、Android、IOS等系统的开关机👻
+      span.p.h3 todoList
+      .checkbox.checked
+        input(type='checkbox', checked)
+        p 玩转路由
+      .checkbox
+        input(type='checkbox')
+        p 微信小程序
+      .checkbox
+        input(type='checkbox')
+        p 语言的魅力
+
+  .author-content
+    .author-content-item.single.reward
+      .author-content-item-tips 致谢
+      span.author-content-item-title 在乎的人
+      .author-content-item-description 因为有在乎的人，所以才会加倍努力！
+        each i in site.data.reward
+          - let rawData = [...i.reward_list]
+          .reward-list-all
+            - let reward_list_amount = i.reward_list.sort((a,b)=>b.amount -  a.amount)
+            each item, index in reward_list_amount
+              .reward-list-item
+                .reward-list-item-name=item.name
+                .reward-list-bottom-group
+                  if item.amount >= 50
+                    .reward-list-item-money(style='background:var(--nkt-yellow)')=`¥${item.amount}`
+                  else
+                    .reward-list-item-money=`¥${item.amount + (item.suffix ? item.suffix : "")}`
+                  .datatime.reward-list-item-time(datatime=item.datatime)=new Date(item.datatime).toISOString().slice(0, -14)
+          .reward-list-updateDate
+            | 最新更新时间：
+            time.datatime.reward-list-updateDate-time(datatime=rawData[0].datatime)=new Date(rawData[0].datatime).toISOString().slice(0, -14)
+      //- .post-reward
+      //-   button.tip-button.reward-button
+      //-     span.tip-button__text 不给糖就捣蛋
+      //-     .coin-wrapper
+      //-       .coin
+      //-         .coin__middle
+      //-         .coin__back
+      //-         .coin__front
+      //-     .reward-main
+      //-       ul.reward-all
+      //-         li.reward-item
+      //-           a(href='https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/blog/wallpaper/202301271023038.webp', target='_blank')
+      //-             img.post-qr-code-img(alt='wechat', src='https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/blog/wallpaper/202301271023038.webp')
+      //-           .post-qr-code-desc wechat
+      //-         li.reward-item
+      //-           a(href='https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/blog/wallpaper/202301271023013.webp', target='_blank')
+      //-             img.post-qr-code-img(alt='alipay', src='https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/blog/wallpaper/202301271023013.webp')
+      //-           .post-qr-code-desc alipay
+      .post-reward
+          button.tip-button.reward-button
+              span.tip-button__text &#x4E0D;&#x7ED9;&#x7CD6;&#x5C31;&#x6363;&#x86CB;
+              .coin-wrapper
+                .coin
+                  .coin__middle
+                  .coin__back
+                  .coin__front
+              .reward-main
+                ul.reward-all
+                  li.reward-item
+                    a(href='/img/wechat.jpg', target='_blank')
+                      img.post-qr-code-img.entered.loaded(src='/img/wechat.jpg', data-lazy-src='/img/wechat.jpg', alt='wechat', data-ll-status='loaded')
+                    .post-qr-code-desc wechat
+                  li.reward-item
+                    a(href='/img/alipay.jpg', target='_blank')
+                      img.post-qr-code-img.entered.loaded(src='/img/alipay.jpg', data-lazy-src='/img/alipay.jpg', alt='alipay', data-ll-status='loaded')
+                    .post-qr-code-desc alipay
+
+script(src=url_for(theme.CDN.option.countup_js))
+script(src="https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/gsap/3.9.1/gsap.min.js")
+script.
+  (() => {
+    function isInViewPortOfOne(el) {
+      if (!el) return;
+      const viewPortHeight = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+      const offsetTop = el.offsetTop;
+      const scrollTop = document.documentElement.scrollTop;
+      const top = offsetTop - scrollTop;
+      return top <= viewPortHeight;
+    }
+    fetch('https://v6-widget.51.la/v6/JtIoqMXdoA8SMpNt/quote.js').then(res => res.text()).then((data) => {
+        let title = ['最近活跃', '今日人数', '今日访问', '昨日人数', '昨日访问', '本月访问', '总访问量']
+        let num = data.match(/(<\/span><span>).*?(\/span><\/p>)/g)
+
+        num = num.map((el) => {
+          let val = el.replace(/(<\/span><span>)/g, '')
+          let str = val.replace(/(<\/span><\/p>)/g, '')
+          return str
+        })
+
+        let statisticEl = document.getElementById('statistic')
+
+        // 自定义不显示哪个或者显示哪个，如下为不显示 最近活跃访客 和 总访问量
+        let statistic = []
+        for (let i = 0; i <= num.length; i++) {
+            if (!statisticEl) return
+            if (i == 0 || i == num.length) continue;
+            statisticEl.innerHTML += '<div><span>' + title[i] + '</span><span id='+ title[i] + '>' + num[i] + '</span></div>'
+            queueMicrotask(()=> {
+              statistic.push(new CountUp(title[i], 0, num[i], 0, 2,{
+                  useEasing: true,
+                  useGrouping: true,
+                  separator: ',',
+                  decimal: '.',
+                  prefix: '',
+                  suffix: ''
+              }))
+            })
+        }
+
+        function statisticUP () {
+          let statisticElment = document.querySelector('.about-statistic.author-content-item');
+          if(isInViewPortOfOne(statisticElment)) {
+            for (let i = 0; i < num.length; i++) {
+              if (i == 0 || i == num.length - 1) continue;
+              statistic[i-1].start();
+            }
+            document.removeEventListener('scroll', throttleStatisticUP);
+          }
+        }
+
+        const selfInfoContentYear = new CountUp('selfInfo-content-year', 0, 2002, 0, 2, {
+          useEasing: true,
+          useGrouping: false,
+          separator: ',',
+          decimal: '.',
+          prefix: '',
+          suffix: ''
+        })
+
+        function scrollSelfInfoContentYear() {
+          let selfInfoContentYearElment = document.querySelector('.author-content-item.selfInfo.single');
+          if (selfInfoContentYearElment && isInViewPortOfOne(selfInfoContentYearElment)) {
+            selfInfoContentYear.start()
+            document.removeEventListener('scroll', throttleScrollSelfInfoContentYear);
+          }
+        }
+        const throttleStatisticUP = btf.throttle(statisticUP, 200)
+        document.addEventListener('scroll', throttleStatisticUP, {passive: true})
+
+        const throttleScrollSelfInfoContentYear = btf.throttle(scrollSelfInfoContentYear, 200)
+        document.addEventListener('scroll', throttleScrollSelfInfoContentYear, {passive: true})
+    });
+
+    var pursuitInterval = null;
+      pursuitInterval = setInterval(function () {
+        const show = document.querySelector('span[data-show]')
+        const next = show.nextElementSibling || document.querySelector('.first-tips')
+        const up = document.querySelector('span[data-up]')
+
+        if (up) {
+          up.removeAttribute('data-up')
+        }
+
+        show.removeAttribute('data-show')
+        show.setAttribute('data-up', '')
+
+        next.setAttribute('data-show', '')
+      }, 2000)
+
+      document.addEventListener('pjax:send', function(){
+        clearInterval(pursuitInterval);
+      });
+
+      var helloAboutEl = document.querySelector('.hello-about')
+      helloAboutEl.addEventListener("mousemove", evt => {
+        const mouseX = evt.offsetX;
+        const mouseY = evt.offsetY;
+        gsap.set(".cursor", {
+          x: mouseX,
+          y: mouseY,
+        })
+
+        gsap.to(".shape", {
+          x: mouseX,
+          y: mouseY,
+          stagger: -0.1
+        })
+      })
+  })()

@@ -1,0 +1,73 @@
+- var htmlClassHideAside = theme.aside.enable && theme.aside.hide ? 'hide-aside' : ''
+- page.aside = is_archive() ? theme.aside.display.archive: is_category() ? theme.aside.display.category : is_tag() ? theme.aside.display.tag : page.aside
+- var hideAside = !theme.aside.enable || page.aside === false ? 'hide-aside' : ''
+- var pageType = is_post() ? 'post' : 'page'
+
+doctype html
+html(lang=config.language data-theme=theme.display_mode class=htmlClassHideAside)
+  head
+    include ./head.pug
+  body
+    if theme.preloader.enable
+      !=partial('includes/loading/index', {}, {cache: true})
+
+    if theme.background
+      #web_bg
+      
+    !=partial('includes/sidebar', {}, {cache: true})
+
+    if page.type !== '404'
+      #body-wrap(class=pageType)
+        include ./header/index.pug
+
+        main#content-inner.layout(class=hideAside)
+          if body
+            div!= body
+          else
+            block content
+            if theme.aside.enable && page.aside !== false
+              include widget/index.pug
+
+        - var footerBg = theme.footer_bg
+        if (footerBg)
+          if (footerBg === true)
+            - var footer_bg = bg_img
+          else
+            - var footer_bg = theme.footer_bg.indexOf('/') !== -1 ? `background-image: url('${url_for(footerBg)}')` : `background: ${footerBg}`
+        else
+          - var footer_bg = ''
+
+        footer#footer(style=footer_bg)
+          !=partial('includes/footer', {}, {cache: true})
+
+    else
+      include ./404.pug
+
+    include ./rightside.pug
+    !=partial('includes/third-party/search/index', {}, {cache: true})
+    !=partial('includes/rightmenu',{}, {cache:true})
+    include ./additional-js.pug
+    
+    //- 上面的是本来就有的，对齐上面的缩进，加上下面的内容
+    //- .contact-info
+    //-   .option
+    //-     i.fas.fa-rocket
+    //-     .bloktop
+    //-     .text Welcome!
+    //-       .strip
+    //-   .option
+    //-     i.fas.fa-cube
+    //-     .blok
+    //-     .text
+    //-       .strip
+    //-       <div class="post-reward"><button class="tip-button reward-button"><span class="tip-button__text">投喂</span><div class="reward-main"><ul class="reward-all"><li class="reward-item"><a class="about-reward" href="/img/wechat.jpg" target="_blank"><img class="post-qr-code-img" src="/img/wechat.jpg" alt="微信"></a><div class="post-qr-code-desc">微信</div></li><li class="reward-item"><a class="about-reward" href="/img/alipay.jpg" target="_blank"><img class="post-qr-code-img" src="/img/alipay.jpg" alt="支付宝"></a><div class="post-qr-code-desc">支付宝</div></li></ul></div></button></div>
+      //-     <div class="post-reward"><button class="tip-button reward-button"><span class="tip-button__text">投喂</span><div class="reward-main"><ul class="reward-all"><li class="reward-item"><a class="about-reward" href="https://s2.loli.net/2022/12/11/M6ZD8utGdTCRo4f.webp" target="_blank"><img class="post-qr-code-img" src="https://s2.loli.net/2022/12/11/M6ZD8utGdTCRo4f.webp" alt="微信"></a><div class="post-qr-code-desc">微信</div></li><li class="reward-item"><a class="about-reward" href="https://s2.loli.net/2022/12/11/AkmQT2BOj4zxgYa.webp" target="_blank"><img class="post-qr-code-img" src="https://s2.loli.net/2022/12/11/AkmQT2BOj4zxgYa.webp" alt="支付宝"></a><div class="post-qr-code-desc">支付宝</div></li></ul></div></button></div>
+      //- .option
+      //-   i.fas.fa-music
+      //-   .blokbottom
+      //-   .text.aplayertext
+      //-     script.
+      //-       var meting_api='<https://meting.naokuoteng.cn/>';
+      //-     .strip
+      //-     .aplayer.no-destroy(mutex='true', listfolded='true', data-id='2346950274', data-preload="none" , data-server='netease', data-volume='0.25', data-order='random', data-type='playlist', data-fixed='true', data-autoplay='false')
+

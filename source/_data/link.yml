@@ -1,0 +1,79 @@
+# - class_name: For me
+#   class_desc: Name:&emsp;脑阔疼のBlog <br>
+#               Link:&emsp;https://naokuoteng.cn/ <br>
+#               Avatar:https://s2.loli.net/2022/12/04/65B3mSlbdsvr4aU.webp <br>
+#               Descr:&emsp;天气转晴 太阳崭新 我在前进 <br>
+#               siteshot:https://s2.loli.net/2022/12/26/UrkH1Am6Gb9O2iw.webp <br>
+
+
+- class_name: 🍰友情链接
+  class_desc: 一些可可爱爱的小伙伴
+  flink_style: flexcard #|| butterfly
+  link_list:
+    - name: 脑阔疼ه٥
+      link: https://naokuoteng.cn/
+      avatar: https://s2.loli.net/2022/12/04/65B3mSlbdsvr4aU.webp
+      descr: 天气转晴 太阳崭新 我在前进
+      siteshot: https://s2.loli.net/2022/12/26/UrkH1Am6Gb9O2iw.webp
+    - name: 脑阔疼网址导航
+      link: https://alvie.cn/
+      avatar: https://s2.loli.net/2023/02/18/fzMqNh2URaQZdkH.webp
+      descr: 天气转晴 太阳崭新 我在前进
+      siteshot: https://s2.loli.net/2023/02/18/wHRnOWAcUNCY3m2.webp
+    - name: Fomalhaut🥝
+      link: https://www.fomal.cc/
+      avatar: https://www.fomal.cc/assets/head.jpg
+      descr: Future is now 🍭🍭🍭
+    - name: Acozycotage Blog
+      link: https://www.acozycotage.net
+      avatar: https://lskypro.acozycotage.net/LightPicture/2022/12/6a6fe6ebfd19c465.jpg
+      descr: 寄言燕雀莫相唣，自有云霄万里高，给时光以生命，给岁月以文明 🍭🍭🍭
+      siteshot: https://lskypro.acozycotage.net/LightPicture/2022/12/e4ac5837ed7e8051.png
+    - name: 懒代王
+      link: https://www.luomengguo.top/
+      avatar: https://wenzhangku.luomengguo.top/%E6%96%87%E7%AB%A0%E8%83%8C%E6%99%AF%E5%9B%BE%E5%92%8C%E5%B0%81%E9%9D%A2/00005.jpg
+      descr: 追梦少年,敢干敢搏
+    - name: linlink~个人笔记
+      link: https://linlink.xyz/
+      avatar: https://linlink.xyz/img/log.png
+      descr: 不知名认证CV工程师
+      siteshot: https://i.328888.xyz/2022/12/22/AKnda.png
+    - name: 阿怪API接口站
+      link: https://api.aagtool.top
+      avatar: https://www.aagtool.top/WZ/TB.ico
+      descr: 提供免费/稳定/安全的API接口服务
+      siteshot: https://s2.loli.net/2023/01/30/XwNBTM8grbxztuR.webp
+    - name: 你会发光叭
+      link: https://linjiangyu.com/
+      avatar: https://linjiangyu.com/upload/favicon.jpg
+      descr: 一旦你成为自己的太阳,便无需再凭借谁的光
+
+    
+
+
+    # - name: Hexo
+    #   link: https://hexo.io/zh-cn/
+    #   avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
+    #   descr: 快速、简洁且高效的博客框架
+    - name: 预定
+      link: https://naokuoteng.cn/
+      avatar: https://s2.loli.net/2022/12/21/PX3iSgGEqpTUYok.jpg
+      descr: 愿我一生欢喜 不为世俗所及
+    
+
+- class_name: 🥯网站
+  class_desc: 值得推荐的网站
+  flink_style: flexcard #|| butterfly
+  link_list:
+    - name: Youtube
+      link: https://www.youtube.com/
+      avatar: https://i.loli.net/2020/05/14/9ZkGg8v3azHJfM1.png
+      descr: 视频网站
+    - name: Weibo
+      link: https://www.weibo.com/
+      avatar: https://i.loli.net/2020/05/14/TLJBum386vcnI1P.png
+      descr: 中国最大的社交分享平台
+    - name: Twitter
+      link: https://twitter.com/
+      avatar: https://i.loli.net/2020/05/14/5VyHPQqR6LWF39a.png
+      descr: 社交分享平台

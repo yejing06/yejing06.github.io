@@ -1,0 +1,40 @@
+#article-container
+  if top_img === false
+    h1.page-title= page.title
+  .flink
+    if site.data.link
+      each i in site.data.link
+        if i.class_name
+          h2!= i.class_name
+        if i.class_desc
+          .flink-desc!=i.class_desc
+        if i.flink_style === 'butterfly'
+          .butterfly-flink-list
+            each item in i.link_list
+              .flink-list-item
+                a(href=url_for(item.link)  title=item.name target="_blank")
+                  .flink-item-icon
+                    if theme.lazyload.enable
+                      img(data-lazy-src=url_for(item.avatar) onerror=`this.onerror=null;this.src='` + url_for(theme.error_img.flink) + `'` alt=item.name )
+                    else
+                      img(src=url_for(item.avatar) onerror=`this.onerror=null;this.src='` + url_for(theme.error_img.flink) + `'` alt=item.name )
+                  .flink-item-info
+                    .flink-item-name= item.name
+                    .flink-item-desc(title=item.descr)= item.descr
+        else if i.flink_style === 'flexcard'
+          .flexcard-flink-list
+            each item in i.link_list
+              a.flink-list-card(href=url_for(item.link) target='_blank' data-title=item.descr)
+                .wrapper.cover
+                  - var siteshot = item.siteshot ? url_for(item.siteshot) : 'https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/noanimate/' + item.link
+                  if theme.lazyload.enable
+                    img.cover.fadeIn(data-lazy-src=siteshot onerror=`this.onerror=null;this.src='` + url_for(theme.error_img.post_page) + `'` alt='' )
+                  else
+                    img.cover.fadeIn(src=siteshot onerror=`this.onerror=null;this.src='` + url_for(theme.error_img.post_page) + `'` alt='' )
+                .info
+                  if theme.lazyload.enable
+                    img.flink-avatar(data-lazy-src=url_for(item.avatar) onerror=`this.onerror=null;this.src='` + url_for(theme.error_img.flink) + `'` alt='' )
+                  else
+                    img(src=url_for(item.avatar) onerror=`this.onerror=null;this.src='` + url_for(theme.error_img.flink) + `'` alt='' )
+                  span.flink-sitename= item.name
+    != page.content

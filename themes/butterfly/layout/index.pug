@@ -1,0 +1,13 @@
+extends includes/layout.pug
+
+block content
+  include ./includes/mixins/post-ui.pug
+  #recent-posts.recent-posts
+    //- #bber-talk
+
+
+    link(rel="stylesheet", href="/css/bbtalk.css")
+    script(src='/js/timeago.min.js')
+    script(src='/js/bbtalk.js')
+    +postUI
+    include includes/pagination.pug

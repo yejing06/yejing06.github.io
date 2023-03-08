@@ -1,0 +1,9 @@
+- class_name: 赞赏
+  reward_list:
+    - name: 当然不能告诉你名字啦
+      amount: 100000
+      datatime: 2022-11-09
+    - name: 占个好位置啦
+      amount: 0.0
+      datatime: 2022-11-09
+      suffix: 贝壳
