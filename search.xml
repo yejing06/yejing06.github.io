@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>MT管理器修改应用包名</title>
+      <link href="/posts/5cdfb763.html"/>
+      <url>/posts/5cdfb763.html</url>
+      
+        <content type="html"><![CDATA[<div class="note info modern"><p>图片不进行缩放了 就这吧</p></div> <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>  想要在车机上使用某某音乐，奈何车机不支持快捷方式调起该音乐，于是乎就通过修改包名的方法欺骗车机，从而实现快捷调起该应用。简单来说就是让车机误以为使用的该软件是车机支持快捷调起的软件。</p><h2 id="1-找到要修改的应用安装包"><a href="#1-找到要修改的应用安装包" class="headerlink" title="1. 找到要修改的应用安装包"></a>1. 找到要修改的应用安装包</h2><p> 点击查看</p><p><img src="https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/2023/08/23/64e60f319d0ce.jpg" alt="https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/2023/08/23/64e60f319d0ce.jpg"></p><h2 id="2-修改APP桌面名称"><a href="#2-修改APP桌面名称" class="headerlink" title="2. 修改APP桌面名称"></a>2. 修改APP桌面名称</h2><h3 id="2-1-点击resources-arsc—-gt-Arsc编辑器"><a href="#2-1-点击resources-arsc—-gt-Arsc编辑器" class="headerlink" title="2.1 点击resources.arsc—&gt;Arsc编辑器"></a>2.1 点击<strong>resources.arsc</strong>—&gt;<strong>Arsc编辑器</strong></h3><p><img src="https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/2023/08/23/64e60fa744fa8.jpg" alt="https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/2023/08/23/64e60fa744fa8.jpg"></p><h3 id="2-2-字符常量池"><a href="#2-2-字符常量池" class="headerlink" title="2.2 字符常量池"></a>2.2 <strong>字符常量池</strong></h3><p><img src="https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/2023/08/23/64e61051f1883.jpg" alt="https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/2023/08/23/64e61051f1883.jpg"></p><h3 id="2-3-右上角三个点点击替换（查找内容填写APP当前的名称，替换内容填写要最终修改的名称），返回点击保存。"><a href="#2-3-右上角三个点点击替换（查找内容填写APP当前的名称，替换内容填写要最终修改的名称），返回点击保存。" class="headerlink" title="2.3 右上角三个点点击替换（查找内容填写APP当前的名称，替换内容填写要最终修改的名称），返回点击保存。"></a>2.3 右上角三个点点击<strong>替换</strong>（查找内容填写APP当前的名称，替换内容填写要最终修改的名称），返回点击保存。</h3><p><img src="https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/2023/08/23/64e6109e9a7ff.jpg" alt="https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/2023/08/23/64e6109e9a7ff.jpg"></p><h2 id="3-修改应用包名"><a href="#3-修改应用包名" class="headerlink" title="3. 修改应用包名"></a>3. 修改应用包名</h2><h3 id="3-1-在修改APP名称第一步记住应用包名，点击查看—-gt-AndroidManifest-xml"><a href="#3-1-在修改APP名称第一步记住应用包名，点击查看—-gt-AndroidManifest-xml" class="headerlink" title="3.1 在修改APP名称第一步记住应用包名，点击查看—&gt;AndroidManifest.xml"></a>3.1 在修改APP名称第一步记住应用包名，点击查看—&gt;<strong>AndroidManifest.xml</strong></h3><p><img src="https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/2023/08/23/64e61146edfd1.jpg" alt="https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/2023/08/23/64e61146edfd1.jpg"></p><h3 id="3-2-反编译"><a href="#3-2-反编译" class="headerlink" title="3.2 反编译"></a>3.2 <strong>反编译</strong></h3><p><img src="https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/2023/08/23/64e611bea0386.jpg" alt="https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/2023/08/23/64e611bea0386.jpg"></p><h3 id="3-3-右上角搜索"><a href="#3-3-右上角搜索" class="headerlink" title="3.3 右上角搜索"></a>3.3 <strong>右上角搜索</strong></h3><p><img src="https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/2023/08/23/64e611fe6b697.jpg" alt="https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/2023/08/23/64e611fe6b697.jpg"></p><h3 id="3-4-在查找处输入刚刚记的包名而后点击替换"><a href="#3-4-在查找处输入刚刚记的包名而后点击替换" class="headerlink" title="3.4 在查找处输入刚刚记的包名而后点击替换"></a>3.4 在查找处输入刚刚记的包名而后点击替换</h3><p><img src="https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/2023/08/23/64e612c976560.jpg" alt="https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/2023/08/23/64e612c976560.jpg"></p><h3 id="3-5-替换处输入要修改的包名（即要伪装成的那个应用的包名）—-gt-点击全部，然后点击保存，返回更新。"><a href="#3-5-替换处输入要修改的包名（即要伪装成的那个应用的包名）—-gt-点击全部，然后点击保存，返回更新。" class="headerlink" title="3.5 替换处输入要修改的包名（即要伪装成的那个应用的包名）—&gt;点击全部，然后点击保存，返回更新。"></a>3.5 替换处输入要修改的包名（即要伪装成的那个应用的包名）—&gt;点击全部，然后点击保存，返回更新。</h3><p><img src="https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/2023/08/23/64e612dfe6b1b.jpg" alt="https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/2023/08/23/64e612dfe6b1b.jpg"></p><h3 id="3-6-点击class-dex—-gt-Dex编辑器"><a href="#3-6-点击class-dex—-gt-Dex编辑器" class="headerlink" title="3.6 点击class.dex—&gt;Dex编辑器"></a>3.6 点击<strong>class.dex</strong>—&gt;<strong>Dex编辑器</strong></h3><p><img src="https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/2023/08/23/64e61315d57e4.jpg" alt="https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/2023/08/23/64e61315d57e4.jpg"></p><h3 id="3-7-类列表—-gt-找到最初的那个包名，长按重命名为要修改成的应用包名—-gt-点击保存返回更新。"><a href="#3-7-类列表—-gt-找到最初的那个包名，长按重命名为要修改成的应用包名—-gt-点击保存返回更新。" class="headerlink" title="3.7 类列表—&gt;找到最初的那个包名，长按重命名为要修改成的应用包名—&gt;点击保存返回更新。"></a>3.7 <strong>类列表</strong>—&gt;找到最初的那个包名，长按重命名为要修改成的应用包名—&gt;点击保存返回更新。</h3><p><img src="https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/2023/08/23/64e614394d058.jpg" alt="https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/2023/08/23/64e614394d058.jpg"></p><h3 id="3-8-点击resources-arsc—-gt-Arsc编辑器—-gt-重命名类名为刚修改的类名，保存返回更新。"><a href="#3-8-点击resources-arsc—-gt-Arsc编辑器—-gt-重命名类名为刚修改的类名，保存返回更新。" class="headerlink" title="3.8 点击resources.arsc—&gt;Arsc编辑器—&gt;重命名类名为刚修改的类名，保存返回更新。"></a>3.8 点击<strong>resources.arsc</strong>—&gt;<strong>Arsc编辑器</strong>—&gt;重命名类名为刚修改的类名，保存返回更新。</h3><p><img src="https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/2023/08/23/64e618cb07e18.jpg" alt="https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/2023/08/23/64e618cb07e18.jpg"></p><h2 id="4-Apk签名"><a href="#4-Apk签名" class="headerlink" title="4. Apk签名"></a>4. Apk签名</h2><p><img src="https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/2023/08/23/64e6159696961.jpg" alt="https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/2023/08/23/64e6159696961.jpg"></p><h2 id="5-安装"><a href="#5-安装" class="headerlink" title="5. 安装"></a>5. 安装</h2><p><img src="https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/2023/08/23/64e615ac2ad89.jpg" alt="https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/2023/08/23/64e615ac2ad89.jpg"></p><h2 id="彩蛋"><a href="#彩蛋" class="headerlink" title="彩蛋"></a>彩蛋</h2><p>  某音乐<code>universal</code>版，替换成了酷我包名 <code>密码:bf8j</code><a href="https://wwzq.lanzouq.com/i43xx165gn1i">点击下载</a></p><p><img src="https://s2.loli.net/2022/11/24/siMAqL1Zewz3QlJ.webp" alt=""></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 杂谈教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 应用包名 </tag>
+            
+            <tag> MT管理器 </tag>
+            
+            <tag> 车机 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>迅优随身WIFI玩机攻略</title>
       <link href="/posts/1e0b7783.html"/>
       <url>/posts/1e0b7783.html</url>
