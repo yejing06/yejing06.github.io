@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>迅优随身WIFI玩机攻略</title>
+      <link href="/posts/1e0b7783.html"/>
+      <url>/posts/1e0b7783.html</url>
+      
+        <content type="html"><![CDATA[<div class="note info simple"><p>本教程只是重刷系统、改串，从而避免在使用自己卡时候也被商家限速。至于刷Debian或者OpenWrt，那就看以后需求吧，感觉并没有什么必要🤔。</p></div><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>&emsp;&emsp;到手的随身WiFi网速掌握在商家手里这种感觉很不爽，网速还得看商家意思，而且似乎这东西后期 一般都会被商家限速，那就鼓捣一下呗👀。</p><h2 id="工具清单"><a href="#工具清单" class="headerlink" title="工具清单"></a>工具清单</h2><ul><li>随身WiFi：高通410芯片 4.4的安卓系统</li><li>9008驱动：vivo和小米的两种 推荐vivo</li><li>随身WiFi助手：多功能工具</li><li>Qualcomm premium tool：备份文件</li><li>Miflash：刷入系统</li><li>手机IMEI生成工具：生成串码</li><li>星海SVIP：改串</li></ul><div class="note info modern"><p>开始鼓捣喽</p></div><h2 id="✅-安装驱动"><a href="#✅-安装驱动" class="headerlink" title="✅ 安装驱动"></a><strong>✅</strong> <strong>安装驱动</strong></h2><p>&emsp;&emsp;建议安装vivo的驱动，小米的据说有时候会出问题，进不了9008模式，多半就是因为没安装驱动导致的🤡。</p><h2 id="💼-进入9008模式"><a href="#💼-进入9008模式" class="headerlink" title="💼 进入9008模式"></a>💼 进入9008模式</h2><ol><li><p>将随身WiFi通过数据线与电脑连接（一定是数据线，商家送的多半不可以的，USB棒子按住复位键直插即可），连接上之后长按设备开机键，直到电脑出现“叮咚”声（类似插入U盘时的声音）松开按键。</p></li><li><p>打开随身WiFi助手，查看此时是否已连接到ADB，然后选择<strong><code>高级重启</code></strong>→<strong><code>重启到9008刷机模式</code></strong>。<br><img src="https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/2023/09/30/65181c58a9d9b.png" alt="79d112f8bc7beb3cfcda501856963b0.png"><br><img src="https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/2023/09/30/65181c7910653.jpg" alt="69b5f3543f88e289f1bddadae4387da.jpg"></p></li><li><p>如若无误会提示<strong><code>已进入9008模式</code></strong>，或者右键此电脑→管理→设备管理器，查看此时端口是否是9008端口。<br><img src="https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/2023/09/30/65181c955f3a0.png" alt="92603e5812e72b7e8f31cf5e1065f26.png"></p></li></ol><h2 id="❗️-备份"><a href="#❗️-备份" class="headerlink" title="❗️ 备份"></a>❗️ 备份</h2><p>&emsp;&emsp;为了防止出现问题，建议备份原始固件。</p><ol><li>通过随身WiFi助手打开Qualcomm premium too🛠️，或者下载好🛠️直接打开（此软件需要激活，否则会提示非高级用户备份不了）</li><li>如图依次点击进行备份<br><img src="https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/2023/09/30/6518207385794.png" alt="image.png"></li></ol><p>备份成功后如图所示<br><img src="https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/2023/09/30/6518208fecc88.png" alt="3d11dd236ab8184af0c68c5c23f1fb4.png"></p><h2 id="🧩-刷入固件"><a href="#🧩-刷入固件" class="headerlink" title="🧩 刷入固件"></a>🧩 刷入固件</h2><p>打开Miflash,刷入固件（这个板子用的是MF601SL-CT-V07固件）<br><img src="https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/2023/09/30/651820a369e59.png" alt="ccca604470d0f49696e1422ede95b7d.png"><br>此时，这个板子就已经可以使用自己的流量卡插入上网了。</p><h2 id="🧮-修改串号"><a href="#🧮-修改串号" class="headerlink" title="🧮 修改串号"></a>🧮 修改串号</h2><ol><li><p>备份qcn文件。目的就是备份原始串号（修改串号之后会导致自带的卡4G掉线无信号<br>重新插入随身WIFI，开机，打开星海SVIP软件，依次点击<strong><code>高通</code></strong>→<strong><code>联机</code></strong>，而后按照图片所示点击备份文件。<br><img src="https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/2023/09/30/651820c01ca0a.jpg" alt="55be1c7ad92160cdeade3285fb7c341.jpg"></p></li><li><p>生成串码。打开手机IMEI生成工具生成随机串码保存备用。</p></li><li><p>重刷qcn文件。按照图片依次点击会生成一份新的qcn文件（一般默认生成在该软件盘符根目录下的qcn文件夹中），刷入的就是这份新的qcn文件。<br><img src="https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/2023/09/30/651820d2aa827.jpg" alt="7d60f49f589a2d89b19f2ec8278973a.jpg"></p></li></ol><p>此时工作就完毕啦，插入自己的流量卡使用即可。🤪</p><p><img src="https://s2.loli.net/2022/11/24/siMAqL1Zewz3QlJ.webp" alt=""></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 杂谈教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 随身WIFI </tag>
+            
+            <tag> 高通410 </tag>
+            
+            <tag> 刷机 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Chatgpt-NoneBot2.0.0RC-Windows环境</title>
       <link href="/posts/e4f90547.html"/>
       <url>/posts/e4f90547.html</url>
