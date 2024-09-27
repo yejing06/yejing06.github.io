@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://naokuoteng.cn/statistics/index.html</loc>
+    
+    <lastmod>2024-09-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://naokuoteng.cn/tags/index.html</loc>
     
     <lastmod>2024-09-27</lastmod>
@@ -57,15 +66,6 @@
   
   <url>
     <loc>https://naokuoteng.cn/recommend/index.html</loc>
-    
-    <lastmod>2024-09-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://naokuoteng.cn/statistics/index.html</loc>
     
     <lastmod>2024-09-27</lastmod>
     
@@ -461,6 +461,15 @@
   </url>
   
   <url>
+    <loc>https://naokuoteng.cn/Gallery/life/index.html</loc>
+    
+    <lastmod>2024-09-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://naokuoteng.cn/Gallery/pixiv/index.html</loc>
     
     <lastmod>2024-09-27</lastmod>
@@ -507,15 +516,6 @@
   
   <url>
     <loc>https://naokuoteng.cn/Gallery/delicious/index.html</loc>
-    
-    <lastmod>2024-09-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://naokuoteng.cn/Gallery/life/index.html</loc>
     
     <lastmod>2024-09-27</lastmod>
     
