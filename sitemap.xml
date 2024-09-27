@@ -2,15 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://naokuoteng.cn/website/index.html</loc>
-    
-    <lastmod>2024-09-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://naokuoteng.cn/manifest.json</loc>
     
     <lastmod>2024-09-27</lastmod>
@@ -74,7 +65,7 @@
   </url>
   
   <url>
-    <loc>https://naokuoteng.cn/friends/index.html</loc>
+    <loc>https://naokuoteng.cn/website/index.html</loc>
     
     <lastmod>2024-09-27</lastmod>
     
@@ -83,7 +74,7 @@
   </url>
   
   <url>
-    <loc>https://naokuoteng.cn/categories/index.html</loc>
+    <loc>https://naokuoteng.cn/friends/index.html</loc>
     
     <lastmod>2024-09-27</lastmod>
     
@@ -191,7 +182,25 @@
   </url>
   
   <url>
+    <loc>https://naokuoteng.cn/posts/e1a11ffc.html</loc>
+    
+    <lastmod>2024-09-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://naokuoteng.cn/posts/4b1cb0e4.html</loc>
+    
+    <lastmod>2024-09-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://naokuoteng.cn/posts/1d722745.html</loc>
     
     <lastmod>2024-09-27</lastmod>
     
@@ -236,16 +245,7 @@
   </url>
   
   <url>
-    <loc>https://naokuoteng.cn/posts/e1a11ffc.html</loc>
-    
-    <lastmod>2024-09-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://naokuoteng.cn/posts/1d722745.html</loc>
+    <loc>https://naokuoteng.cn/categories/index.html</loc>
     
     <lastmod>2024-09-27</lastmod>
     
@@ -461,33 +461,6 @@
   </url>
   
   <url>
-    <loc>https://naokuoteng.cn/Gallery/life/index.html</loc>
-    
-    <lastmod>2024-09-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://naokuoteng.cn/Gallery/pixiv/index.html</loc>
-    
-    <lastmod>2024-09-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://naokuoteng.cn/Gallery/wallpaper/index.html</loc>
-    
-    <lastmod>2024-09-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://naokuoteng.cn/Gallery/index.html</loc>
     
     <lastmod>2024-09-27</lastmod>
@@ -516,6 +489,33 @@
   
   <url>
     <loc>https://naokuoteng.cn/Gallery/delicious/index.html</loc>
+    
+    <lastmod>2024-09-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://naokuoteng.cn/Gallery/life/index.html</loc>
+    
+    <lastmod>2024-09-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://naokuoteng.cn/Gallery/pixiv/index.html</loc>
+    
+    <lastmod>2024-09-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://naokuoteng.cn/Gallery/wallpaper/index.html</loc>
     
     <lastmod>2024-09-27</lastmod>
     
@@ -610,14 +610,14 @@
   </url>
   
   <url>
-    <loc>https://naokuoteng.cn/tags/%E8%B4%AA%E5%BF%83/</loc>
+    <loc>https://naokuoteng.cn/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/</loc>
     <lastmod>2024-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://naokuoteng.cn/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/</loc>
+    <loc>https://naokuoteng.cn/tags/%E8%B4%AA%E5%BF%83/</loc>
     <lastmod>2024-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -694,14 +694,14 @@
   </url>
   
   <url>
-    <loc>https://naokuoteng.cn/tags/APP/</loc>
+    <loc>https://naokuoteng.cn/tags/Windows/</loc>
     <lastmod>2024-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://naokuoteng.cn/tags/Windows/</loc>
+    <loc>https://naokuoteng.cn/tags/APP/</loc>
     <lastmod>2024-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
