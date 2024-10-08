@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>驱动备份与安装</title>
+      <link href="/posts/a39236b9.html"/>
+      <url>/posts/a39236b9.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="一、前言"><a href="#一、前言" class="headerlink" title="一、前言"></a>一、前言</h1><p>&emsp;&emsp;朋友想重装系统，害，真的是，easy 这还不是手到擒来！😏分分钟的事好不啦，但是！但是！！我装机U盘怎么也找不到了，🙃我的大全套😭，算了，再买个U盘重新搞一个吧，等待期间想着把需要的东西先下载准备一下，完了就想着自己也是新机，趁这个时间也把自己驱动备份下备用，那么就开始吧！</p><h1 id="二、驱动备份"><a href="#二、驱动备份" class="headerlink" title="二、驱动备份"></a>二、驱动备份</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">dism /online /export-driver /destination:&quot;F:\装机\Drivers Backup&quot;</span><br><span class="line">//引号里输入备份的驱动要保存的路径</span><br></pre></td></tr></table></figure><p><img src="https://img.alvie.cn/blog/article/202410081454898.webp" alt=""></p><h1 id="三、驱动安装"><a href="#三、驱动安装" class="headerlink" title="三、驱动安装"></a>三、驱动安装</h1><h2 id="一-批量安装"><a href="#一-批量安装" class="headerlink" title="(一)批量安装"></a>(一)批量安装</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">dism /online /Add-Driver /Driver:F:\装机\Drivers Backup /Recurse</span><br></pre></td></tr></table></figure><h2 id="（二）个别安装"><a href="#（二）个别安装" class="headerlink" title="（二）个别安装"></a>（二）个别安装</h2><h3 id="2-1通过设备管理器安装"><a href="#2-1通过设备管理器安装" class="headerlink" title="2.1通过设备管理器安装"></a>2.1通过设备管理器安装</h3><p>&emsp;&emsp;1.打开设备管理器：右键点击<code>“此电脑”</code>图标，选择<code>“管理”</code>，然后点击左侧的<code>“设备管理器”</code>。<br>&emsp;&emsp;2.找到需要安装驱动的设备：设备上可能会显示<code>黄色的感叹号</code>，表示驱动未安装或存在问题。<br>&emsp;&emsp;3.右键点击该设备，选择<code>“更新驱动程序”</code>。<br>选择驱动来源：选择<code>“浏览我的计算机以查找驱动程序”</code>。点击<code>“浏览”</code>，然后定位到备份驱动所在的文件夹。<br>&emsp;&emsp;4.安装驱动：系统会自动搜索你指定的文件夹中的驱动程序并进行安装。<br>&emsp;&emsp;5.重启电脑：安装完成后，重启电脑以确保驱动程序正常工作。</p><h3 id="2-2手动安装-inf-文件驱动"><a href="#2-2手动安装-inf-文件驱动" class="headerlink" title="2.2手动安装 .inf 文件驱动"></a>2.2手动安装 .inf 文件驱动</h3><p>&emsp;&emsp;1.找到.inf文件：在备份的驱动文件夹中查找以<code>.inf</code>为扩展名的文件。<br><img src="https://img.alvie.cn/blog/article/202410081519385.webp" alt=""><br>&emsp;&emsp;2.右键安装：右键点击.inf文件，选择<code>“安装”</code>。系统会自动注册该驱动文件并完成安装。<br>&emsp;&emsp;3.重启电脑：完成安装后，重新启动电脑。</p><h3 id="2-3通过官方网站安装"><a href="#2-3通过官方网站安装" class="headerlink" title="2.3通过官方网站安装"></a>2.3通过官方网站安装</h3><p>&emsp;&emsp;驱动程序也可以去PC对应的官方网站下载驱动程序安装，对于一些显卡等驱动程序可以在其对应的 <a href="https://www.nvidia.cn/geforce/drivers/"> NVIDIA </a> 或 <a href="https://www.amd.com/zh-cn/support/download/drivers.html"> AMD </a> 官网下载安装。</p><h1 id="三、检查驱动安装情况"><a href="#三、检查驱动安装情况" class="headerlink" title="三、检查驱动安装情况"></a>三、检查驱动安装情况</h1><p>&emsp;&emsp;1.再次打开设备管理器：检查设备管理器中的设备是否还有<code>黄色感叹号</code>。如果所有设备正常工作，则驱动安装完成。<br>&emsp;&emsp;2.测试设备功能：确认所有设备（如声卡、显卡、网卡、USB接口等）是否都能正常使用。<br><img src="https://img.alvie.cn/blog/article/202410081524630.webp" alt=""></p><p><img src="https://s2.loli.net/2022/11/24/siMAqL1Zewz3QlJ.webp" alt=""></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 玩转Windows </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Windows </tag>
+            
+            <tag> 驱动 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>弘扬红色金融精神 筑牢央行安全防线</title>
       <link href="/posts/67af4682.html"/>
       <url>/posts/67af4682.html</url>
