@@ -4,6 +4,64 @@
   
     
     <entry>
+      <title>Ventoy系统U盘的美化与优化</title>
+      <link href="/posts/70f7ab4f.html"/>
+      <url>/posts/70f7ab4f.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>&emsp;&emsp;书接上回，欲知如何Ventoy系统U盘如何美化与优化，就在此处，且看分解。</p><h1 id="一、下载Ventoy主题"><a href="#一、下载Ventoy主题" class="headerlink" title="一、下载Ventoy主题"></a>一、下载Ventoy主题</h1><p>&emsp;&emsp;到<a href="https://www.gnome-look.org/browse?cat=109&ord=rating"> GRUB </a> 下载Ventoy主题，因为Ventoy是基于GRUB，所以，这里的主题文件下载之后稍加变动即可正常使用。</p><h1 id="二、主题应用与优化"><a href="#二、主题应用与优化" class="headerlink" title="二、主题应用与优化"></a>二、主题应用与优化</h1><p>&emsp;&emsp;将上边下载的主题文件解压到这个目录，目录层级为<span id="yellow-block">U盘盘符\ventoy\themes</span>,主题文件在<code>themes</code>文件夹中，如果解压后的的路径不对，请自行手动建立。<br><img src="https://img.alvie.cn/blog/article/202410091632018.webp" alt=""></p><p>&emsp;&emsp;双击打开下载的Ventoy中的<code>VentoyPlugson.exe</code>，全局控制菜单中可将语言设置为中文<code>zh_CN</code>，指定搜索目录即为U盘中镜像文件的绝对路径，可以缩短读取时长，这不难理解奥。<br><img src="https://img.alvie.cn/blog/article/202410091532118.webp" alt=""><br>比如，我要填写的是这个路径<br><img src="https://img.alvie.cn/blog/article/202410091532913.webp" alt=""></p><p>&emsp;&emsp;点击左侧<span id="yellow-block">主题插件</span>，你会发现右侧文件路径会自动识别到主题文件，如若未识别，请检查文件路径或手动添加。如若想使用多个主题，点击新增即可。<br><img src="https://img.alvie.cn/blog/article/202410091640376.webp" alt=""></p><p>&emsp;&emsp;主题文件的字体正常情况也可自动识别，如若未识别，请检查文件路径或手动添加。<br><img src="https://img.alvie.cn/blog/article/202410091642082.webp" alt=""></p><p>&emsp;&emsp;如果想要保留文件详细名称，又想要安装系统是名字显示的更为简洁，那么点击左侧<code>菜单别名插件</code>—&gt;<code>新增</code>，填写文件路径，设置想要在安装系统时显示的名字。<br><img src="https://img.alvie.cn/blog/article/202410091646423.webp" alt=""><br>&emsp;&emsp;重复操作即可。<br><img src="https://img.alvie.cn/blog/article/202410091654930.webp" alt=""></p><p>&emsp;&emsp;如果想要在安装时，不同系统的镜像文件显示出不同的图标，则点击左侧<code>菜单类型插件</code>，至此，你会发现主题自带的有一部分了，如果没有你需要的设置免责可以点击<code>新增</code>按钮。<br><img src="https://img.alvie.cn/blog/article/202410091659667.webp" alt=""></p><p>&emsp;&emsp;<code>key</code>即为你想要设置的类型文件的关键字，即：镜像文件名中同一类型共用的关键字，<code>类型</code>就是这是什么类型的镜像文件。前提是主题文件夹icon文件夹中要有你需要的图标。<br><img src="https://img.alvie.cn/blog/article/202410091702532.webp" alt=""></p><h1 id="相关推荐阅读"><a href="#相关推荐阅读" class="headerlink" title="相关推荐阅读"></a>相关推荐阅读</h1><div class="tag link"><a class="link-card" title="使用Ventoy打造多镜像系统U盘" href="https://www.naokuoteng.cn/posts/c626f690.html"><div class="left"><img src="/img/siteicon/64.png"/></div><div class="right"><p class="text">使用Ventoy打造多镜像系统U盘</p><p class="url">https://www.naokuoteng.cn/posts/c626f690.html</p></div></a></div><p><img src="https://s2.loli.net/2022/11/24/siMAqL1Zewz3QlJ.webp" alt=""></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 杂谈教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Windows </tag>
+            
+            <tag> Ventoy </tag>
+            
+            <tag> 系统U盘 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>使用Ventoy打造多镜像系统U盘</title>
+      <link href="/posts/c626f690.html"/>
+      <url>/posts/c626f690.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="哔哔"><a href="#哔哔" class="headerlink" title="哔哔"></a>哔哔</h1><p><img src="https://img.alvie.cn/blog/article/202410091447460.webp" alt=""><br>&emsp;&emsp;再接前言，Okk,U盘到了😊，趁着这个机会，那就写篇文章既作小白教程，也当做是记录一下吧！<br><div class="note warning simple"><p>制作之前U盘文件一定要备份，会被格式化！！！<br>制作之前U盘文件一定要备份，会被格式化！！！<br>制作之前U盘文件一定要备份，会被格式化！！！</p></div></p><h1 id="一、准备工作"><a href="#一、准备工作" class="headerlink" title="一、准备工作"></a>一、准备工作</h1><h2 id="（一）准备工具"><a href="#（一）准备工具" class="headerlink" title="（一）准备工具"></a>（一）准备工具</h2><div class="note purple icon-padding flat"><i class="note-icon far fa-hand-scissors"></i><p>1.能上网的电脑<br>2.U盘（多镜像系统U盘直接64GB好吧）</p></div><h2 id="（二）准备文件"><a href="#（二）准备文件" class="headerlink" title="（二）准备文件"></a>（二）准备文件</h2><h3 id="1、下载镜像文件"><a href="#1、下载镜像文件" class="headerlink" title="1、下载镜像文件"></a>1、下载镜像文件</h3><p>&emsp;&emsp;到微软官网或者<a href="https://next.itellyou.cn/"> ITELLYOU </a> (推荐！原MSDN)下载镜像文件。</p><h3 id="2、下载Ventoy"><a href="#2、下载Ventoy" class="headerlink" title="2、下载Ventoy"></a>2、下载Ventoy</h3><p>&emsp;&emsp;到<a href="https://www.ventoy.net/cn/index.html"> Ventoy官网 </a> 下载Ventoy,当前最新版本为<code>1.0.99</code>。</p><h1 id="二、安装Ventoy"><a href="#二、安装Ventoy" class="headerlink" title="二、安装Ventoy"></a>二、安装Ventoy</h1><p>&emsp;&emsp;将下载 <code>Ventoy</code> 解压，双击打开<code>Ventoy2Disk.exe</code>，分区类型<span id="yellow-block">MBR</span>和<span id="yellow-block">GPT</span>都可，这里我选择的是<code>GPT</code>，格式选择<code>NTFS</code>按照图示，选择U盘，点击安装。<br><img src="https://img.alvie.cn/blog/article/202410091511709.webp" alt=""></p><p>&emsp;&emsp;将准备好的ISO文件直接复制到U盘<br><img src="https://img.alvie.cn/blog/article/202410091516237.webp" alt=""><br><!-- ![](https://img.alvie.cn/blog/article/202410091514729.webp) --></p><p>&emsp;&emsp;如此，到这里一个基础版的系统U盘即可使用了<br><img src="https://img.alvie.cn/blog/article/202410091604685.webp" alt=""></p><p>&emsp;&emsp;是不是很丑，丑就对了，噗哈哈哈哈哈！是不是文件多了有点慢，这样子慢也正常，欲知如何美化优化，请看下回分解！👻</p><h1 id="相关推荐阅读"><a href="#相关推荐阅读" class="headerlink" title="相关推荐阅读"></a>相关推荐阅读</h1><div class="tag link"><a class="link-card" title="Ventoy系统U盘的美化与优化" href="https://www.naokuoteng.cn/posts/70f7ab4f.html"><div class="left"><img src="/img/siteicon/64.png"/></div><div class="right"><p class="text">Ventoy系统U盘的美化与优化</p><p class="url">https://www.naokuoteng.cn/posts/70f7ab4f.html</p></div></a></div><p><img src="https://s2.loli.net/2022/11/24/siMAqL1Zewz3QlJ.webp" alt=""></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 杂谈教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Windows </tag>
+            
+            <tag> Ventoy </tag>
+            
+            <tag> 系统U盘 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>驱动备份与安装</title>
       <link href="/posts/a39236b9.html"/>
       <url>/posts/a39236b9.html</url>
